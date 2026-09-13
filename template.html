@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Nutcracker 2026 – My Schedule</title>
+<style>
+  :root{
+    --ink:#1C2A24; --muted:#6B7A73; --paper:#F7F8F6; --card:#FFFFFF; --line:#DCE2DE;
+    --green:#1F4A3A; --green-soft:#E3EDE7;
+    --first:#C0392B; --first-soft:#FADBD8;
+    --fit:#7B3FBF;   --fit-soft:#EADDF8;
+    --mand:#D48A00;  --mand-soft:#FCEBC2;
+    --reg:#7A8A82;   --reg-soft:#EAEEEC;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-text-size-adjust:100%}
+  header{position:sticky;top:0;z-index:5;background:var(--green);color:#fff;padding:calc(12px + env(safe-area-inset-top)) 16px 14px;box-shadow:0 2px 8px rgba(0,0,0,.18)}
+  h1{margin:0 0 10px;font:600 22px/1.15 "Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;letter-spacing:.01em}
+  h1 small{display:block;font:400 13px/1.3 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;opacity:.85;margin-top:4px}
+  .pick{display:grid;grid-template-columns:1fr 92px;gap:10px}
+  .pick label{display:block;font-size:12px;opacity:.85;margin:0 0 4px 2px}
+  select{width:100%;-webkit-appearance:none;appearance:none;font:600 17px/1.2 inherit;color:var(--ink);background:#fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='9'%3E%3Cpath d='M1 1l6 6 6-6' fill='none' stroke='%231F4A3A' stroke-width='2'/%3E%3C/svg%3E") no-repeat right 12px center;border:0;border-radius:10px;padding:12px 34px 12px 12px}
+  select:focus{outline:3px solid #F1D27A;outline-offset:1px}
+  main{padding:14px 12px 40px;max-width:640px;margin:0 auto}
+  .summary{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:2px 2px 12px}
+  .summary p{margin:0;font-size:15px}
+  .summary p b{color:var(--green)}
+  .summary p span{display:block;font-size:12px;color:var(--muted)}
+  button.ics{flex:none;font:600 14px/1 inherit;color:#fff;background:var(--green);border:0;border-radius:999px;padding:11px 14px}
+  button.ics:active{opacity:.85}
+  .cal{margin:0 2px 14px}
+  .btn{display:block;text-align:center;text-decoration:none;font:600 16px/1 inherit;border-radius:12px;padding:14px 12px;margin-bottom:8px;border:2px solid var(--green);color:var(--green);background:#fff}
+  .btn.primary{background:var(--green);color:#fff}
+  .btn.dl{font-size:14px;padding:10px;border-color:var(--line);color:var(--muted)}
+  .btn:active{opacity:.8}
+  .hint{font-size:13px;color:var(--muted);margin:2px 4px 0}
+  .key{display:flex;flex-wrap:wrap;gap:6px 12px;font-size:12px;color:var(--muted);margin:0 2px 14px}
+  .key i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;vertical-align:-1px}
+  h2{font:600 13px/1 inherit;color:var(--muted);letter-spacing:.02em;margin:18px 2px 8px}
+  .ev{display:grid;grid-template-columns:54px 1fr;gap:0 10px;background:var(--card);border:1px solid var(--line);border-left-width:5px;border-radius:12px;padding:10px 12px 10px 10px;margin-bottom:8px}
+  .ev.first{border-left-color:var(--first)} .ev.fit{border-left-color:var(--fit)} .ev.mand{border-left-color:var(--mand)} .ev.reg{border-left-color:var(--reg)}
+  .d{text-align:center;padding-top:2px}
+  .d b{display:block;font:700 22px/1 "Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif}
+  .d span{display:block;font-size:11px;color:var(--muted);text-transform:none;margin-top:2px}
+  .t{font-weight:600}
+  .w{margin-top:2px}
+  .l{font-size:14px;color:var(--muted);margin-top:2px}
+  .tag{display:inline-block;font-size:12px;font-weight:600;border-radius:6px;padding:2px 7px;margin-top:6px}
+  .first .tag{background:var(--first-soft);color:var(--first)} .fit .tag{background:var(--fit-soft);color:var(--fit)}
+  .mand .tag{background:var(--mand-soft);color:var(--mand)} .reg .tag{background:var(--reg-soft);color:var(--reg)}
+  .n{font-size:13px;color:var(--ink);margin-top:5px}
+  .empty{color:var(--muted);text-align:center;padding:40px 10px}
+  .past{opacity:.55}
+  footer{font-size:12px;color:var(--muted);text-align:center;margin-top:24px;padding:0 10px}
+  @media (prefers-reduced-motion:no-preference){.ev{transition:opacity .15s}}
+</style>
+</head>
+<body>
+<header>
+  <h1>Nutcracker Spectacular 2026<small>Ballet Arkansas Community Cast · my dancer’s schedule</small></h1>
+  <div class="pick">
+    <div><label for="role">Role</label><select id="role"></select></div>
+    <div><label for="cast">Cast</label><select id="cast"><option value="A">A</option><option value="B" selected>B</option></select></div>
+  </div>
+</header>
+<main>
+  <div class="summary"><p id="count"></p></div>
+  <div class="cal" id="cal">
+    <a class="btn ios" id="btn-ios" href="#">Add to iPhone Calendar</a>
+    <a class="btn goog" id="btn-goog" href="#" target="_blank" rel="noopener">Add to Google Calendar</a>
+    <a class="btn dl" id="btn-dl" href="#" download>Download .ics file</a>
+    <p class="hint" id="hint"></p>
+  </div>
+  <div class="key">
+    <span><i style="background:var(--first)"></i>1st rehearsal (mandatory)</span>
+    <span><i style="background:var(--fit)"></i>Costume fitting (mandatory)</span>
+    <span><i style="background:var(--mand)"></i>Mandatory / production week</span>
+    <span><i style="background:var(--reg)"></i>Regular rehearsal</span>
+  </div>
+  <div id="list"></div>
+  <footer><span id="synced"></span>Schedule is subject to change — confirm with Ballet Arkansas. Production week call time = checked in and backstage; check-in opens 15 minutes earlier.</footer>
+</main>
+<script>
+const DATA = __DATA__;
+const $ = s => document.querySelector(s);
+const roleSel = $('#role'), castSel = $('#cast');
+DATA.roles.forEach(r => { const o=document.createElement('option'); o.value=o.textContent=r; roleSel.appendChild(o); });
+roleSel.value = 'Infantry';
+// remember last choice on this device
+try { const s=JSON.parse(localStorage.getItem('nutcracker-pick')||'null'); if(s){ roleSel.value=s.role; castSel.value=s.cast; } } catch(e){}
+
+const cls = t => t.startsWith('1st') ? 'first' : t.startsWith('Costume') ? 'fit' : t.startsWith('Mandatory') ? 'mand' : 'reg';
+const MONTHS=['January','February','March','April','May','June','July','August','September','October','November','December'];
+const today = new Date(); today.setHours(0,0,0,0);
+
+function selected(){
+  const role=roleSel.value, cast=castSel.value;
+  return DATA.rows.filter(r => r.tags.includes(role) && (r.cast==='All' || r.cast===cast));
+}
+function render(){
+  const role=roleSel.value, cast=castSel.value, rows=selected();
+  try { localStorage.setItem('nutcracker-pick', JSON.stringify({role,cast})); } catch(e){}
+  const upcoming = rows.filter(r => new Date(r.date+'T12:00:00') >= today).length;
+  $('#count').innerHTML = `<b>${rows.length} dates</b> for ${role} – Cast ${cast}<span>${upcoming} still to come</span>`;
+  const list=$('#list'); list.innerHTML='';
+  if(!rows.length){ list.innerHTML='<p class="empty">Nothing scheduled for that role and cast.</p>'; return; }
+  let month=null;
+  rows.forEach(r=>{
+    const d=new Date(r.date+'T12:00:00');
+    if(d.getMonth()!==month){ month=d.getMonth(); const h=document.createElement('h2'); h.textContent=MONTHS[month]; list.appendChild(h); }
+    const el=document.createElement('article'); el.className='ev '+cls(r.type)+(d<today?' past':'');
+    const dow=r.day.split('.')[0];
+    el.innerHTML=`<div class="d"><b>${d.getDate()}</b><span>${dow}</span></div>
+      <div><div class="t">${r.time}</div><div class="w">${r.what}</div><div class="l">${r.loc}</div>
+      <span class="tag">${r.type}</span>${r.note?`<div class="n">${r.note}</div>`:''}</div>`;
+    list.appendChild(el);
+  });
+}
+roleSel.addEventListener('change',render); castSel.addEventListener('change',render); render();
+
+// ---- calendar links (need the page to be hosted at an https URL) ----
+const hosted = location.protocol.startsWith('http');
+const ua=navigator.userAgent, isIOS=/iPhone|iPad|iPod/.test(ua), isAndroid=/Android/.test(ua);
+function calLinks(){
+  const role=roleSel.value, cast=castSel.value;
+  const file=`ics/${role.replace(/\s/g,'')}-Cast${cast}.ics`;
+  const base=location.href.replace(/[#?].*$/,'').replace(/[^/]*$/,'');
+  const url=base+file;
+  const ios=$('#btn-ios'), goog=$('#btn-goog'), dl=$('#btn-dl'), hint=$('#hint');
+  ios.href = url.replace(/^https?:/,'webcal:');
+  goog.href = 'https://calendar.google.com/calendar/r?cid='+encodeURIComponent(url.replace(/^https?:/,'webcal:'));
+  dl.href = file; dl.download = file.split('/').pop();
+  ios.classList.toggle('primary', !isAndroid); goog.classList.toggle('primary', isAndroid);
+  // put the likely-right button first
+  const cal=$('#cal'); if(isAndroid) cal.insertBefore(goog, ios); else cal.insertBefore(ios, goog);
+  hint.textContent = hosted
+    ? `Subscribes your calendar to “${role} – Cast ${cast}”, so the dates stay updated if the schedule changes. Google Calendar can take up to a day to show new changes.`
+    : 'These buttons work once this page is online (opened from a web address), not when opened as a saved file.';
+}
+document.getElementById('synced').textContent = DATA.synced ? `Built from the Ballet Arkansas master schedule on ${DATA.synced}. ` : '';
+roleSel.addEventListener('change',calLinks); castSel.addEventListener('change',calLinks); calLinks();
+</script>
+</body>
+</html>
