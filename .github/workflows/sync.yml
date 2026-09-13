@@ -1,0 +1,43 @@
+name: Sync from BA master schedule
+
+on:
+  schedule:
+    - cron: "23 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["sync.py", "template.html", ".github/workflows/sync.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - name: Download the master sheet, parse, validate, rebuild docs/
+        run: python sync.py
+
+      - name: Commit and push if anything changed
+        run: |
+          git config user.name "nutcracker-sync"
+          git config user.email "nutcracker-sync@users.noreply.github.com"
+          git add -A docs CHANGES.md
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "sync: $(date -u '+%Y-%m-%d %H:%M') UTC"
+            git push
+          fi
