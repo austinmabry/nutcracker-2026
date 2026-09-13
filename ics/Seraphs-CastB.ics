@@ -1,0 +1,214 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Nutcracker CC Schedule 2026//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Nutcracker 2026 – Seraphs Cast B
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:nutcracker2026-Seraphs-CastB-20260919-1300@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20260919T130000
+DTEND;TZID=America/Chicago:20260919T134500
+SUMMARY:Nutcracker: Cherubs/Seraphs/Trumpeter Cast B (Costume fitting –
+  MANDATORY)
+LOCATION:Ballet Arkansas – Studio 2
+DESCRIPTION:1:00–1:45 Schedule subject to change – confirm with Balle
+ t Arkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker2026-Seraphs-CastB-20260920-1300@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20260920T130000
+DTEND;TZID=America/Chicago:20260920T140000
+SUMMARY:Nutcracker: Cherubs/Seraphs/Trumpeter Cast B (1st rehearsal – M
+ ANDATORY)
+LOCATION:S&B II – Studio 1
+DESCRIPTION:1:00–2:00 Schedule subject to change – confirm with Balle
+ t Arkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker2026-Seraphs-CastB-20261002-1630@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20261002T163000
+DTEND;TZID=America/Chicago:20261002T183000
+SUMMARY:Nutcracker: Backup Fitting Date (only if you missed your fitting)
+  (Costume fitting – MANDATORY)
+LOCATION:Ballet Arkansas – Costume Shop
+DESCRIPTION:4:30–6:30 Only if you missed your fitting Schedule subject 
+ to change – confirm with Ballet Arkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker2026-Seraphs-CastB-20261004-1300@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20261004T130000
+DTEND;TZID=America/Chicago:20261004T140000
+SUMMARY:Nutcracker: Cherubs/Seraphs/Trumpeter Cast B
+LOCATION:S&B II – Studio 1
+DESCRIPTION:1:00–2:00 Schedule subject to change – confirm with Balle
+ t Arkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker2026-Seraphs-CastB-20261018-1300@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20261018T130000
+DTEND;TZID=America/Chicago:20261018T140000
+SUMMARY:Nutcracker: Cherubs/Seraphs/Trumpeter Cast B
+LOCATION:S&B II – Studio 1
+DESCRIPTION:1:00–2:00 Schedule subject to change – confirm with Balle
+ t Arkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker2026-Seraphs-CastB-20261108-1300@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20261108T130000
+DTEND;TZID=America/Chicago:20261108T140000
+SUMMARY:Nutcracker: Cherubs/Seraphs/Trumpeter Cast B & All Archangels
+LOCATION:S&B II – Studio 1
+DESCRIPTION:1:00–2:00 Schedule subject to change – confirm with Balle
+ t Arkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker2026-Seraphs-CastB-20261122-1300@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20261122T130000
+DTEND;TZID=America/Chicago:20261122T140000
+SUMMARY:Nutcracker: Cherubs/Seraphs/Trumpeter Cast B & All Archangels
+LOCATION:S&B II – Studio 1
+DESCRIPTION:1:00–2:00 Schedule subject to change – confirm with Balle
+ t Arkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker2026-Seraphs-CastB-20261205-1300@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20261205T130000
+DTEND;TZID=America/Chicago:20261205T140000
+SUMMARY:Nutcracker: All Angels/Trumpeter (Mandatory – w/ Company)
+LOCATION:S&B II – Studio 1
+DESCRIPTION:1:00–2:00 Schedule subject to change – confirm with Balle
+ t Arkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker2026-Seraphs-CastB-20261207-1545@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20261207T154500
+DTEND;TZID=America/Chicago:20261207T170000
+SUMMARY:Nutcracker: Spacing Rehearsal – Angels / Trumpeter (Mandatory 
+ – Production Week)
+LOCATION:Robinson Center
+DESCRIPTION:Call 3:45 PM · 4:00–5:00 PM No costumes\, hair or makeup S
+ chedule subject to change – confirm with Ballet Arkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker2026-Seraphs-CastB-20261210-1930@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20261210T193000
+DTEND;TZID=America/Chicago:20261210T205000
+SUMMARY:Nutcracker: Dress Rehearsal – ACT II Cast B (Mandatory – Prod
+ uction Week)
+LOCATION:Robinson Center
+DESCRIPTION:Call 7:30 PM · 8:10–8:50 PM Act II notes 9:00–9:30 PM Sc
+ hedule subject to change – confirm with Ballet Arkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker2026-Seraphs-CastB-20261212-1445@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20261212T144500
+DTEND;TZID=America/Chicago:20261212T162000
+SUMMARY:Nutcracker: Performance @ 2:30 PM – ACT II Cast B (Mandatory 
+ – Production Week)
+LOCATION:Robinson Center
+DESCRIPTION:Call 2:45 PM · 3:30–4:20 PM Schedule subject to change –
+  confirm with Ballet Arkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker2026-Seraphs-CastB-20261212-1945@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20261212T194500
+DTEND;TZID=America/Chicago:20261212T212000
+SUMMARY:Nutcracker: Performance @ 7:30 PM – ACT II Cast B (Mandatory 
+ – Production Week)
+LOCATION:Robinson Center
+DESCRIPTION:Call 7:45 PM · 8:30–9:20 PM Schedule subject to change –
+  confirm with Ballet Arkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+END:VCALENDAR

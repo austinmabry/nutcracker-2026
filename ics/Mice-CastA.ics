@@ -1,0 +1,274 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Nutcracker CC Schedule 2026//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Nutcracker 2026 – Mice Cast A
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:nutcracker2026-Mice-CastA-20260912-1400@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20260912T140000
+DTEND;TZID=America/Chicago:20260912T150000
+SUMMARY:Nutcracker: Mice/Rats Cast A (1st rehearsal – MANDATORY)
+LOCATION:S&B II – Studio 2
+DESCRIPTION:2:00–3:00 Schedule subject to change – confirm with Balle
+ t Arkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker2026-Mice-CastA-20260913-1500@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20260913T150000
+DTEND;TZID=America/Chicago:20260913T154500
+SUMMARY:Nutcracker: Mice (Costume fitting – MANDATORY)
+LOCATION:Ballet Arkansas – Studio 2
+DESCRIPTION:3:00–3:45 Schedule subject to change – confirm with Balle
+ t Arkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker2026-Mice-CastA-20260926-1400@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20260926T140000
+DTEND;TZID=America/Chicago:20260926T150000
+SUMMARY:Nutcracker: Mice/Rats Cast A
+LOCATION:S&B II – Studio 2
+DESCRIPTION:2:00–3:00 Schedule subject to change – confirm with Balle
+ t Arkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker2026-Mice-CastA-20261002-1630@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20261002T163000
+DTEND;TZID=America/Chicago:20261002T183000
+SUMMARY:Nutcracker: Backup Fitting Date (only if you missed your fitting)
+  (Costume fitting – MANDATORY)
+LOCATION:Ballet Arkansas – Costume Shop
+DESCRIPTION:4:30–6:30 Only if you missed your fitting Schedule subject 
+ to change – confirm with Ballet Arkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker2026-Mice-CastA-20261010-1400@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20261010T140000
+DTEND;TZID=America/Chicago:20261010T150000
+SUMMARY:Nutcracker: Mice/Rats Cast A
+LOCATION:S&B II – Studio 2
+DESCRIPTION:2:00–3:00 Schedule subject to change – confirm with Balle
+ t Arkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker2026-Mice-CastA-20261017-1300@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20261017T130000
+DTEND;TZID=America/Chicago:20261017T140000
+SUMMARY:Nutcracker: Mice/Rats Cast A
+LOCATION:S&B II – Studio 2
+DESCRIPTION:1:00–2:00 Schedule subject to change – confirm with Balle
+ t Arkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker2026-Mice-CastA-20261031-1400@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20261031T140000
+DTEND;TZID=America/Chicago:20261031T144500
+SUMMARY:Nutcracker: Mice/Rats Cast A
+LOCATION:S&B II – Studio 2
+DESCRIPTION:2:00–2:45 Schedule subject to change – confirm with Balle
+ t Arkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker2026-Mice-CastA-20261107-1400@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20261107T140000
+DTEND;TZID=America/Chicago:20261107T144500
+SUMMARY:Nutcracker: Mice/Rats Cast A
+LOCATION:S&B II – Studio 2
+DESCRIPTION:2:00–2:45 Schedule subject to change – confirm with Balle
+ t Arkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker2026-Mice-CastA-20261114-1300@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20261114T130000
+DTEND;TZID=America/Chicago:20261114T143000
+SUMMARY:Nutcracker: All Battle Cast A (Soldiers/Mice/Rats) + Clara
+LOCATION:S&B II – Studio 1
+DESCRIPTION:1:00–2:30 Schedule subject to change – confirm with Balle
+ t Arkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker2026-Mice-CastA-20261121-1300@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20261121T130000
+DTEND;TZID=America/Chicago:20261121T143000
+SUMMARY:Nutcracker: All Battle Cast A (Soldiers/Mice/Rats) + Clara
+LOCATION:S&B II – Studio 1
+DESCRIPTION:1:00–2:30 Schedule subject to change – confirm with Balle
+ t Arkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker2026-Mice-CastA-20261204-1815@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20261204T181500
+DTEND;TZID=America/Chicago:20261204T193000
+SUMMARY:Nutcracker: Battle Cast A w/Company (Mandatory – w/ Company)
+LOCATION:Ballet Arkansas – Studio 2
+DESCRIPTION:6:15–7:30 Schedule subject to change – confirm with Balle
+ t Arkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker2026-Mice-CastA-20261208-1730@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20261208T173000
+DTEND;TZID=America/Chicago:20261208T193000
+SUMMARY:Nutcracker: Spacing Rehearsal – Battle Scene (all Soldiers\, Mi
+ ce\, Rats\, Clara) (Mandatory – Production Week)
+LOCATION:Robinson Center
+DESCRIPTION:Call 5:30 PM · 5:45–7:30 PM No costumes\, hair or makeup S
+ chedule subject to change – confirm with Ballet Arkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker2026-Mice-CastA-20261209-1800@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20261209T180000
+DTEND;TZID=America/Chicago:20261209T194500
+SUMMARY:Nutcracker: Dress Rehearsal – ACT I Cast A (Party\, Battle\, Sn
+ ow) (Mandatory – Production Week)
+LOCATION:Robinson Center
+DESCRIPTION:Call 6:00 PM · 7:00–7:45 PM In performance costume\, hair 
+ & makeup Schedule subject to change – confirm with Ballet Arkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker2026-Mice-CastA-20261210-0930@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20261210T093000
+DTEND;TZID=America/Chicago:20261210T110000
+SUMMARY:Nutcracker: School Show @ 10:30 AM – ACT I Cast A (Party\, Batt
+ le\, Snow) (Mandatory – Production Week)
+LOCATION:Robinson Center
+DESCRIPTION:Call 9:30 AM · 10:30–11:00 AM To recorded sound. NO Coffee
+ \, Bon Bon\, Angels Schedule subject to change – confirm with Ballet A
+ rkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker2026-Mice-CastA-20261211-1845@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20261211T184500
+DTEND;TZID=America/Chicago:20261211T201500
+SUMMARY:Nutcracker: Performance @ 7:30 PM – ACT I Battle / Snow Cast A 
+ (Mandatory – Production Week)
+LOCATION:Robinson Center
+DESCRIPTION:Call 6:45 PM · 7:30–8:15 PM Schedule subject to change –
+  confirm with Ballet Arkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker2026-Mice-CastA-20261213-1345@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20261213T134500
+DTEND;TZID=America/Chicago:20261213T151500
+SUMMARY:Nutcracker: Performance @ 2:30 PM – ACT I Battle / Snow Cast A 
+ (Mandatory – Production Week)
+LOCATION:Robinson Center
+DESCRIPTION:Call 1:45 PM · 2:30–3:15 PM Schedule subject to change –
+  confirm with Ballet Arkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,304 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Nutcracker CC Schedule 2026//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Nutcracker 2026 – Tea Cast B
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:nutcracker2026-Tea-CastB-20260912-1400@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20260912T140000
+DTEND;TZID=America/Chicago:20260912T150000
+SUMMARY:Nutcracker: Tea (1st rehearsal – MANDATORY)
+LOCATION:Ballet Arkansas – Studio 1
+DESCRIPTION:2:00–3:00 Schedule subject to change – confirm with Balle
+ t Arkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker2026-Tea-CastB-20260912-1500@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20260912T150000
+DTEND;TZID=America/Chicago:20260912T152000
+SUMMARY:Nutcracker: Tea (Costume fitting – MANDATORY)
+LOCATION:Ballet Arkansas – Costume Shop
+DESCRIPTION:3:00–3:20 Schedule subject to change – confirm with Balle
+ t Arkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker2026-Tea-CastB-20260919-1400@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20260919T140000
+DTEND;TZID=America/Chicago:20260919T150000
+SUMMARY:Nutcracker: Tea
+LOCATION:Ballet Arkansas – Studio 1
+DESCRIPTION:2:00–3:00 Schedule subject to change – confirm with Balle
+ t Arkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker2026-Tea-CastB-20260926-1400@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20260926T140000
+DTEND;TZID=America/Chicago:20260926T150000
+SUMMARY:Nutcracker: Tea
+LOCATION:Ballet Arkansas – Studio 1
+DESCRIPTION:2:00–3:00 Schedule subject to change – confirm with Balle
+ t Arkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker2026-Tea-CastB-20261002-1630@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20261002T163000
+DTEND;TZID=America/Chicago:20261002T183000
+SUMMARY:Nutcracker: Backup Fitting Date (only if you missed your fitting)
+  (Costume fitting – MANDATORY)
+LOCATION:Ballet Arkansas – Costume Shop
+DESCRIPTION:4:30–6:30 Only if you missed your fitting Schedule subject 
+ to change – confirm with Ballet Arkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker2026-Tea-CastB-20261003-1400@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20261003T140000
+DTEND;TZID=America/Chicago:20261003T150000
+SUMMARY:Nutcracker: Tea
+LOCATION:Ballet Arkansas – Studio 1
+DESCRIPTION:2:00–3:00 Schedule subject to change – confirm with Balle
+ t Arkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker2026-Tea-CastB-20261010-1400@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20261010T140000
+DTEND;TZID=America/Chicago:20261010T150000
+SUMMARY:Nutcracker: Tea
+LOCATION:Ballet Arkansas – Studio 1
+DESCRIPTION:2:00–3:00 Schedule subject to change – confirm with Balle
+ t Arkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker2026-Tea-CastB-20261017-1400@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20261017T140000
+DTEND;TZID=America/Chicago:20261017T150000
+SUMMARY:Nutcracker: Tea
+LOCATION:Ballet Arkansas – Studio 1
+DESCRIPTION:2:00–3:00 Schedule subject to change – confirm with Balle
+ t Arkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker2026-Tea-CastB-20261031-1400@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20261031T140000
+DTEND;TZID=America/Chicago:20261031T150000
+SUMMARY:Nutcracker: Tea
+LOCATION:Ballet Arkansas – Studio 1
+DESCRIPTION:2:00–3:00 Schedule subject to change – confirm with Balle
+ t Arkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker2026-Tea-CastB-20261107-1400@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20261107T140000
+DTEND;TZID=America/Chicago:20261107T150000
+SUMMARY:Nutcracker: Tea
+LOCATION:Ballet Arkansas – Studio 1
+DESCRIPTION:2:00–3:00 Schedule subject to change – confirm with Balle
+ t Arkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker2026-Tea-CastB-20261114-1400@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20261114T140000
+DTEND;TZID=America/Chicago:20261114T150000
+SUMMARY:Nutcracker: Tea
+LOCATION:Ballet Arkansas – Studio 1
+DESCRIPTION:2:00–3:00 Schedule subject to change – confirm with Balle
+ t Arkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker2026-Tea-CastB-20261121-1400@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20261121T140000
+DTEND;TZID=America/Chicago:20261121T150000
+SUMMARY:Nutcracker: Tea
+LOCATION:Ballet Arkansas – Studio 1
+DESCRIPTION:2:00–3:00 Schedule subject to change – confirm with Balle
+ t Arkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker2026-Tea-CastB-20261205-1400@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20261205T140000
+DTEND;TZID=America/Chicago:20261205T150000
+SUMMARY:Nutcracker: Tea/Hot Chocolate (Mandatory – w/ Company)
+LOCATION:S&B II – Studio 2
+DESCRIPTION:2:00–3:00 Schedule subject to change – confirm with Balle
+ t Arkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker2026-Tea-CastB-20261207-1745@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20261207T174500
+DTEND;TZID=America/Chicago:20261207T191500
+SUMMARY:Nutcracker: Spacing Rehearsal – Coffee\, Tea\, Candy Cane\, Hot
+  Chocolate (Mandatory – Production Week)
+LOCATION:Robinson Center
+DESCRIPTION:Call 5:45 PM · 6:00–7:15 PM No costumes\, hair or makeup S
+ chedule subject to change – confirm with Ballet Arkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker2026-Tea-CastB-20261210-1930@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20261210T193000
+DTEND;TZID=America/Chicago:20261210T205000
+SUMMARY:Nutcracker: Dress Rehearsal – ACT II Cast B (Mandatory – Prod
+ uction Week)
+LOCATION:Robinson Center
+DESCRIPTION:Call 7:30 PM · 8:10–8:50 PM Act II notes 9:00–9:30 PM Sc
+ hedule subject to change – confirm with Ballet Arkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker2026-Tea-CastB-20261211-1015@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20261211T101500
+DTEND;TZID=America/Chicago:20261211T114500
+SUMMARY:Nutcracker: School Show @ 10:30 AM – ACT II Cast B (Hot Chocola
+ te\, Tea\, Candy Cane\, Flowers) (Mandatory – Production Week)
+LOCATION:Robinson Center
+DESCRIPTION:Call 10:15 AM · 11:05–11:45 AM To recorded sound. NO Coffe
+ e\, Bon Bon\, Angels Schedule subject to change – confirm with Ballet 
+ Arkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker2026-Tea-CastB-20261212-1445@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20261212T144500
+DTEND;TZID=America/Chicago:20261212T162000
+SUMMARY:Nutcracker: Performance @ 2:30 PM – ACT II Cast B (Mandatory 
+ – Production Week)
+LOCATION:Robinson Center
+DESCRIPTION:Call 2:45 PM · 3:30–4:20 PM Schedule subject to change –
+  confirm with Ballet Arkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker2026-Tea-CastB-20261212-1945@ballet-arkansas-cc
+DTSTAMP:20260913T192003Z
+DTSTART;TZID=America/Chicago:20261212T194500
+DTEND;TZID=America/Chicago:20261212T212000
+SUMMARY:Nutcracker: Performance @ 7:30 PM – ACT II Cast B (Mandatory 
+ – Production Week)
+LOCATION:Robinson Center
+DESCRIPTION:Call 7:45 PM · 8:30–9:20 PM Schedule subject to change –
+  confirm with Ballet Arkansas.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Nutcracker in 1 hour
+END:VALARM
+END:VEVENT
+END:VCALENDAR
