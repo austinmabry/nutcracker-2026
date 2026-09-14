@@ -356,8 +356,8 @@ def parse_guidelines(wb):
             continue
         low = a.lower()
         raw_a = str(ws.cell(r, 1).value or "")
-        block = "\n".join(("• " + l.strip().lstrip("•·-\u2022 ")) if i else l.strip()
-                          for i, l in enumerate(x for x in raw_a.split("\n") if x.strip()))
+        lines = [re.sub(r"^[^\w*(]+", "", l.strip()) for l in raw_a.split("\n") if l.strip(" \uf0b7•·-")]
+        block = "\n".join(("• " + l) if i else l for i, l in enumerate(lines) if l)
         if low.startswith("full stage makeup"):
             out["blocks"]["Full"] = block
         elif low.startswith("light stage makeup"):
@@ -381,36 +381,47 @@ def parse_guidelines(wb):
 
 
 def build_details(e, policy, backup):
-    """Role-independent notes for one event (the per-role costume text is added at ICS/page time)."""
-    L = [f"{e['day']} · {e['time']} · {e['loc']}"]
+    """Notes for one event: the day-specific part first and clearly marked, the standing rules after."""
+    today, rules = [], []
     t = e["type"]
     if t.startswith("1st"):
-        L.append(f"MANDATORY — this is the first rehearsal for {e['what']}. BA: {policy['mandatory']}.")
+        today.append(f"MANDATORY — this is the first rehearsal for {e['what']}.")
+        rules.append(f"BA: {policy['mandatory']}.")
     elif t.startswith("Costume"):
         if e["what"].startswith("Backup"):
-            L.append("BACKUP FITTING DATE — only for dancers who missed their scheduled costume fitting. Not needed if your dancer has already been fitted.")
+            today.append("BACKUP FITTING DATE — only for dancers who missed their scheduled costume fitting. Not needed if your dancer has already been fitted.")
         else:
-            L.append(f"MANDATORY COSTUME FITTING for {e['what']}." + (f" BA: {policy['fitting']}." if len(policy['fitting']) > 25 else ""))
+            today.append(f"MANDATORY COSTUME FITTING for {e['what']}.")
             if backup:
-                L.append(f"If the fitting is missed, the backup fitting date is {backup}.")
+                today.append(f"If this fitting is missed, the backup fitting date is {backup}.")
+            if len(policy["fitting"]) > 25:
+                rules.append(f"BA: {policy['fitting']}.")
     elif t.startswith("Mandatory – w/"):
-        L.append(f"MANDATORY. BA: {policy['mandatory']}.")
+        today.append("MANDATORY rehearsal with the Company.")
+        rules.append(f"BA: {policy['mandatory']}.")
     elif t.startswith("Mandatory – Production"):
-        call = e["time"].split("·")[0].replace("Call", "").strip() if e["time"].startswith("Call") else ""
-        if call:
+        if e["time"].startswith("Call"):
+            call = e["time"].split("·")[0].replace("Call", "").strip()
             h, m = map(int, e["start"].split(":"))
             arrive = fmt12(f"{(h * 60 + m - 15) // 60:02d}:{(h * 60 + m - 15) % 60:02d}")
-            L.append(f"MANDATORY — production week. CALL TIME {call}: dancers must be checked in and backstage by then, so arrive by {arrive}. BA: {policy['calltime']}.")
+            today.append(f"CALL TIME {call} — be checked in and backstage by then. ARRIVE BY {arrive}.")
+            today.append(f"On stage: {e['time'].split('·', 1)[1].strip()}.")
         else:
-            L.append(f"MANDATORY — production week. BA: {policy['calltime']}.")
+            today.append(f"Time: {e['time']}.")
         if e["note"]:
-            L.append(e["note"] + ".")
+            today.append(e["note"] + ".")
+        today.append("MANDATORY — production week.")
+        rules.append(f"BA: {policy['calltime']}.")
+        rules.append(f"BA: {policy['mandatory']}.")
     else:
-        L.append("Regular rehearsal." + (f" BA: {policy['regular']}." if len(policy['regular']) > 25 else ""))
+        today.append("Regular rehearsal.")
+        if len(policy["regular"]) > 25:
+            rules.append(f"BA: {policy['regular']}.")
     if e["note"] and not t.startswith("Mandatory – Production") and not e["what"].startswith("Backup"):
-        L.append(e["note"] + ".")
-    L.append(f"{policy['casts']}. SUBJECT TO CHANGE — the BA master schedule, the weekly BA emails and the BA portal are the official source. Master: https://docs.google.com/spreadsheets/d/{SHEET_ID}/")
-    return "\n".join(L)
+        today.append(e["note"] + ".")
+    rules.append(f"{policy['casts']}.")
+    rules.append(f"SUBJECT TO CHANGE — the BA master schedule, the weekly BA emails and the BA portal are the official source. Master: https://docs.google.com/spreadsheets/d/{SHEET_ID}/")
+    return "*** THIS DAY ***\n" + "\n".join(today) + "\n\n*** STANDING RULES ***\n" + "\n".join(rules)
 
 
 def is_dress(e):
@@ -422,7 +433,7 @@ def role_costume_text(role, guide):
     g = guide["roles"].get(role)
     if not g:
         return ""
-    out = ["COSTUME / HAIR / MAKEUP for " + role + ": " + g]
+    out = [f"*** COSTUME / HAIR / MAKEUP — {role} ***", g]
     mk = re.search(r"Makeup: ([^;]+)", g)
     if mk:
         want = mk.group(1)
