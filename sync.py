@@ -201,8 +201,6 @@ def parse_grid(ws):
                 events.append(dict(date=date_iso(day["date"]), day=day["label"], week=week or "",
                                    time=f"{line.split(' ')[0]}", what=what, cast=cast, type=typ,
                                    loc=loc, note=note, tags=roles, start=start, end=end))
-    if pw_start is None:
-        raise ParseError("could not find the 'PRODUCTION WEEK' row")
     return events, pw_start
 
 
@@ -550,9 +548,17 @@ def main():
     args = ap.parse_args()
     try:
         wb = load_workbook_bytes(args.file)
-        ws = wb.worksheets[0]
+        # the master grid: prefer a tab named like "Master Schedule"; else the first tab
+        ws = next((w for w in wb.worksheets if re.search(r"master|schedule", w.title, re.I)
+                   and not re.search(r"production", w.title, re.I)), wb.worksheets[0])
         grid, pw_row = parse_grid(ws)
-        prod = parse_production(ws, pw_row)
+        if pw_row is None:      # production week moved to its own tab?
+            pws = next((w for w in wb.worksheets if re.search(r"production", w.title, re.I)), None)
+            if pws is None:
+                raise ParseError("no 'PRODUCTION WEEK' section in the master and no 'Production Week' tab")
+            prod = parse_production(pws, 1)
+        else:
+            prod = parse_production(ws, pw_row)
         events = sorted(grid + prod, key=lambda e: (e["date"], e["start"], e["loc"]))
         policy = parse_policies(ws)
         guide = parse_guidelines(wb)
