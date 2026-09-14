@@ -51,6 +51,12 @@
   .first .tag{background:var(--first-soft);color:var(--first)} .fit .tag{background:var(--fit-soft);color:var(--fit)}
   .mand .tag{background:var(--mand-soft);color:var(--mand)} .reg .tag{background:var(--reg-soft);color:var(--reg)}
   .n{font-size:13px;color:var(--ink);margin-top:5px}
+  .more{margin-top:8px;font-size:13px}
+  .more summary{cursor:pointer;color:var(--green);font-weight:600;list-style:none;-webkit-appearance:none}
+  .more summary::-webkit-details-marker{display:none}
+  .more summary::before{content:"▸ ";} .more[open] summary::before{content:"▾ ";}
+  .more div{white-space:pre-wrap;color:var(--ink);background:var(--paper);border-radius:8px;padding:8px 10px;margin-top:6px;line-height:1.45}
+  .more a{color:var(--green)}
   .empty{color:var(--muted);text-align:center;padding:40px 10px}
   .past{opacity:.55}
   footer{font-size:12px;color:var(--muted);text-align:center;margin-top:24px;padding:0 10px}
@@ -91,6 +97,7 @@ roleSel.value = 'Infantry';
 // remember last choice on this device
 try { const s=JSON.parse(localStorage.getItem('nutcracker-pick')||'null'); if(s){ roleSel.value=s.role; castSel.value=s.cast; } } catch(e){}
 
+const esc = s => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/(https?:\/\/\S+)/g,'<a href="$1" target="_blank" rel="noopener">master schedule</a>');
 const cls = t => t.startsWith('1st') ? 'first' : t.startsWith('Costume') ? 'fit' : t.startsWith('Mandatory') ? 'mand' : 'reg';
 const MONTHS=['January','February','March','April','May','June','July','August','September','October','November','December'];
 const today = new Date(); today.setHours(0,0,0,0);
@@ -114,7 +121,8 @@ function render(){
     const dow=r.day.split('.')[0];
     el.innerHTML=`<div class="d"><b>${d.getDate()}</b><span>${dow}</span></div>
       <div><div class="t">${r.time}</div><div class="w">${r.what}</div><div class="l">${r.loc}</div>
-      <span class="tag">${r.type}</span>${r.note?`<div class="n">${r.note}</div>`:''}</div>`;
+      <span class="tag">${r.type}</span>${r.note?`<div class="n">${r.note}</div>`:''}
+      ${r.details?`<details class="more"><summary>Notes &amp; reminders</summary><div>${esc(r.details)}${r.dress&&DATA.costume&&DATA.costume[role]?'\n\n'+esc(DATA.costume[role]):''}</div></details>`:''}</div>`;
     list.appendChild(el);
   });
 }

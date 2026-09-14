@@ -130,7 +130,7 @@ def parse_grid(ws):
         cells = [str(ws.cell(r, c).value or "") for c in range(1, ws.max_column + 1)]
         if sum("studio" in c.lower() for c in cells) >= 3:
             hdr = r
-            cols = [(c, clean(cells[c - 1]).replace("S&BII", "S&B II").replace(" - ", " – "))
+            cols = [(c, re.sub(r"^BA\s*[-–]", "Ballet Arkansas –", clean(cells[c - 1]).replace("S&BII", "S&B II").replace(" - ", " – ")))
                     for c in range(2, ws.max_column + 1) if cells[c - 1].strip()]
             break
     if hdr is None:
@@ -301,6 +301,141 @@ def validate(events):
     return problems
 
 
+# ----------------------------------------------------------------------------- standing notes from the sheet
+DEFAULT_POLICY = {
+    "mandatory": "Mandatory Rehearsals (1st Rehearsal, Rehearsals after Thanksgiving and Production Week Rehearsals and Performances)",
+    "fitting": "Mandatory Fittings",
+    "regular": "Regular Rehearsal",
+    "casts": "All Casts are called unless a cast is named",
+    "calltime": "Call Time is the time dancers should be checked in and backstage - Arrive 15 minutes before Call Time",
+}
+
+
+def parse_policies(ws):
+    """The colour-key / instruction text BA keeps at the top of the master and above production week."""
+    p = dict(DEFAULT_POLICY)
+    for r in range(1, ws.max_row + 1):
+        for c in range(1, min(ws.max_column, 3) + 1):
+            t = clean(str(ws.cell(r, c).value or ""))
+            if not t:
+                continue
+            if t.lower().startswith("mandatory rehearsal"):
+                p["mandatory"] = t
+            elif t.lower().startswith("mandatory fitting"):
+                p["fitting"] = t
+            elif t.lower().startswith("regular rehearsal"):
+                p["regular"] = t
+            elif t.lower().startswith("all casts"):
+                p["casts"] = t
+            elif "call time" in t.lower() and "backstage" in t.lower():
+                i = t.lower().find("call time")
+                p["calltime"] = t[i:].replace("*", "").strip(" (")
+    return p
+
+
+GUIDE_MAP = [  # keyword in the guideline sheet's Role column -> our roles
+    ("Clara", ["Clara"]), ("Fritz", ["Fritz"]), ("Party Children", ["Party Children"]), ("Mice", ["Mice"]),
+    ("Rats", ["Rats"]), ("Lieutenant", ["Lieutenants"]), ("Leiutenant", ["Lieutenants"]),
+    ("Artillery", ["Artillery", "Brigade", "Infantry"]), ("Commandant", ["Commandants"]), ("Snow", ["Snow"]),
+    ("Trumpeter", ["Trumpeter"]), ("Cherubs", ["Cherubs"]), ("Seraphs", ["Seraphs"]), ("Archangels", ["Archangels"]),
+    ("Hot Chocolate", ["Hot Chocolate"]), ("Tea", ["Tea"]), ("Coffee", ["Coffee"]), ("Candy Cane", ["Candy Cane"]),
+    ("Bon Bon", ["Bon Bons"]), ("Flowers", ["Flowers"]),
+]
+GUIDE_COLS = ["Costume (you provide)", "Shoes", "Makeup", "Hair", "Accessories (BA provides)", "Prop (BA provides)"]
+
+
+def parse_guidelines(wb):
+    """The 'Costume, Hair, Makeup Guidelines' sheet -> per-role text + the makeup/care instruction blocks."""
+    ws = next((w for w in wb.worksheets if "costume" in w.title.lower()), None)
+    out = {"roles": {}, "blocks": {}, "general": ""}
+    if ws is None:
+        return out
+    for r in range(1, ws.max_row + 1):
+        a = clean(str(ws.cell(r, 1).value or ""))
+        if not a:
+            continue
+        low = a.lower()
+        raw_a = str(ws.cell(r, 1).value or "")
+        block = "\n".join(("• " + l.strip().lstrip("•·-\u2022 ")) if i else l.strip()
+                          for i, l in enumerate(x for x in raw_a.split("\n") if x.strip()))
+        if low.startswith("full stage makeup"):
+            out["blocks"]["Full"] = block
+        elif low.startswith("light stage makeup"):
+            out["blocks"]["Light"] = block
+        elif low.startswith("men's stage makeup") or low.startswith("mens stage makeup"):
+            out["blocks"]["Men's"] = block
+        elif low.startswith("costume care"):
+            out["blocks"]["Care"] = block
+        elif low.startswith("dancers of color"):
+            out["general"] = a
+        else:
+            for key, roles in GUIDE_MAP:
+                if key.lower() in low and "act " not in low[:4]:
+                    vals = [clean(str(ws.cell(r, c).value or "")) for c in range(2, 8)]
+                    parts = [f"{lab}: {v}" for lab, v in zip(GUIDE_COLS, vals) if v]
+                    txt = f"{a} — " + "; ".join(parts)
+                    for ro in roles:
+                        out["roles"].setdefault(ro, txt)
+                    break
+    return out
+
+
+def build_details(e, policy, backup):
+    """Role-independent notes for one event (the per-role costume text is added at ICS/page time)."""
+    L = [f"{e['day']} · {e['time']} · {e['loc']}"]
+    t = e["type"]
+    if t.startswith("1st"):
+        L.append(f"MANDATORY — this is the first rehearsal for {e['what']}. BA: {policy['mandatory']}.")
+    elif t.startswith("Costume"):
+        if e["what"].startswith("Backup"):
+            L.append("BACKUP FITTING DATE — only for dancers who missed their scheduled costume fitting. Not needed if your dancer has already been fitted.")
+        else:
+            L.append(f"MANDATORY COSTUME FITTING for {e['what']}." + (f" BA: {policy['fitting']}." if len(policy['fitting']) > 25 else ""))
+            if backup:
+                L.append(f"If the fitting is missed, the backup fitting date is {backup}.")
+    elif t.startswith("Mandatory – w/"):
+        L.append(f"MANDATORY. BA: {policy['mandatory']}.")
+    elif t.startswith("Mandatory – Production"):
+        call = e["time"].split("·")[0].replace("Call", "").strip() if e["time"].startswith("Call") else ""
+        if call:
+            h, m = map(int, e["start"].split(":"))
+            arrive = fmt12(f"{(h * 60 + m - 15) // 60:02d}:{(h * 60 + m - 15) % 60:02d}")
+            L.append(f"MANDATORY — production week. CALL TIME {call}: dancers must be checked in and backstage by then, so arrive by {arrive}. BA: {policy['calltime']}.")
+        else:
+            L.append(f"MANDATORY — production week. BA: {policy['calltime']}.")
+        if e["note"]:
+            L.append(e["note"] + ".")
+    else:
+        L.append("Regular rehearsal." + (f" BA: {policy['regular']}." if len(policy['regular']) > 25 else ""))
+    if e["note"] and not t.startswith("Mandatory – Production") and not e["what"].startswith("Backup"):
+        L.append(e["note"] + ".")
+    L.append(f"{policy['casts']}. SUBJECT TO CHANGE — the BA master schedule, the weekly BA emails and the BA portal are the official source. Master: https://docs.google.com/spreadsheets/d/{SHEET_ID}/")
+    return "\n".join(L)
+
+
+def is_dress(e):
+    return e["week"] == "Production Week" and re.search(r"Dress|Performance|School Show|@\s*\d", e["what"]) is not None \
+        and "Spacing" not in e["what"]
+
+
+def role_costume_text(role, guide):
+    g = guide["roles"].get(role)
+    if not g:
+        return ""
+    out = ["COSTUME / HAIR / MAKEUP for " + role + ": " + g]
+    mk = re.search(r"Makeup: ([^;]+)", g)
+    if mk:
+        want = mk.group(1)
+        for k in ["Full", "Light", "Men's"]:
+            if k.lower() in want.lower() and k in guide["blocks"]:
+                out.append(guide["blocks"][k])
+    if guide["general"]:
+        out.append(guide["general"] + ".")
+    if "Care" in guide["blocks"]:
+        out.append(guide["blocks"]["Care"])
+    return "\n".join(out)
+
+
 # ----------------------------------------------------------------------------- outputs
 def esc(s):
     return str(s).replace("\\", "\\\\").replace(";", "\\;").replace(",", "\\,").replace("\n", "\\n")
@@ -329,7 +464,7 @@ def slug(role, cast):
     return f"{role.replace(' ', '')}-Cast{cast}"
 
 
-def ics(role, cast, events, stamp, seq):
+def ics(role, cast, events, stamp, seq, guide):
     rows = [e for e in events if role in e["tags"] and e["cast"] in ("All", cast)]
     L = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Nutcracker CC Schedule 2026//EN", "CALSCALE:GREGORIAN",
          "METHOD:PUBLISH", f"X-WR-CALNAME:Nutcracker 2026 – {role} Cast {cast}", f"X-WR-TIMEZONE:{TZ}",
@@ -342,8 +477,7 @@ def ics(role, cast, events, stamp, seq):
               f"DTSTART;TZID={TZ}:{ds}T{e['start'].replace(':', '')}00",
               f"DTEND;TZID={TZ}:{ds}T{e['end'].replace(':', '')}00",
               f"SUMMARY:{esc(title)}", f"LOCATION:{esc(e['loc'])}",
-              "DESCRIPTION:" + esc(" ".join(x for x in [e["time"], e["note"],
-                                                        "Schedule subject to change – confirm with Ballet Arkansas."] if x)),
+              "DESCRIPTION:" + esc(e["details"] + ("\n\n" + role_costume_text(role, guide) if is_dress(e) and role_costume_text(role, guide) else "")),
               "BEGIN:VALARM", "TRIGGER:-PT1H", "ACTION:DISPLAY", "DESCRIPTION:Nutcracker in 1 hour", "END:VALARM",
               "END:VEVENT"]
     L.append("END:VCALENDAR")
@@ -354,15 +488,16 @@ def event_key(e):
     return f"{e['date']} {e['start']}–{e['end']} | {e['what']} | {e['cast']} | {e['loc']}"
 
 
-def write_outputs(events, synced_label):
+def write_outputs(events, synced_label, guide):
     os.makedirs(os.path.join(DOCS, "ics"), exist_ok=True)
     now = datetime.datetime.now(datetime.timezone.utc)
     stamp, seq = now.strftime("%Y%m%dT%H%M%SZ"), int(now.strftime("%Y%m%d%H"))
     for role in ROLES:
         for cast in "AB":
             with open(os.path.join(DOCS, "ics", f"{slug(role, cast)}.ics"), "w", newline="") as f:
-                f.write(ics(role, cast, events, stamp, seq))
-    data = json.dumps({"roles": ROLES, "rows": events, "synced": synced_label}, ensure_ascii=False)
+                f.write(ics(role, cast, events, stamp, seq, guide))
+    costume = {ro: role_costume_text(ro, guide) for ro in ROLES}
+    data = json.dumps({"roles": ROLES, "rows": events, "synced": synced_label, "costume": costume}, ensure_ascii=False)
     with open(os.path.join(DOCS, "data.json"), "w") as f:
         f.write(data)
     tpl = open(os.path.join(HERE, "template.html")).read()
@@ -408,6 +543,13 @@ def main():
         grid, pw_row = parse_grid(ws)
         prod = parse_production(ws, pw_row)
         events = sorted(grid + prod, key=lambda e: (e["date"], e["start"], e["loc"]))
+        policy = parse_policies(ws)
+        guide = parse_guidelines(wb)
+        bk = next((e for e in events if e["what"].startswith("Backup")), None)
+        backup = f"{bk['day']}, {bk['time']}, {bk['loc']}" if bk else ""
+        for e in events:
+            e["details"] = build_details(e, policy, backup)
+            e["dress"] = is_dress(e)
         problems = validate(events)
         if problems:
             raise ParseError("validation failed:\n  " + "\n  ".join(problems))
@@ -420,14 +562,14 @@ def main():
     old_path = os.path.join(DOCS, "data.json")
     old = json.load(open(old_path))["rows"] if os.path.exists(old_path) else []
     if old and [event_key(e) for e in old] == [event_key(e) for e in events] and all(
-            (a["tags"], a["type"], a["note"], a["time"]) == (b["tags"], b["type"], b["note"], b["time"])
+            (a["tags"], a["type"], a["note"], a["time"], a.get("details")) == (b["tags"], b["type"], b["note"], b["time"], b["details"])
             for a, b in zip(old, events)):
         print("no changes since last sync – nothing written")
         return 0
     synced_label = datetime.datetime.now(datetime.timezone.utc).astimezone(
         datetime.timezone(datetime.timedelta(hours=-6 if datetime.date.today() > datetime.date(YEAR, 11, 1) else -5))
     ).strftime("%b %-d, %Y %-I:%M %p")
-    write_outputs(events, synced_label)
+    write_outputs(events, synced_label, guide)
     if append_changes(old, events, synced_label):
         print("changes recorded in CHANGES.md")
     print("site rebuilt")
