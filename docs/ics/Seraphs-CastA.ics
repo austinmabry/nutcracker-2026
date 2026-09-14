@@ -26,20 +26,20 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:fb6f77d2ebb53be6@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20260912T130000
 DTEND;TZID=America/Chicago:20260912T134500
 SUMMARY:Nutcracker: Cherubs/Seraphs Cast A (Costume fitting – MANDATORY
  )
 LOCATION:Ballet Arkansas – Studio 2
 DESCRIPTION:*** THIS DAY ***\nMANDATORY COSTUME FITTING for Cherubs/Serap
- hs Cast A.\nIf this fitting is missed\, the backup fitting date is Fri. 
- Oct. 2\, 4:30–6:30pm\, Ballet Arkansas – Costume Shop.\n\n*** STANDI
- NG RULES ***\nAll Casts are called unless a cast is named.\nSUBJECT TO C
- HANGE — the BA master schedule\, the weekly BA emails and the BA porta
- l are the official source. Master: https://docs.google.com/spreadsheets/
- d/1xWFCPfY5m0aK9d5dnxvALNre-6-N7Cl0kkw24rvm6cE/
+ hs Cast A.\nAdditional fitting slot on the master: Fri. Oct. 2 4:30–6:
+ 30pm at Ballet Arkansas – Costume Shop (Fittings\, As Called).\n\n*** 
+ STANDING RULES ***\nAll Casts are called unless a cast is named.\nSUBJEC
+ T TO CHANGE — the BA master schedule\, the weekly BA emails and the BA
+  portal are the official source. Master: https://docs.google.com/spreads
+ heets/d/1xWFCPfY5m0aK9d5dnxvALNre-6-N7Cl0kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -48,8 +48,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:48d31b25396bfc24@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20260913T130000
 DTEND;TZID=America/Chicago:20260913T140000
 SUMMARY:Nutcracker: Cherubs/Seraphs/Trumpeter Cast A (1st rehearsal – M
@@ -71,8 +71,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e8c8654a50aa8820@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20260927T130000
 DTEND;TZID=America/Chicago:20260927T140000
 SUMMARY:Nutcracker: Cherubs/Seraphs/Trumpeter Cast A
@@ -91,20 +91,21 @@ DESCRIPTION:Nutcracker in 1 hour
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:4246765f7404026e@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+UID:b410991d25fba7d9@nutcracker2026
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20261002T163000
 DTEND;TZID=America/Chicago:20261002T183000
-SUMMARY:Nutcracker: Backup fitting date (Costume fitting – MANDATORY)
+SUMMARY:Nutcracker: Fittings\, As Called (Costume fitting – as called)
 LOCATION:Ballet Arkansas – Costume Shop
-DESCRIPTION:*** THIS DAY ***\nBACKUP FITTING DATE — only for dancers wh
- o missed their scheduled costume fitting. Not needed if your dancer has 
- already been fitted.\n\n*** STANDING RULES ***\nAll Casts are called unl
- ess a cast is named.\nSUBJECT TO CHANGE — the BA master schedule\, the
-  weekly BA emails and the BA portal are the official source. Master: htt
- ps://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d5dnxvALNre-6-N7Cl0kkw
- 24rvm6cE/
+DESCRIPTION:*** THIS DAY ***\nFITTINGS\, AS CALLED — Ballet Arkansas wi
+ ll contact the families it needs on this date. Not needed unless BA asks
+  your dancer to come. (Listed on the master as "Fittings\, As Called".)\
+ nOnly if Ballet Arkansas asks your dancer to come.\n\n*** STANDING RULES
+  ***\nAll Casts are called unless a cast is named.\nSUBJECT TO CHANGE 
+ — the BA master schedule\, the weekly BA emails and the BA portal are 
+ the official source. Master: https://docs.google.com/spreadsheets/d/1xWF
+ CPfY5m0aK9d5dnxvALNre-6-N7Cl0kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -113,8 +114,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ff6dc922bdb91103@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20261011T130000
 DTEND;TZID=America/Chicago:20261011T140000
 SUMMARY:Nutcracker: Cherubs/Seraphs/Trumpeter Cast A
@@ -134,8 +135,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:230b37d846676854@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20261101T130000
 DTEND;TZID=America/Chicago:20261101T140000
 SUMMARY:Nutcracker: Cherubs/Seraphs/Trumpeter Cast A & All Archangels
@@ -155,8 +156,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0c2268bbf93b05f2@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20261115T130000
 DTEND;TZID=America/Chicago:20261115T140000
 SUMMARY:Nutcracker: Cherubs/Seraphs/Trumpeter Cast A & All Archangels
@@ -176,8 +177,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:4fdf8e324c94feda@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20261205T130000
 DTEND;TZID=America/Chicago:20261205T140000
 SUMMARY:Nutcracker: All Angels/Trumpeter (Mandatory – w/ Company)
@@ -197,8 +198,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a7a8d897d30c5717@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20261207T154500
 DTEND;TZID=America/Chicago:20261207T170000
 SUMMARY:Nutcracker: Spacing Rehearsal Both Casts – Angels/Trumpeter (Ma
@@ -222,8 +223,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cb8e15facca4d183@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20261209T193000
 DTEND;TZID=America/Chicago:20261209T205000
 SUMMARY:Nutcracker: Cast A Dress Rehearsal – ACT II Cast A (Mandatory 
@@ -274,8 +275,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a41c42c590ac78d1@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20261209T210000
 DTEND;TZID=America/Chicago:20261209T213000
 SUMMARY:Nutcracker: Cast A Dress Rehearsal – ACT II Notes (Mandatory 
@@ -325,8 +326,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:30cee9e9b9aa0fd0@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20261211T194500
 DTEND;TZID=America/Chicago:20261211T212000
 SUMMARY:Nutcracker: Cast A @ 7:30PM – ACT II Cast A (Mandatory – Prod
@@ -377,8 +378,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:43e5a013ab2edefc@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20261213T144500
 DTEND;TZID=America/Chicago:20261213T162000
 SUMMARY:Nutcracker: Cast A @ 2:30 PM – ACT II Cast A (Mandatory – Pro

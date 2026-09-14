@@ -137,3 +137,9 @@ Each sync that changes the schedule appends a dated entry here.
 - ADDED: 2026-12-05 14:00–15:00 | Snow | All | Ballet Arkansas – Studio 1
 - ADDED: 2026-12-05 14:15–15:30 | Battle Cast B w/Company | B | Ballet Arkansas – Studio 2
 - ADDED: 2026-12-05 15:00–16:00 | Flowers | All | Ballet Arkansas – Studio 1
+
+## Sep 14, 2026 5:07 PM
+- REMOVED: 2026-09-26 14:00–14:20 | Clara/Fritz | All | Ballet Arkansas – Costume Shop
+- REMOVED: 2026-10-02 16:30–18:30 | Backup fitting date | All | Ballet Arkansas – Costume Shop
+- ADDED: 2026-09-26 14:00–14:20 | Clara/Fritz/Prince | All | Ballet Arkansas – Costume Shop
+- ADDED: 2026-10-02 16:30–18:30 | Fittings, As Called | All | Ballet Arkansas – Costume Shop

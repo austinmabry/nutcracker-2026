@@ -26,8 +26,8 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:86de4168b5f3f45c@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20260912T130000
 DTEND;TZID=America/Chicago:20260912T140000
 SUMMARY:Nutcracker: Infantry/Commandants Cast A (1st rehearsal – MANDAT
@@ -48,21 +48,21 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:1d4c4012a27fa5d8@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20260913T160000
 DTEND;TZID=America/Chicago:20260913T170000
 SUMMARY:Nutcracker: Battle (Infantry/Commandants/Artillery/Brigade) Cast 
  A (Costume fitting – MANDATORY)
 LOCATION:Ballet Arkansas – Studio 2
 DESCRIPTION:*** THIS DAY ***\nMANDATORY COSTUME FITTING for Battle (Infan
- try/Commandants/Artillery/Brigade) Cast A.\nIf this fitting is missed\, 
- the backup fitting date is Fri. Oct. 2\, 4:30–6:30pm\, Ballet Arkansas
-  – Costume Shop.\n\n*** STANDING RULES ***\nAll Casts are called unles
- s a cast is named.\nSUBJECT TO CHANGE — the BA master schedule\, the w
- eekly BA emails and the BA portal are the official source. Master: https
- ://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d5dnxvALNre-6-N7Cl0kkw24
- rvm6cE/
+ try/Commandants/Artillery/Brigade) Cast A.\nAdditional fitting slot on t
+ he master: Fri. Oct. 2 4:30–6:30pm at Ballet Arkansas – Costume Shop
+  (Fittings\, As Called).\n\n*** STANDING RULES ***\nAll Casts are called
+  unless a cast is named.\nSUBJECT TO CHANGE — the BA master schedule\,
+  the weekly BA emails and the BA portal are the official source. Master:
+  https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d5dnxvALNre-6-N7Cl
+ 0kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -71,8 +71,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:5bb36acbf9e11efd@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20260919T130000
 DTEND;TZID=America/Chicago:20260919T140000
 SUMMARY:Nutcracker: Infantry/Commandants Cast A
@@ -92,8 +92,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:5f49c0a56a2a2897@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20260926T130000
 DTEND;TZID=America/Chicago:20260926T140000
 SUMMARY:Nutcracker: Infantry/Commandants Cast A
@@ -112,20 +112,21 @@ DESCRIPTION:Nutcracker in 1 hour
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cdcf13a3fa3b756d@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+UID:f43d35a1882669e2@nutcracker2026
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20261002T163000
 DTEND;TZID=America/Chicago:20261002T183000
-SUMMARY:Nutcracker: Backup fitting date (Costume fitting – MANDATORY)
+SUMMARY:Nutcracker: Fittings\, As Called (Costume fitting – as called)
 LOCATION:Ballet Arkansas – Costume Shop
-DESCRIPTION:*** THIS DAY ***\nBACKUP FITTING DATE — only for dancers wh
- o missed their scheduled costume fitting. Not needed if your dancer has 
- already been fitted.\n\n*** STANDING RULES ***\nAll Casts are called unl
- ess a cast is named.\nSUBJECT TO CHANGE — the BA master schedule\, the
-  weekly BA emails and the BA portal are the official source. Master: htt
- ps://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d5dnxvALNre-6-N7Cl0kkw
- 24rvm6cE/
+DESCRIPTION:*** THIS DAY ***\nFITTINGS\, AS CALLED — Ballet Arkansas wi
+ ll contact the families it needs on this date. Not needed unless BA asks
+  your dancer to come. (Listed on the master as "Fittings\, As Called".)\
+ nOnly if Ballet Arkansas asks your dancer to come.\n\n*** STANDING RULES
+  ***\nAll Casts are called unless a cast is named.\nSUBJECT TO CHANGE 
+ — the BA master schedule\, the weekly BA emails and the BA portal are 
+ the official source. Master: https://docs.google.com/spreadsheets/d/1xWF
+ CPfY5m0aK9d5dnxvALNre-6-N7Cl0kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -134,8 +135,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cb88e6db588f2854@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20261003T130000
 DTEND;TZID=America/Chicago:20261003T140000
 SUMMARY:Nutcracker: Infantry/Commandants Cast A
@@ -155,8 +156,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:92b5a11760acbb01@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20261010T130000
 DTEND;TZID=America/Chicago:20261010T140000
 SUMMARY:Nutcracker: Infantry/Commandants Cast A
@@ -176,8 +177,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d3cc353ac0c70808@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20261017T130000
 DTEND;TZID=America/Chicago:20261017T140000
 SUMMARY:Nutcracker: Infantry/Commandants/Brigade/Artillery Cast A
@@ -197,8 +198,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:5a7ee402ac2da904@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20261031T130000
 DTEND;TZID=America/Chicago:20261031T140000
 SUMMARY:Nutcracker: Infantry/Commandants/Brigade/Artillery Cast A
@@ -218,8 +219,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d96c8fd48b4e7529@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20261107T130000
 DTEND;TZID=America/Chicago:20261107T140000
 SUMMARY:Nutcracker: All Soldiers Cast A (Infantry\, Commandants\, Artille
@@ -240,8 +241,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:adf0838e6356ef5a@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20261114T130000
 DTEND;TZID=America/Chicago:20261114T143000
 SUMMARY:Nutcracker: All Battle Cast A (Soldiers/Mice/Rats) + Clara
@@ -261,8 +262,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e95064d9974c91f4@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20261121T130000
 DTEND;TZID=America/Chicago:20261121T143000
 SUMMARY:Nutcracker: All Battle Cast A (Soldiers/Mice/Rats) + Clara
@@ -282,8 +283,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:8bc8fceaf49ed1cf@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20261204T181500
 DTEND;TZID=America/Chicago:20261204T193000
 SUMMARY:Nutcracker: Battle Cast A w/Company (Mandatory – w/ Company)
@@ -303,8 +304,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ce1bd5c250339d19@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20261208T173000
 DTEND;TZID=America/Chicago:20261208T193000
 SUMMARY:Nutcracker: Spacing Rehearsal Both Casts – Battle Scene (Mandat
@@ -328,8 +329,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:74b876a7ef2e144f@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20261209T180000
 DTEND;TZID=America/Chicago:20261209T194500
 SUMMARY:Nutcracker: Cast A Dress Rehearsal – ACT I Cast A (Mandatory 
@@ -386,8 +387,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:463c9a5e13bd40e0@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20261210T093000
 DTEND;TZID=America/Chicago:20261210T110000
 SUMMARY:Nutcracker: Cast A School Show @ 10:30 AM – ACT I Cast A (Party
@@ -445,8 +446,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f7521dad6b479129@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20261211T184500
 DTEND;TZID=America/Chicago:20261211T201500
 SUMMARY:Nutcracker: Cast A @ 7:30PM – ACT I Battle/Snow Cast A (Mandato
@@ -503,8 +504,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:75e9588757e05268@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20261213T134500
 DTEND;TZID=America/Chicago:20261213T151500
 SUMMARY:Nutcracker: Cast A @ 2:30 PM – ACT I Battle/Snow Cast A (Mandat

@@ -26,8 +26,8 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:49fddbad756bcb7e@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20260913T130000
 DTEND;TZID=America/Chicago:20260913T150000
 SUMMARY:Nutcracker: Party Children/Clara/Fritz (1st rehearsal – MANDATO
@@ -48,8 +48,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b4ae09d7865fe2ff@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20260920T130000
 DTEND;TZID=America/Chicago:20260920T150000
 SUMMARY:Nutcracker: Party Children/Clara/Fritz
@@ -69,19 +69,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:5e8e4cb1d531b8c5@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20260926T130000
 DTEND;TZID=America/Chicago:20260926T140000
 SUMMARY:Nutcracker: Party Children (Costume fitting – MANDATORY)
 LOCATION:Ballet Arkansas – Costume Shop
 DESCRIPTION:*** THIS DAY ***\nMANDATORY COSTUME FITTING for Party Childre
- n.\nIf this fitting is missed\, the backup fitting date is Fri. Oct. 2\,
-  4:30–6:30pm\, Ballet Arkansas – Costume Shop.\n\n*** STANDING RULES
-  ***\nAll Casts are called unless a cast is named.\nSUBJECT TO CHANGE 
- — the BA master schedule\, the weekly BA emails and the BA portal are 
- the official source. Master: https://docs.google.com/spreadsheets/d/1xWF
- CPfY5m0aK9d5dnxvALNre-6-N7Cl0kkw24rvm6cE/
+ n.\nAdditional fitting slot on the master: Fri. Oct. 2 4:30–6:30pm at 
+ Ballet Arkansas – Costume Shop (Fittings\, As Called).\n\n*** STANDING
+  RULES ***\nAll Casts are called unless a cast is named.\nSUBJECT TO CHA
+ NGE — the BA master schedule\, the weekly BA emails and the BA portal 
+ are the official source. Master: https://docs.google.com/spreadsheets/d/
+ 1xWFCPfY5m0aK9d5dnxvALNre-6-N7Cl0kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -89,20 +89,20 @@ DESCRIPTION:Nutcracker in 1 hour
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:d9a87de9b07b4860@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+UID:9d4c863e6666be31@nutcracker2026
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20260926T140000
 DTEND;TZID=America/Chicago:20260926T142000
-SUMMARY:Nutcracker: Clara/Fritz (Costume fitting – MANDATORY)
+SUMMARY:Nutcracker: Clara/Fritz/Prince (Costume fitting – MANDATORY)
 LOCATION:Ballet Arkansas – Costume Shop
-DESCRIPTION:*** THIS DAY ***\nMANDATORY COSTUME FITTING for Clara/Fritz.\
- nIf this fitting is missed\, the backup fitting date is Fri. Oct. 2\, 4:
- 30–6:30pm\, Ballet Arkansas – Costume Shop.\n\n*** STANDING RULES **
- *\nAll Casts are called unless a cast is named.\nSUBJECT TO CHANGE — t
- he BA master schedule\, the weekly BA emails and the BA portal are the o
- fficial source. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5
- m0aK9d5dnxvALNre-6-N7Cl0kkw24rvm6cE/
+DESCRIPTION:*** THIS DAY ***\nMANDATORY COSTUME FITTING for Clara/Fritz/P
+ rince.\nAdditional fitting slot on the master: Fri. Oct. 2 4:30–6:30pm
+  at Ballet Arkansas – Costume Shop (Fittings\, As Called).\n\n*** STAN
+ DING RULES ***\nAll Casts are called unless a cast is named.\nSUBJECT TO
+  CHANGE — the BA master schedule\, the weekly BA emails and the BA por
+ tal are the official source. Master: https://docs.google.com/spreadsheet
+ s/d/1xWFCPfY5m0aK9d5dnxvALNre-6-N7Cl0kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -111,8 +111,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:082e3fccf59d47c0@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20260927T130000
 DTEND;TZID=America/Chicago:20260927T150000
 SUMMARY:Nutcracker: Party Children/Clara/Fritz
@@ -131,20 +131,21 @@ DESCRIPTION:Nutcracker in 1 hour
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:d97e833d4905e949@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+UID:738a50ff084168a5@nutcracker2026
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20261002T163000
 DTEND;TZID=America/Chicago:20261002T183000
-SUMMARY:Nutcracker: Backup fitting date (Costume fitting – MANDATORY)
+SUMMARY:Nutcracker: Fittings\, As Called (Costume fitting – as called)
 LOCATION:Ballet Arkansas – Costume Shop
-DESCRIPTION:*** THIS DAY ***\nBACKUP FITTING DATE — only for dancers wh
- o missed their scheduled costume fitting. Not needed if your dancer has 
- already been fitted.\n\n*** STANDING RULES ***\nAll Casts are called unl
- ess a cast is named.\nSUBJECT TO CHANGE — the BA master schedule\, the
-  weekly BA emails and the BA portal are the official source. Master: htt
- ps://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d5dnxvALNre-6-N7Cl0kkw
- 24rvm6cE/
+DESCRIPTION:*** THIS DAY ***\nFITTINGS\, AS CALLED — Ballet Arkansas wi
+ ll contact the families it needs on this date. Not needed unless BA asks
+  your dancer to come. (Listed on the master as "Fittings\, As Called".)\
+ nOnly if Ballet Arkansas asks your dancer to come.\n\n*** STANDING RULES
+  ***\nAll Casts are called unless a cast is named.\nSUBJECT TO CHANGE 
+ — the BA master schedule\, the weekly BA emails and the BA portal are 
+ the official source. Master: https://docs.google.com/spreadsheets/d/1xWF
+ CPfY5m0aK9d5dnxvALNre-6-N7Cl0kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -153,8 +154,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ea5707ffa8fc8763@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20261004T130000
 DTEND;TZID=America/Chicago:20261004T150000
 SUMMARY:Nutcracker: Party Children/Clara/Fritz
@@ -174,8 +175,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:43441c4c985f73b8@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20261011T130000
 DTEND;TZID=America/Chicago:20261011T150000
 SUMMARY:Nutcracker: Party Children/Clara/Fritz
@@ -195,8 +196,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a70a1c7af86ffbb7@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20261018T130000
 DTEND;TZID=America/Chicago:20261018T150000
 SUMMARY:Nutcracker: Party Children/Clara/Fritz
@@ -216,8 +217,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3644ce1fdac88170@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20261101T130000
 DTEND;TZID=America/Chicago:20261101T150000
 SUMMARY:Nutcracker: Party Children/Clara/Fritz
@@ -237,8 +238,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d86ac03536941748@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20261108T130000
 DTEND;TZID=America/Chicago:20261108T150000
 SUMMARY:Nutcracker: Party Children/Clara/Fritz
@@ -258,8 +259,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d74e74f4c537b280@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20261115T143000
 DTEND;TZID=America/Chicago:20261115T160000
 SUMMARY:Nutcracker: Party Cast B
@@ -279,8 +280,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9a4006cf5ca6e334@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20261122T143000
 DTEND;TZID=America/Chicago:20261122T160000
 SUMMARY:Nutcracker: Party Cast B
@@ -300,8 +301,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:00a7dc125e67077b@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20261205T130000
 DTEND;TZID=America/Chicago:20261205T141500
 SUMMARY:Nutcracker: Party Cast B with Dross w/Company (Mandatory – w/ C
@@ -322,8 +323,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:269ddf41a282a1c3@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20261208T191500
 DTEND;TZID=America/Chicago:20261208T210000
 SUMMARY:Nutcracker: Spacing Rehearsal Both Casts – Party Scene (Mandato
@@ -347,8 +348,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:72564582f82e626d@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20261210T180000
 DTEND;TZID=America/Chicago:20261210T194500
 SUMMARY:Nutcracker: Cast B Dress Rehearsal – ACT I Cast B (Mandatory 
@@ -403,8 +404,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:01a0b20ec36284df@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20261211T093000
 DTEND;TZID=America/Chicago:20261211T110000
 SUMMARY:Nutcracker: Cast B School Show @ 10:30 AM – ACT I Cast B (Party
@@ -460,8 +461,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d74cbda836d1b90f@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20261212T133000
 DTEND;TZID=America/Chicago:20261212T151500
 SUMMARY:Nutcracker: Cast B @ 2:30 PM – ACT I Party Cast B (Mandatory 
@@ -516,8 +517,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e4b00364b066c543@nutcracker2026
-DTSTAMP:20260914T011642Z
-SEQUENCE:2026091401
+DTSTAMP:20260914T220717Z
+SEQUENCE:2026091422
 DTSTART;TZID=America/Chicago:20261212T183000
 DTEND;TZID=America/Chicago:20261212T201500
 SUMMARY:Nutcracker: Cast B @ 7:30PM – ACT I Party Cast B (Mandatory –
