@@ -26,19 +26,19 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:75167e770be883ba@nutcracker2026
-DTSTAMP:20260914T010516Z
+DTSTAMP:20260914T011642Z
 SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20260912T153000
 DTEND;TZID=America/Chicago:20260912T160000
 SUMMARY:Nutcracker: Coffee (Costume fitting – MANDATORY)
 LOCATION:Ballet Arkansas – Costume Shop
-DESCRIPTION:Sat. Sep. 12 · 3:30–4:00 · Ballet Arkansas – Costume Sh
- op\nMANDATORY COSTUME FITTING for Coffee.\nIf the fitting is missed\, th
- e backup fitting date is Fri. Oct. 2\, 4:30–6:30pm\, Ballet Arkansas 
- – Costume Shop.\nAll Casts are called unless a cast is named. SUBJECT 
- TO CHANGE — the BA master schedule\, the weekly BA emails and the BA p
- ortal are the official source. Master: https://docs.google.com/spreadshe
- ets/d/1xWFCPfY5m0aK9d5dnxvALNre-6-N7Cl0kkw24rvm6cE/
+DESCRIPTION:*** THIS DAY ***\nMANDATORY COSTUME FITTING for Coffee.\nIf t
+ his fitting is missed\, the backup fitting date is Fri. Oct. 2\, 4:30–
+ 6:30pm\, Ballet Arkansas – Costume Shop.\n\n*** STANDING RULES ***\nAl
+ l Casts are called unless a cast is named.\nSUBJECT TO CHANGE — the BA
+  master schedule\, the weekly BA emails and the BA portal are the offici
+ al source. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9
+ d5dnxvALNre-6-N7Cl0kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -47,19 +47,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cad6007ec0781802@nutcracker2026
-DTSTAMP:20260914T010516Z
+DTSTAMP:20260914T011642Z
 SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20260913T150000
 DTEND;TZID=America/Chicago:20260913T160000
 SUMMARY:Nutcracker: Coffee (1st rehearsal – MANDATORY)
 LOCATION:S&B II – Studio 1
-DESCRIPTION:Sun. Sep. 13 · 3:00–4:00 · S&B II – Studio 1\nMANDATORY
-  — this is the first rehearsal for Coffee. BA: Mandatory Rehearsals (1
- st Rehearsal\, Rehearsals after Thanksgiving and Production Week Rehears
- als and Performances).\nAll Casts are called unless a cast is named. SUB
- JECT TO CHANGE — the BA master schedule\, the weekly BA emails and the
-  BA portal are the official source. Master: https://docs.google.com/spre
- adsheets/d/1xWFCPfY5m0aK9d5dnxvALNre-6-N7Cl0kkw24rvm6cE/
+DESCRIPTION:*** THIS DAY ***\nMANDATORY — this is the first rehearsal f
+ or Coffee.\n\n*** STANDING RULES ***\nBA: Mandatory Rehearsals (1st Rehe
+ arsal\, Rehearsals after Thanksgiving and Production Week Rehearsals and
+  Performances).\nAll Casts are called unless a cast is named.\nSUBJECT T
+ O CHANGE — the BA master schedule\, the weekly BA emails and the BA po
+ rtal are the official source. Master: https://docs.google.com/spreadshee
+ ts/d/1xWFCPfY5m0aK9d5dnxvALNre-6-N7Cl0kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -68,19 +68,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0bb038ce54fe518f@nutcracker2026
-DTSTAMP:20260914T010516Z
+DTSTAMP:20260914T011642Z
 SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20260920T150000
 DTEND;TZID=America/Chicago:20260920T160000
 SUMMARY:Nutcracker: Coffee
 LOCATION:S&B II – Studio 1
-DESCRIPTION:Sun. Sep. 20 · 3:00–4:00 · S&B II – Studio 1\nRegular r
- ehearsal. BA: Regular Rehearsal - One regular rehearsal absence allowed 
- for Mice/Cherubs/Seraphs\; Two absences allowed for all other roles.\nAl
- l Casts are called unless a cast is named. SUBJECT TO CHANGE — the BA 
- master schedule\, the weekly BA emails and the BA portal are the officia
- l source. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d
- 5dnxvALNre-6-N7Cl0kkw24rvm6cE/
+DESCRIPTION:*** THIS DAY ***\nRegular rehearsal.\n\n*** STANDING RULES **
+ *\nBA: Regular Rehearsal - One regular rehearsal absence allowed for Mic
+ e/Cherubs/Seraphs\; Two absences allowed for all other roles.\nAll Casts
+  are called unless a cast is named.\nSUBJECT TO CHANGE — the BA master
+  schedule\, the weekly BA emails and the BA portal are the official sour
+ ce. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d5dnxvA
+ LNre-6-N7Cl0kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -89,19 +89,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d2627ef01d0dab4f@nutcracker2026
-DTSTAMP:20260914T010516Z
+DTSTAMP:20260914T011642Z
 SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20260927T150000
 DTEND;TZID=America/Chicago:20260927T160000
 SUMMARY:Nutcracker: Coffee
 LOCATION:S&B II – Studio 1
-DESCRIPTION:Sun. Sep. 27 · 3:00–4:00 · S&B II – Studio 1\nRegular r
- ehearsal. BA: Regular Rehearsal - One regular rehearsal absence allowed 
- for Mice/Cherubs/Seraphs\; Two absences allowed for all other roles.\nAl
- l Casts are called unless a cast is named. SUBJECT TO CHANGE — the BA 
- master schedule\, the weekly BA emails and the BA portal are the officia
- l source. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d
- 5dnxvALNre-6-N7Cl0kkw24rvm6cE/
+DESCRIPTION:*** THIS DAY ***\nRegular rehearsal.\n\n*** STANDING RULES **
+ *\nBA: Regular Rehearsal - One regular rehearsal absence allowed for Mic
+ e/Cherubs/Seraphs\; Two absences allowed for all other roles.\nAll Casts
+  are called unless a cast is named.\nSUBJECT TO CHANGE — the BA master
+  schedule\, the weekly BA emails and the BA portal are the official sour
+ ce. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d5dnxvA
+ LNre-6-N7Cl0kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -110,19 +110,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0ff14bbc49f6d694@nutcracker2026
-DTSTAMP:20260914T010516Z
+DTSTAMP:20260914T011642Z
 SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20261002T163000
 DTEND;TZID=America/Chicago:20261002T183000
 SUMMARY:Nutcracker: Backup fitting date (Costume fitting – MANDATORY)
 LOCATION:Ballet Arkansas – Costume Shop
-DESCRIPTION:Fri. Oct. 2 · 4:30–6:30pm · Ballet Arkansas – Costume S
- hop\nBACKUP FITTING DATE — only for dancers who missed their scheduled
-  costume fitting. Not needed if your dancer has already been fitted.\nAl
- l Casts are called unless a cast is named. SUBJECT TO CHANGE — the BA 
- master schedule\, the weekly BA emails and the BA portal are the officia
- l source. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d
- 5dnxvALNre-6-N7Cl0kkw24rvm6cE/
+DESCRIPTION:*** THIS DAY ***\nBACKUP FITTING DATE — only for dancers wh
+ o missed their scheduled costume fitting. Not needed if your dancer has 
+ already been fitted.\n\n*** STANDING RULES ***\nAll Casts are called unl
+ ess a cast is named.\nSUBJECT TO CHANGE — the BA master schedule\, the
+  weekly BA emails and the BA portal are the official source. Master: htt
+ ps://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d5dnxvALNre-6-N7Cl0kkw
+ 24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -131,19 +131,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:942adb99d656f19a@nutcracker2026
-DTSTAMP:20260914T010516Z
+DTSTAMP:20260914T011642Z
 SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20261004T150000
 DTEND;TZID=America/Chicago:20261004T160000
 SUMMARY:Nutcracker: Coffee
 LOCATION:S&B II – Studio 1
-DESCRIPTION:Sun. Oct. 4 · 3:00–4:00 · S&B II – Studio 1\nRegular re
- hearsal. BA: Regular Rehearsal - One regular rehearsal absence allowed f
- or Mice/Cherubs/Seraphs\; Two absences allowed for all other roles.\nAll
-  Casts are called unless a cast is named. SUBJECT TO CHANGE — the BA m
- aster schedule\, the weekly BA emails and the BA portal are the official
-  source. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d5
- dnxvALNre-6-N7Cl0kkw24rvm6cE/
+DESCRIPTION:*** THIS DAY ***\nRegular rehearsal.\n\n*** STANDING RULES **
+ *\nBA: Regular Rehearsal - One regular rehearsal absence allowed for Mic
+ e/Cherubs/Seraphs\; Two absences allowed for all other roles.\nAll Casts
+  are called unless a cast is named.\nSUBJECT TO CHANGE — the BA master
+  schedule\, the weekly BA emails and the BA portal are the official sour
+ ce. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d5dnxvA
+ LNre-6-N7Cl0kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -152,19 +152,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e789dbb5168d6332@nutcracker2026
-DTSTAMP:20260914T010516Z
+DTSTAMP:20260914T011642Z
 SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20261011T150000
 DTEND;TZID=America/Chicago:20261011T160000
 SUMMARY:Nutcracker: Coffee
 LOCATION:S&B II – Studio 1
-DESCRIPTION:Sun. Oct. 11 · 3:00–4:00 · S&B II – Studio 1\nRegular r
- ehearsal. BA: Regular Rehearsal - One regular rehearsal absence allowed 
- for Mice/Cherubs/Seraphs\; Two absences allowed for all other roles.\nAl
- l Casts are called unless a cast is named. SUBJECT TO CHANGE — the BA 
- master schedule\, the weekly BA emails and the BA portal are the officia
- l source. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d
- 5dnxvALNre-6-N7Cl0kkw24rvm6cE/
+DESCRIPTION:*** THIS DAY ***\nRegular rehearsal.\n\n*** STANDING RULES **
+ *\nBA: Regular Rehearsal - One regular rehearsal absence allowed for Mic
+ e/Cherubs/Seraphs\; Two absences allowed for all other roles.\nAll Casts
+  are called unless a cast is named.\nSUBJECT TO CHANGE — the BA master
+  schedule\, the weekly BA emails and the BA portal are the official sour
+ ce. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d5dnxvA
+ LNre-6-N7Cl0kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -173,19 +173,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:4ee26a1ea66e4983@nutcracker2026
-DTSTAMP:20260914T010516Z
+DTSTAMP:20260914T011642Z
 SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20261018T150000
 DTEND;TZID=America/Chicago:20261018T160000
 SUMMARY:Nutcracker: Coffee
 LOCATION:S&B II – Studio 1
-DESCRIPTION:Sun. Oct. 18 · 3:00–4:00 · S&B II – Studio 1\nRegular r
- ehearsal. BA: Regular Rehearsal - One regular rehearsal absence allowed 
- for Mice/Cherubs/Seraphs\; Two absences allowed for all other roles.\nAl
- l Casts are called unless a cast is named. SUBJECT TO CHANGE — the BA 
- master schedule\, the weekly BA emails and the BA portal are the officia
- l source. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d
- 5dnxvALNre-6-N7Cl0kkw24rvm6cE/
+DESCRIPTION:*** THIS DAY ***\nRegular rehearsal.\n\n*** STANDING RULES **
+ *\nBA: Regular Rehearsal - One regular rehearsal absence allowed for Mic
+ e/Cherubs/Seraphs\; Two absences allowed for all other roles.\nAll Casts
+  are called unless a cast is named.\nSUBJECT TO CHANGE — the BA master
+  schedule\, the weekly BA emails and the BA portal are the official sour
+ ce. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d5dnxvA
+ LNre-6-N7Cl0kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -194,19 +194,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d87d1588542370d1@nutcracker2026
-DTSTAMP:20260914T010516Z
+DTSTAMP:20260914T011642Z
 SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20261101T150000
 DTEND;TZID=America/Chicago:20261101T160000
 SUMMARY:Nutcracker: Coffee
 LOCATION:S&B II – Studio 1
-DESCRIPTION:Sun. Nov. 1 · 3:00–4:00 · S&B II – Studio 1\nRegular re
- hearsal. BA: Regular Rehearsal - One regular rehearsal absence allowed f
- or Mice/Cherubs/Seraphs\; Two absences allowed for all other roles.\nAll
-  Casts are called unless a cast is named. SUBJECT TO CHANGE — the BA m
- aster schedule\, the weekly BA emails and the BA portal are the official
-  source. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d5
- dnxvALNre-6-N7Cl0kkw24rvm6cE/
+DESCRIPTION:*** THIS DAY ***\nRegular rehearsal.\n\n*** STANDING RULES **
+ *\nBA: Regular Rehearsal - One regular rehearsal absence allowed for Mic
+ e/Cherubs/Seraphs\; Two absences allowed for all other roles.\nAll Casts
+  are called unless a cast is named.\nSUBJECT TO CHANGE — the BA master
+  schedule\, the weekly BA emails and the BA portal are the official sour
+ ce. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d5dnxvA
+ LNre-6-N7Cl0kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -215,19 +215,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:26720596dd64a97b@nutcracker2026
-DTSTAMP:20260914T010516Z
+DTSTAMP:20260914T011642Z
 SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20261108T150000
 DTEND;TZID=America/Chicago:20261108T160000
 SUMMARY:Nutcracker: Coffee
 LOCATION:S&B II – Studio 1
-DESCRIPTION:Sun. Nov. 8 · 3:00–4:00 · S&B II – Studio 1\nRegular re
- hearsal. BA: Regular Rehearsal - One regular rehearsal absence allowed f
- or Mice/Cherubs/Seraphs\; Two absences allowed for all other roles.\nAll
-  Casts are called unless a cast is named. SUBJECT TO CHANGE — the BA m
- aster schedule\, the weekly BA emails and the BA portal are the official
-  source. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d5
- dnxvALNre-6-N7Cl0kkw24rvm6cE/
+DESCRIPTION:*** THIS DAY ***\nRegular rehearsal.\n\n*** STANDING RULES **
+ *\nBA: Regular Rehearsal - One regular rehearsal absence allowed for Mic
+ e/Cherubs/Seraphs\; Two absences allowed for all other roles.\nAll Casts
+  are called unless a cast is named.\nSUBJECT TO CHANGE — the BA master
+  schedule\, the weekly BA emails and the BA portal are the official sour
+ ce. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d5dnxvA
+ LNre-6-N7Cl0kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -236,19 +236,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a75cbcbf81db5e52@nutcracker2026
-DTSTAMP:20260914T010516Z
+DTSTAMP:20260914T011642Z
 SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20261115T150000
 DTEND;TZID=America/Chicago:20261115T160000
 SUMMARY:Nutcracker: Coffee
 LOCATION:S&B II – Studio 1
-DESCRIPTION:Sun. Nov. 15 · 3:00–4:00 · S&B II – Studio 1\nRegular r
- ehearsal. BA: Regular Rehearsal - One regular rehearsal absence allowed 
- for Mice/Cherubs/Seraphs\; Two absences allowed for all other roles.\nAl
- l Casts are called unless a cast is named. SUBJECT TO CHANGE — the BA 
- master schedule\, the weekly BA emails and the BA portal are the officia
- l source. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d
- 5dnxvALNre-6-N7Cl0kkw24rvm6cE/
+DESCRIPTION:*** THIS DAY ***\nRegular rehearsal.\n\n*** STANDING RULES **
+ *\nBA: Regular Rehearsal - One regular rehearsal absence allowed for Mic
+ e/Cherubs/Seraphs\; Two absences allowed for all other roles.\nAll Casts
+  are called unless a cast is named.\nSUBJECT TO CHANGE — the BA master
+  schedule\, the weekly BA emails and the BA portal are the official sour
+ ce. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d5dnxvA
+ LNre-6-N7Cl0kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -257,19 +257,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e46f6a054ab314a0@nutcracker2026
-DTSTAMP:20260914T010516Z
+DTSTAMP:20260914T011642Z
 SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20261122T150000
 DTEND;TZID=America/Chicago:20261122T160000
 SUMMARY:Nutcracker: Coffee
 LOCATION:S&B II – Studio 1
-DESCRIPTION:Sun. Nov. 22 · 3:00–4:00 · S&B II – Studio 1\nRegular r
- ehearsal. BA: Regular Rehearsal - One regular rehearsal absence allowed 
- for Mice/Cherubs/Seraphs\; Two absences allowed for all other roles.\nAl
- l Casts are called unless a cast is named. SUBJECT TO CHANGE — the BA 
- master schedule\, the weekly BA emails and the BA portal are the officia
- l source. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d
- 5dnxvALNre-6-N7Cl0kkw24rvm6cE/
+DESCRIPTION:*** THIS DAY ***\nRegular rehearsal.\n\n*** STANDING RULES **
+ *\nBA: Regular Rehearsal - One regular rehearsal absence allowed for Mic
+ e/Cherubs/Seraphs\; Two absences allowed for all other roles.\nAll Casts
+  are called unless a cast is named.\nSUBJECT TO CHANGE — the BA master
+  schedule\, the weekly BA emails and the BA portal are the official sour
+ ce. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d5dnxvA
+ LNre-6-N7Cl0kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -278,19 +278,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ce1a98b1a5b30fb9@nutcracker2026
-DTSTAMP:20260914T010516Z
+DTSTAMP:20260914T011642Z
 SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20261205T150000
 DTEND;TZID=America/Chicago:20261205T160000
 SUMMARY:Nutcracker: Coffee (Mandatory – w/ Company)
 LOCATION:S&B II – Studio 1
-DESCRIPTION:Sat. Dec. 5 · 3:00–4:00 · S&B II – Studio 1\nMANDATORY.
-  BA: Mandatory Rehearsals (1st Rehearsal\, Rehearsals after Thanksgiving
-  and Production Week Rehearsals and Performances).\nAll Casts are called
-  unless a cast is named. SUBJECT TO CHANGE — the BA master schedule\, 
- the weekly BA emails and the BA portal are the official source. Master: 
- https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d5dnxvALNre-6-N7Cl0
- kkw24rvm6cE/
+DESCRIPTION:*** THIS DAY ***\nMANDATORY rehearsal with the Company.\n\n**
+ * STANDING RULES ***\nBA: Mandatory Rehearsals (1st Rehearsal\, Rehearsa
+ ls after Thanksgiving and Production Week Rehearsals and Performances).\
+ nAll Casts are called unless a cast is named.\nSUBJECT TO CHANGE — the
+  BA master schedule\, the weekly BA emails and the BA portal are the off
+ icial source. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0
+ aK9d5dnxvALNre-6-N7Cl0kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -299,22 +299,23 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:edda37ae7a78e64c@nutcracker2026
-DTSTAMP:20260914T010516Z
+DTSTAMP:20260914T011642Z
 SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20261207T174500
 DTEND;TZID=America/Chicago:20261207T191500
 SUMMARY:Nutcracker: Spacing Rehearsal Both Casts – Coffee\, Tea\, Candy
   Cane\, Hot Chocolate (Mandatory – Production Week)
 LOCATION:Robinson Center
-DESCRIPTION:Mon. Dec. 7 · Call 5:45 PM · 6:00 PM–7:15 PM · Robinson 
- Center\nMANDATORY — production week. CALL TIME 5:45 PM: dancers must b
- e checked in and backstage by then\, so arrive by 5:30 PM. BA: Call Time
-  is the time dancers should be check-in and backstage - Arrive 15 minute
- s before Call Time.\nNo Costumes\, Hair or Makeup.\nAll Casts are called
-  unless a cast is named. SUBJECT TO CHANGE — the BA master schedule\, 
- the weekly BA emails and the BA portal are the official source. Master: 
- https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d5dnxvALNre-6-N7Cl0
- kkw24rvm6cE/
+DESCRIPTION:*** THIS DAY ***\nCALL TIME 5:45 PM — be checked in and bac
+ kstage by then. ARRIVE BY 5:30 PM.\nOn stage: 6:00 PM–7:15 PM.\nNo Cos
+ tumes\, Hair or Makeup.\nMANDATORY — production week.\n\n*** STANDING 
+ RULES ***\nBA: Call Time is the time dancers should be check-in and back
+ stage - Arrive 15 minutes before Call Time.\nBA: Mandatory Rehearsals (1
+ st Rehearsal\, Rehearsals after Thanksgiving and Production Week Rehears
+ als and Performances).\nAll Casts are called unless a cast is named.\nSU
+ BJECT TO CHANGE — the BA master schedule\, the weekly BA emails and th
+ e BA portal are the official source. Master: https://docs.google.com/spr
+ eadsheets/d/1xWFCPfY5m0aK9d5dnxvALNre-6-N7Cl0kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -323,53 +324,54 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3aa2fab226665028@nutcracker2026
-DTSTAMP:20260914T010516Z
+DTSTAMP:20260914T011642Z
 SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20261210T193000
 DTEND;TZID=America/Chicago:20261210T205000
 SUMMARY:Nutcracker: Cast B Dress Rehearsal – ACT II Cast B (Mandatory 
  – Production Week)
 LOCATION:Robinson Center
-DESCRIPTION:Thu. Dec. 10 · Call 7:30 PM · 8:10 PM–8:50 PM · Robinson
-  Center\nMANDATORY — production week. CALL TIME 7:30 PM: dancers must 
- be checked in and backstage by then\, so arrive by 7:15 PM. BA: Call Tim
- e is the time dancers should be check-in and backstage - Arrive 15 minut
- es before Call Time.\nACT II Dress Run\; In Performance Costumes\, Hair 
- and Makeup.\nAll Casts are called unless a cast is named. SUBJECT TO CHA
- NGE — the BA master schedule\, the weekly BA emails and the BA portal 
- are the official source. Master: https://docs.google.com/spreadsheets/d/
- 1xWFCPfY5m0aK9d5dnxvALNre-6-N7Cl0kkw24rvm6cE/\n\nCOSTUME / HAIR / MAKEUP
-  for Coffee: Arabian Coffee — Costume (you provide): Flesh-tone Camiso
- le Leotard\, No tights\; Shoes: Flesh-tone Ballet Shoes\; Makeup: Full S
- tage Makeup - Mascara Only OK\; Hair: High Bun\, No Part\nFull Stage Mak
- eup Instruction Sheet:\n•  Apply foundation and powder matching ski
- ntone\n•  Light skin tone eye shadow over entire eye\n•  Dark 
- brown eye shadow over crease\n•  Medium brown eye shadow blended ov
- er brown\n•  Black fake eyelashes (note: apply mascara to own lashe
- s before application of fake lashes)\n•  Apply eyeliner after lashe
- s dry\n•  Blush on the cheeks (be sure to apply plenty so dancer do
- esn’t look washed out in the stage lights)\n•  Brown or tan on co
- ntour cheekbones\, hairline\n•  Use a brow pencil (or eyeshadow) to
-  darken the eyebrows\n•  Red or Dark Red Lipstick\nDancers of Color
-  may wear flesh tone tights and flesh tone ballet shoes.\nCostume Care G
- uidelines:\n•  Handle costume pieces with care while changing to pr
- event damage to delicate fabrics\n•  Promptly notify Ballet Arkansa
- s in the event of costume damage at the point of discovery\, no matter h
- ow significant\n•  Never throw costumes or accessories on the floor
- \, or hang costumes by their elastic straps\n•  Refrain from sittin
- g on the floor while in costume\n•  Do not attempt to alter\, mend\
- , clean\, or launder any costume or accessory\n•  Never apply stage
-  make-up while in costume and shall take great care to refrain from smud
- ging make-up on costume during its removal\n•  Refrain from the use
-  of spray perfume or cologne while in costume\n•  Never wear any ga
- rment not assigned to cast member\n•  Do not handle or consume food
-  or beverage while in costume\, with the exception of water\n•  Do 
- not remove costumes from their assigned dressing rooms or from the theat
- er\n•  Remove all bobby pins used to secure head pieces and wigs fo
- llowing their use\n•  Return all headpieces to their assigned bags\
- n•  Comply fully with any and all updates to Ballet Arkansas’ war
- drobe policies\n•  Do not pack markers\, paints\, colored drinks or
-  anything that may damage or stain costumes.
+DESCRIPTION:*** THIS DAY ***\nCALL TIME 7:30 PM — be checked in and bac
+ kstage by then. ARRIVE BY 7:15 PM.\nOn stage: 8:10 PM–8:50 PM.\nACT II
+  Dress Run\; In Performance Costumes\, Hair and Makeup.\nMANDATORY — p
+ roduction week.\n\n*** STANDING RULES ***\nBA: Call Time is the time dan
+ cers should be check-in and backstage - Arrive 15 minutes before Call Ti
+ me.\nBA: Mandatory Rehearsals (1st Rehearsal\, Rehearsals after Thanksgi
+ ving and Production Week Rehearsals and Performances).\nAll Casts are ca
+ lled unless a cast is named.\nSUBJECT TO CHANGE — the BA master schedu
+ le\, the weekly BA emails and the BA portal are the official source. Mas
+ ter: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d5dnxvALNre-6-
+ N7Cl0kkw24rvm6cE/\n\n*** COSTUME / HAIR / MAKEUP — Coffee ***\nArabian
+  Coffee — Costume (you provide): Flesh-tone Camisole Leotard\, No tigh
+ ts\; Shoes: Flesh-tone Ballet Shoes\; Makeup: Full Stage Makeup - Mascar
+ a Only OK\; Hair: High Bun\, No Part\nFull Stage Makeup Instruction Shee
+ t:\n• Apply foundation and powder matching skintone\n• Light skin to
+ ne eye shadow over entire eye\n• Dark brown eye shadow over crease\n
+ • Medium brown eye shadow blended over brown\n• Black fake eyelashes
+  (note: apply mascara to own lashes before application of fake lashes)\n
+ • Apply eyeliner after lashes dry\n• Blush on the cheeks (be sure to
+  apply plenty so dancer doesn’t look washed out in the stage lights)\n
+ • Brown or tan on contour cheekbones\, hairline\n• Use a brow pencil
+  (or eyeshadow) to darken the eyebrows\n• Red or Dark Red Lipstick\nDa
+ ncers of Color may wear flesh tone tights and flesh tone ballet shoes.\n
+ Costume Care Guidelines:\n• Handle costume pieces with care while chan
+ ging to prevent damage to delicate fabrics\n• Promptly notify Ballet A
+ rkansas in the event of costume damage at the point of discovery\, no ma
+ tter how significant\n• Never throw costumes or accessories on the flo
+ or\, or hang costumes by their elastic straps\n• Refrain from sitting 
+ on the floor while in costume\n• Do not attempt to alter\, mend\, clea
+ n\, or launder any costume or accessory\n• Never apply stage make-up w
+ hile in costume and shall take great care to refrain from smudging make-
+ up on costume during its removal\n• Refrain from the use of spray perf
+ ume or cologne while in costume\n• Never wear any garment not assigned
+  to cast member\n• Do not handle or consume food or beverage while in 
+ costume\, with the exception of water\n• Do not remove costumes from t
+ heir assigned dressing rooms or from the theater\n• Remove all bobby p
+ ins used to secure head pieces and wigs following their use\n• Return 
+ all headpieces to their assigned bags\n• Comply fully with any and all
+  updates to Ballet Arkansas’ wardrobe policies\n• Do not pack marker
+ s\, paints\, colored drinks or anything that may damage or stain costume
+ s.
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -378,51 +380,52 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d571af6c7ef4d3eb@nutcracker2026
-DTSTAMP:20260914T010516Z
+DTSTAMP:20260914T011642Z
 SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20261210T210000
 DTEND;TZID=America/Chicago:20261210T213000
 SUMMARY:Nutcracker: Cast B Dress Rehearsal – ACT II Notes (Mandatory 
  – Production Week)
 LOCATION:Robinson Center
-DESCRIPTION:Thu. Dec. 10 · 9:00 PM–9:30 PM · Robinson Center\nMANDATO
- RY — production week. BA: Call Time is the time dancers should be chec
- k-in and backstage - Arrive 15 minutes before Call Time.\nIn Performance
-  Costumes\, Hair and Makeup.\nAll Casts are called unless a cast is name
- d. SUBJECT TO CHANGE — the BA master schedule\, the weekly BA emails a
- nd the BA portal are the official source. Master: https://docs.google.co
- m/spreadsheets/d/1xWFCPfY5m0aK9d5dnxvALNre-6-N7Cl0kkw24rvm6cE/\n\nCOSTUM
- E / HAIR / MAKEUP for Coffee: Arabian Coffee — Costume (you provide): 
- Flesh-tone Camisole Leotard\, No tights\; Shoes: Flesh-tone Ballet Shoes
- \; Makeup: Full Stage Makeup - Mascara Only OK\; Hair: High Bun\, No Par
- t\nFull Stage Makeup Instruction Sheet:\n•  Apply foundation and po
- wder matching skintone\n•  Light skin tone eye shadow over entire e
- ye\n•  Dark brown eye shadow over crease\n•  Medium brown eye 
- shadow blended over brown\n•  Black fake eyelashes (note: apply mas
- cara to own lashes before application of fake lashes)\n•  Apply eye
- liner after lashes dry\n•  Blush on the cheeks (be sure to apply pl
- enty so dancer doesn’t look washed out in the stage lights)\n•  B
- rown or tan on contour cheekbones\, hairline\n•  Use a brow pencil 
- (or eyeshadow) to darken the eyebrows\n•  Red or Dark Red Lipstick\
- nDancers of Color may wear flesh tone tights and flesh tone ballet shoes
- .\nCostume Care Guidelines:\n•  Handle costume pieces with care whi
- le changing to prevent damage to delicate fabrics\n•  Promptly noti
- fy Ballet Arkansas in the event of costume damage at the point of discov
- ery\, no matter how significant\n•  Never throw costumes or accesso
- ries on the floor\, or hang costumes by their elastic straps\n•  Re
- frain from sitting on the floor while in costume\n•  Do not attempt
-  to alter\, mend\, clean\, or launder any costume or accessory\n•  
- Never apply stage make-up while in costume and shall take great care to 
- refrain from smudging make-up on costume during its removal\n•  Ref
- rain from the use of spray perfume or cologne while in costume\n•  
- Never wear any garment not assigned to cast member\n•  Do not handl
- e or consume food or beverage while in costume\, with the exception of w
- ater\n•  Do not remove costumes from their assigned dressing rooms 
- or from the theater\n•  Remove all bobby pins used to secure head p
- ieces and wigs following their use\n•  Return all headpieces to the
- ir assigned bags\n•  Comply fully with any and all updates to Balle
- t Arkansas’ wardrobe policies\n•  Do not pack markers\, paints\, 
- colored drinks or anything that may damage or stain costumes.
+DESCRIPTION:*** THIS DAY ***\nTime: 9:00 PM–9:30 PM.\nIn Performance Co
+ stumes\, Hair and Makeup.\nMANDATORY — production week.\n\n*** STANDIN
+ G RULES ***\nBA: Call Time is the time dancers should be check-in and ba
+ ckstage - Arrive 15 minutes before Call Time.\nBA: Mandatory Rehearsals 
+ (1st Rehearsal\, Rehearsals after Thanksgiving and Production Week Rehea
+ rsals and Performances).\nAll Casts are called unless a cast is named.\n
+ SUBJECT TO CHANGE — the BA master schedule\, the weekly BA emails and 
+ the BA portal are the official source. Master: https://docs.google.com/s
+ preadsheets/d/1xWFCPfY5m0aK9d5dnxvALNre-6-N7Cl0kkw24rvm6cE/\n\n*** COSTU
+ ME / HAIR / MAKEUP — Coffee ***\nArabian Coffee — Costume (you provi
+ de): Flesh-tone Camisole Leotard\, No tights\; Shoes: Flesh-tone Ballet 
+ Shoes\; Makeup: Full Stage Makeup - Mascara Only OK\; Hair: High Bun\, N
+ o Part\nFull Stage Makeup Instruction Sheet:\n• Apply foundation and p
+ owder matching skintone\n• Light skin tone eye shadow over entire eye\
+ n• Dark brown eye shadow over crease\n• Medium brown eye shadow blen
+ ded over brown\n• Black fake eyelashes (note: apply mascara to own las
+ hes before application of fake lashes)\n• Apply eyeliner after lashes 
+ dry\n• Blush on the cheeks (be sure to apply plenty so dancer doesn’
+ t look washed out in the stage lights)\n• Brown or tan on contour chee
+ kbones\, hairline\n• Use a brow pencil (or eyeshadow) to darken the ey
+ ebrows\n• Red or Dark Red Lipstick\nDancers of Color may wear flesh to
+ ne tights and flesh tone ballet shoes.\nCostume Care Guidelines:\n• Ha
+ ndle costume pieces with care while changing to prevent damage to delica
+ te fabrics\n• Promptly notify Ballet Arkansas in the event of costume 
+ damage at the point of discovery\, no matter how significant\n• Never 
+ throw costumes or accessories on the floor\, or hang costumes by their e
+ lastic straps\n• Refrain from sitting on the floor while in costume\n
+ • Do not attempt to alter\, mend\, clean\, or launder any costume or a
+ ccessory\n• Never apply stage make-up while in costume and shall take 
+ great care to refrain from smudging make-up on costume during its remova
+ l\n• Refrain from the use of spray perfume or cologne while in costume
+ \n• Never wear any garment not assigned to cast member\n• Do not han
+ dle or consume food or beverage while in costume\, with the exception of
+  water\n• Do not remove costumes from their assigned dressing rooms or
+  from the theater\n• Remove all bobby pins used to secure head pieces 
+ and wigs following their use\n• Return all headpieces to their assigne
+ d bags\n• Comply fully with any and all updates to Ballet Arkansas’ 
+ wardrobe policies\n• Do not pack markers\, paints\, colored drinks or 
+ anything that may damage or stain costumes.
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -431,53 +434,53 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:7758c57644cc2d7e@nutcracker2026
-DTSTAMP:20260914T010516Z
+DTSTAMP:20260914T011642Z
 SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20261212T144500
 DTEND;TZID=America/Chicago:20261212T162000
 SUMMARY:Nutcracker: Cast B @ 2:30 PM – ACT II Cast B (Mandatory – Pro
  duction Week)
 LOCATION:Robinson Center
-DESCRIPTION:Sat. Dec. 12 · Call 2:45 PM · 3:30 PM–4:20 PM · Robinson
-  Center\nMANDATORY — production week. CALL TIME 2:45 PM: dancers must 
- be checked in and backstage by then\, so arrive by 2:30 PM. BA: Call Tim
- e is the time dancers should be check-in and backstage - Arrive 15 minut
- es before Call Time.\nACT II Cast B Performance.\nAll Casts are called u
- nless a cast is named. SUBJECT TO CHANGE — the BA master schedule\, th
- e weekly BA emails and the BA portal are the official source. Master: ht
- tps://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d5dnxvALNre-6-N7Cl0kk
- w24rvm6cE/\n\nCOSTUME / HAIR / MAKEUP for Coffee: Arabian Coffee — Cos
- tume (you provide): Flesh-tone Camisole Leotard\, No tights\; Shoes: Fle
- sh-tone Ballet Shoes\; Makeup: Full Stage Makeup - Mascara Only OK\; Hai
- r: High Bun\, No Part\nFull Stage Makeup Instruction Sheet:\n•  App
- ly foundation and powder matching skintone\n•  Light skin tone eye 
- shadow over entire eye\n•  Dark brown eye shadow over crease\n• 
-  Medium brown eye shadow blended over brown\n•  Black fake eyela
- shes (note: apply mascara to own lashes before application of fake lashe
- s)\n•  Apply eyeliner after lashes dry\n•  Blush on the cheeks
-  (be sure to apply plenty so dancer doesn’t look washed out in the sta
- ge lights)\n•  Brown or tan on contour cheekbones\, hairline\n• 
-  Use a brow pencil (or eyeshadow) to darken the eyebrows\n•  Red
-  or Dark Red Lipstick\nDancers of Color may wear flesh tone tights and f
- lesh tone ballet shoes.\nCostume Care Guidelines:\n•  Handle costum
- e pieces with care while changing to prevent damage to delicate fabrics\
- n•  Promptly notify Ballet Arkansas in the event of costume damage 
- at the point of discovery\, no matter how significant\n•  Never thr
- ow costumes or accessories on the floor\, or hang costumes by their elas
- tic straps\n•  Refrain from sitting on the floor while in costume\n
- •  Do not attempt to alter\, mend\, clean\, or launder any costume 
- or accessory\n•  Never apply stage make-up while in costume and sha
- ll take great care to refrain from smudging make-up on costume during it
- s removal\n•  Refrain from the use of spray perfume or cologne whil
- e in costume\n•  Never wear any garment not assigned to cast member
- \n•  Do not handle or consume food or beverage while in costume\, w
- ith the exception of water\n•  Do not remove costumes from their as
- signed dressing rooms or from the theater\n•  Remove all bobby pins
-  used to secure head pieces and wigs following their use\n•  Return
-  all headpieces to their assigned bags\n•  Comply fully with any an
- d all updates to Ballet Arkansas’ wardrobe policies\n•  Do not pa
- ck markers\, paints\, colored drinks or anything that may damage or stai
- n costumes.
+DESCRIPTION:*** THIS DAY ***\nCALL TIME 2:45 PM — be checked in and bac
+ kstage by then. ARRIVE BY 2:30 PM.\nOn stage: 3:30 PM–4:20 PM.\nACT II
+  Cast B Performance.\nMANDATORY — production week.\n\n*** STANDING RUL
+ ES ***\nBA: Call Time is the time dancers should be check-in and backsta
+ ge - Arrive 15 minutes before Call Time.\nBA: Mandatory Rehearsals (1st 
+ Rehearsal\, Rehearsals after Thanksgiving and Production Week Rehearsals
+  and Performances).\nAll Casts are called unless a cast is named.\nSUBJE
+ CT TO CHANGE — the BA master schedule\, the weekly BA emails and the B
+ A portal are the official source. Master: https://docs.google.com/spread
+ sheets/d/1xWFCPfY5m0aK9d5dnxvALNre-6-N7Cl0kkw24rvm6cE/\n\n*** COSTUME / 
+ HAIR / MAKEUP — Coffee ***\nArabian Coffee — Costume (you provide): 
+ Flesh-tone Camisole Leotard\, No tights\; Shoes: Flesh-tone Ballet Shoes
+ \; Makeup: Full Stage Makeup - Mascara Only OK\; Hair: High Bun\, No Par
+ t\nFull Stage Makeup Instruction Sheet:\n• Apply foundation and powder
+  matching skintone\n• Light skin tone eye shadow over entire eye\n• 
+ Dark brown eye shadow over crease\n• Medium brown eye shadow blended o
+ ver brown\n• Black fake eyelashes (note: apply mascara to own lashes b
+ efore application of fake lashes)\n• Apply eyeliner after lashes dry\n
+ • Blush on the cheeks (be sure to apply plenty so dancer doesn’t loo
+ k washed out in the stage lights)\n• Brown or tan on contour cheekbone
+ s\, hairline\n• Use a brow pencil (or eyeshadow) to darken the eyebrow
+ s\n• Red or Dark Red Lipstick\nDancers of Color may wear flesh tone ti
+ ghts and flesh tone ballet shoes.\nCostume Care Guidelines:\n• Handle 
+ costume pieces with care while changing to prevent damage to delicate fa
+ brics\n• Promptly notify Ballet Arkansas in the event of costume damag
+ e at the point of discovery\, no matter how significant\n• Never throw
+  costumes or accessories on the floor\, or hang costumes by their elasti
+ c straps\n• Refrain from sitting on the floor while in costume\n• Do
+  not attempt to alter\, mend\, clean\, or launder any costume or accesso
+ ry\n• Never apply stage make-up while in costume and shall take great 
+ care to refrain from smudging make-up on costume during its removal\n•
+  Refrain from the use of spray perfume or cologne while in costume\n• 
+ Never wear any garment not assigned to cast member\n• Do not handle or
+  consume food or beverage while in costume\, with the exception of water
+ \n• Do not remove costumes from their assigned dressing rooms or from 
+ the theater\n• Remove all bobby pins used to secure head pieces and wi
+ gs following their use\n• Return all headpieces to their assigned bags
+ \n• Comply fully with any and all updates to Ballet Arkansas’ wardro
+ be policies\n• Do not pack markers\, paints\, colored drinks or anythi
+ ng that may damage or stain costumes.
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -486,53 +489,53 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:46b0617fdeebd3e1@nutcracker2026
-DTSTAMP:20260914T010516Z
+DTSTAMP:20260914T011642Z
 SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20261212T194500
 DTEND;TZID=America/Chicago:20261212T212000
 SUMMARY:Nutcracker: Cast B @ 7:30PM – ACT II Cast B (Mandatory – Prod
  uction Week)
 LOCATION:Robinson Center
-DESCRIPTION:Sat. Dec. 12 · Call 7:45 PM · 8:30 PM–9:20 PM · Robinson
-  Center\nMANDATORY — production week. CALL TIME 7:45 PM: dancers must 
- be checked in and backstage by then\, so arrive by 7:30 PM. BA: Call Tim
- e is the time dancers should be check-in and backstage - Arrive 15 minut
- es before Call Time.\nACT II Cast B Performance.\nAll Casts are called u
- nless a cast is named. SUBJECT TO CHANGE — the BA master schedule\, th
- e weekly BA emails and the BA portal are the official source. Master: ht
- tps://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d5dnxvALNre-6-N7Cl0kk
- w24rvm6cE/\n\nCOSTUME / HAIR / MAKEUP for Coffee: Arabian Coffee — Cos
- tume (you provide): Flesh-tone Camisole Leotard\, No tights\; Shoes: Fle
- sh-tone Ballet Shoes\; Makeup: Full Stage Makeup - Mascara Only OK\; Hai
- r: High Bun\, No Part\nFull Stage Makeup Instruction Sheet:\n•  App
- ly foundation and powder matching skintone\n•  Light skin tone eye 
- shadow over entire eye\n•  Dark brown eye shadow over crease\n• 
-  Medium brown eye shadow blended over brown\n•  Black fake eyela
- shes (note: apply mascara to own lashes before application of fake lashe
- s)\n•  Apply eyeliner after lashes dry\n•  Blush on the cheeks
-  (be sure to apply plenty so dancer doesn’t look washed out in the sta
- ge lights)\n•  Brown or tan on contour cheekbones\, hairline\n• 
-  Use a brow pencil (or eyeshadow) to darken the eyebrows\n•  Red
-  or Dark Red Lipstick\nDancers of Color may wear flesh tone tights and f
- lesh tone ballet shoes.\nCostume Care Guidelines:\n•  Handle costum
- e pieces with care while changing to prevent damage to delicate fabrics\
- n•  Promptly notify Ballet Arkansas in the event of costume damage 
- at the point of discovery\, no matter how significant\n•  Never thr
- ow costumes or accessories on the floor\, or hang costumes by their elas
- tic straps\n•  Refrain from sitting on the floor while in costume\n
- •  Do not attempt to alter\, mend\, clean\, or launder any costume 
- or accessory\n•  Never apply stage make-up while in costume and sha
- ll take great care to refrain from smudging make-up on costume during it
- s removal\n•  Refrain from the use of spray perfume or cologne whil
- e in costume\n•  Never wear any garment not assigned to cast member
- \n•  Do not handle or consume food or beverage while in costume\, w
- ith the exception of water\n•  Do not remove costumes from their as
- signed dressing rooms or from the theater\n•  Remove all bobby pins
-  used to secure head pieces and wigs following their use\n•  Return
-  all headpieces to their assigned bags\n•  Comply fully with any an
- d all updates to Ballet Arkansas’ wardrobe policies\n•  Do not pa
- ck markers\, paints\, colored drinks or anything that may damage or stai
- n costumes.
+DESCRIPTION:*** THIS DAY ***\nCALL TIME 7:45 PM — be checked in and bac
+ kstage by then. ARRIVE BY 7:30 PM.\nOn stage: 8:30 PM–9:20 PM.\nACT II
+  Cast B Performance.\nMANDATORY — production week.\n\n*** STANDING RUL
+ ES ***\nBA: Call Time is the time dancers should be check-in and backsta
+ ge - Arrive 15 minutes before Call Time.\nBA: Mandatory Rehearsals (1st 
+ Rehearsal\, Rehearsals after Thanksgiving and Production Week Rehearsals
+  and Performances).\nAll Casts are called unless a cast is named.\nSUBJE
+ CT TO CHANGE — the BA master schedule\, the weekly BA emails and the B
+ A portal are the official source. Master: https://docs.google.com/spread
+ sheets/d/1xWFCPfY5m0aK9d5dnxvALNre-6-N7Cl0kkw24rvm6cE/\n\n*** COSTUME / 
+ HAIR / MAKEUP — Coffee ***\nArabian Coffee — Costume (you provide): 
+ Flesh-tone Camisole Leotard\, No tights\; Shoes: Flesh-tone Ballet Shoes
+ \; Makeup: Full Stage Makeup - Mascara Only OK\; Hair: High Bun\, No Par
+ t\nFull Stage Makeup Instruction Sheet:\n• Apply foundation and powder
+  matching skintone\n• Light skin tone eye shadow over entire eye\n• 
+ Dark brown eye shadow over crease\n• Medium brown eye shadow blended o
+ ver brown\n• Black fake eyelashes (note: apply mascara to own lashes b
+ efore application of fake lashes)\n• Apply eyeliner after lashes dry\n
+ • Blush on the cheeks (be sure to apply plenty so dancer doesn’t loo
+ k washed out in the stage lights)\n• Brown or tan on contour cheekbone
+ s\, hairline\n• Use a brow pencil (or eyeshadow) to darken the eyebrow
+ s\n• Red or Dark Red Lipstick\nDancers of Color may wear flesh tone ti
+ ghts and flesh tone ballet shoes.\nCostume Care Guidelines:\n• Handle 
+ costume pieces with care while changing to prevent damage to delicate fa
+ brics\n• Promptly notify Ballet Arkansas in the event of costume damag
+ e at the point of discovery\, no matter how significant\n• Never throw
+  costumes or accessories on the floor\, or hang costumes by their elasti
+ c straps\n• Refrain from sitting on the floor while in costume\n• Do
+  not attempt to alter\, mend\, clean\, or launder any costume or accesso
+ ry\n• Never apply stage make-up while in costume and shall take great 
+ care to refrain from smudging make-up on costume during its removal\n•
+  Refrain from the use of spray perfume or cologne while in costume\n• 
+ Never wear any garment not assigned to cast member\n• Do not handle or
+  consume food or beverage while in costume\, with the exception of water
+ \n• Do not remove costumes from their assigned dressing rooms or from 
+ the theater\n• Remove all bobby pins used to secure head pieces and wi
+ gs following their use\n• Return all headpieces to their assigned bags
+ \n• Comply fully with any and all updates to Ballet Arkansas’ wardro
+ be policies\n• Do not pack markers\, paints\, colored drinks or anythi
+ ng that may damage or stain costumes.
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
