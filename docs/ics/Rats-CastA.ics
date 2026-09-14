@@ -26,14 +26,19 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:a62cd9536c94b849@nutcracker2026
-DTSTAMP:20260913T233650Z
-SEQUENCE:2026091323
+DTSTAMP:20260914T010516Z
+SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20260912T140000
 DTEND;TZID=America/Chicago:20260912T150000
 SUMMARY:Nutcracker: Mice/Rats Cast A (1st rehearsal – MANDATORY)
 LOCATION:S&B II – Studio 2
-DESCRIPTION:2:00–3:00 Schedule subject to change – confirm with Balle
- t Arkansas.
+DESCRIPTION:Sat. Sep. 12 · 2:00–3:00 · S&B II – Studio 2\nMANDATORY
+  — this is the first rehearsal for Mice/Rats Cast A. BA: Mandatory Reh
+ earsals (1st Rehearsal\, Rehearsals after Thanksgiving and Production We
+ ek Rehearsals and Performances).\nAll Casts are called unless a cast is 
+ named. SUBJECT TO CHANGE — the BA master schedule\, the weekly BA emai
+ ls and the BA portal are the official source. Master: https://docs.googl
+ e.com/spreadsheets/d/1xWFCPfY5m0aK9d5dnxvALNre-6-N7Cl0kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -42,14 +47,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b01edec9d17667e8@nutcracker2026
-DTSTAMP:20260913T233650Z
-SEQUENCE:2026091323
+DTSTAMP:20260914T010516Z
+SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20260912T150000
 DTEND;TZID=America/Chicago:20260912T160000
 SUMMARY:Nutcracker: Rats (1st rehearsal – MANDATORY)
 LOCATION:S&B II – Studio 1
-DESCRIPTION:3:00–4:00 Schedule subject to change – confirm with Balle
- t Arkansas.
+DESCRIPTION:Sat. Sep. 12 · 3:00–4:00 · S&B II – Studio 1\nMANDATORY
+  — this is the first rehearsal for Rats. BA: Mandatory Rehearsals (1st
+  Rehearsal\, Rehearsals after Thanksgiving and Production Week Rehearsal
+ s and Performances).\nAll Casts are called unless a cast is named. SUBJE
+ CT TO CHANGE — the BA master schedule\, the weekly BA emails and the B
+ A portal are the official source. Master: https://docs.google.com/spread
+ sheets/d/1xWFCPfY5m0aK9d5dnxvALNre-6-N7Cl0kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -58,14 +68,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:5c4d3ae993d16166@nutcracker2026
-DTSTAMP:20260913T233650Z
-SEQUENCE:2026091323
+DTSTAMP:20260914T010516Z
+SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20260913T133000
 DTEND;TZID=America/Chicago:20260913T135000
 SUMMARY:Nutcracker: Rat (Costume fitting – MANDATORY)
-LOCATION:BA – Costume Shop
-DESCRIPTION:1:30–1:50 Schedule subject to change – confirm with Balle
- t Arkansas.
+LOCATION:Ballet Arkansas – Costume Shop
+DESCRIPTION:Sun. Sep. 13 · 1:30–1:50 · Ballet Arkansas – Costume Sh
+ op\nMANDATORY COSTUME FITTING for Rat.\nIf the fitting is missed\, the b
+ ackup fitting date is Fri. Oct. 2\, 4:30–6:30pm\, Ballet Arkansas – 
+ Costume Shop.\nAll Casts are called unless a cast is named. SUBJECT TO C
+ HANGE — the BA master schedule\, the weekly BA emails and the BA porta
+ l are the official source. Master: https://docs.google.com/spreadsheets/
+ d/1xWFCPfY5m0aK9d5dnxvALNre-6-N7Cl0kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -74,14 +89,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:266a4a8a0235d00a@nutcracker2026
-DTSTAMP:20260913T233650Z
-SEQUENCE:2026091323
+DTSTAMP:20260914T010516Z
+SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20260919T150000
 DTEND;TZID=America/Chicago:20260919T160000
 SUMMARY:Nutcracker: Rats/Lieutenants
 LOCATION:S&B II – Studio 1
-DESCRIPTION:3:00–4:00 Schedule subject to change – confirm with Balle
- t Arkansas.
+DESCRIPTION:Sat. Sep. 19 · 3:00–4:00 · S&B II – Studio 1\nRegular r
+ ehearsal. BA: Regular Rehearsal - One regular rehearsal absence allowed 
+ for Mice/Cherubs/Seraphs\; Two absences allowed for all other roles.\nAl
+ l Casts are called unless a cast is named. SUBJECT TO CHANGE — the BA 
+ master schedule\, the weekly BA emails and the BA portal are the officia
+ l source. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d
+ 5dnxvALNre-6-N7Cl0kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -90,14 +110,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:99eb46d8902faafb@nutcracker2026
-DTSTAMP:20260913T233650Z
-SEQUENCE:2026091323
+DTSTAMP:20260914T010516Z
+SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20260926T140000
 DTEND;TZID=America/Chicago:20260926T150000
 SUMMARY:Nutcracker: Mice/Rats Cast A
 LOCATION:S&B II – Studio 2
-DESCRIPTION:2:00–3:00 Schedule subject to change – confirm with Balle
- t Arkansas.
+DESCRIPTION:Sat. Sep. 26 · 2:00–3:00 · S&B II – Studio 2\nRegular r
+ ehearsal. BA: Regular Rehearsal - One regular rehearsal absence allowed 
+ for Mice/Cherubs/Seraphs\; Two absences allowed for all other roles.\nAl
+ l Casts are called unless a cast is named. SUBJECT TO CHANGE — the BA 
+ master schedule\, the weekly BA emails and the BA portal are the officia
+ l source. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d
+ 5dnxvALNre-6-N7Cl0kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -106,14 +131,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:73372ae91415ba4f@nutcracker2026
-DTSTAMP:20260913T233650Z
-SEQUENCE:2026091323
+DTSTAMP:20260914T010516Z
+SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20260926T150000
 DTEND;TZID=America/Chicago:20260926T160000
 SUMMARY:Nutcracker: Rats
 LOCATION:S&B II – Studio 1
-DESCRIPTION:3:00–4:00 Schedule subject to change – confirm with Balle
- t Arkansas.
+DESCRIPTION:Sat. Sep. 26 · 3:00–4:00 · S&B II – Studio 1\nRegular r
+ ehearsal. BA: Regular Rehearsal - One regular rehearsal absence allowed 
+ for Mice/Cherubs/Seraphs\; Two absences allowed for all other roles.\nAl
+ l Casts are called unless a cast is named. SUBJECT TO CHANGE — the BA 
+ master schedule\, the weekly BA emails and the BA portal are the officia
+ l source. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d
+ 5dnxvALNre-6-N7Cl0kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -122,14 +152,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0591474aaf99a2a9@nutcracker2026
-DTSTAMP:20260913T233650Z
-SEQUENCE:2026091323
+DTSTAMP:20260914T010516Z
+SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20261002T163000
 DTEND;TZID=America/Chicago:20261002T183000
 SUMMARY:Nutcracker: Backup fitting date (Costume fitting – MANDATORY)
-LOCATION:BA – Costume Shop
-DESCRIPTION:4:30–6:30pm Only if you missed your fitting Schedule subjec
- t to change – confirm with Ballet Arkansas.
+LOCATION:Ballet Arkansas – Costume Shop
+DESCRIPTION:Fri. Oct. 2 · 4:30–6:30pm · Ballet Arkansas – Costume S
+ hop\nBACKUP FITTING DATE — only for dancers who missed their scheduled
+  costume fitting. Not needed if your dancer has already been fitted.\nAl
+ l Casts are called unless a cast is named. SUBJECT TO CHANGE — the BA 
+ master schedule\, the weekly BA emails and the BA portal are the officia
+ l source. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d
+ 5dnxvALNre-6-N7Cl0kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -138,14 +173,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:5f8866ad87aca72d@nutcracker2026
-DTSTAMP:20260913T233650Z
-SEQUENCE:2026091323
+DTSTAMP:20260914T010516Z
+SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20261003T150000
 DTEND;TZID=America/Chicago:20261003T160000
 SUMMARY:Nutcracker: Rats
 LOCATION:S&B II – Studio 1
-DESCRIPTION:3:00–4:00 Schedule subject to change – confirm with Balle
- t Arkansas.
+DESCRIPTION:Sat. Oct. 3 · 3:00–4:00 · S&B II – Studio 1\nRegular re
+ hearsal. BA: Regular Rehearsal - One regular rehearsal absence allowed f
+ or Mice/Cherubs/Seraphs\; Two absences allowed for all other roles.\nAll
+  Casts are called unless a cast is named. SUBJECT TO CHANGE — the BA m
+ aster schedule\, the weekly BA emails and the BA portal are the official
+  source. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d5
+ dnxvALNre-6-N7Cl0kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -154,14 +194,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:90e8aa96bec2e84c@nutcracker2026
-DTSTAMP:20260913T233650Z
-SEQUENCE:2026091323
+DTSTAMP:20260914T010516Z
+SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20261010T140000
 DTEND;TZID=America/Chicago:20261010T150000
 SUMMARY:Nutcracker: Mice/Rats Cast A
 LOCATION:S&B II – Studio 2
-DESCRIPTION:2:00–3:00 Schedule subject to change – confirm with Balle
- t Arkansas.
+DESCRIPTION:Sat. Oct. 10 · 2:00–3:00 · S&B II – Studio 2\nRegular r
+ ehearsal. BA: Regular Rehearsal - One regular rehearsal absence allowed 
+ for Mice/Cherubs/Seraphs\; Two absences allowed for all other roles.\nAl
+ l Casts are called unless a cast is named. SUBJECT TO CHANGE — the BA 
+ master schedule\, the weekly BA emails and the BA portal are the officia
+ l source. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d
+ 5dnxvALNre-6-N7Cl0kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -170,14 +215,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f7de53d735c17f69@nutcracker2026
-DTSTAMP:20260913T233650Z
-SEQUENCE:2026091323
+DTSTAMP:20260914T010516Z
+SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20261010T150000
 DTEND;TZID=America/Chicago:20261010T160000
 SUMMARY:Nutcracker: Rats/Lieutenants/Clara
 LOCATION:S&B II – Studio 1
-DESCRIPTION:3:00–4:00 Schedule subject to change – confirm with Balle
- t Arkansas.
+DESCRIPTION:Sat. Oct. 10 · 3:00–4:00 · S&B II – Studio 1\nRegular r
+ ehearsal. BA: Regular Rehearsal - One regular rehearsal absence allowed 
+ for Mice/Cherubs/Seraphs\; Two absences allowed for all other roles.\nAl
+ l Casts are called unless a cast is named. SUBJECT TO CHANGE — the BA 
+ master schedule\, the weekly BA emails and the BA portal are the officia
+ l source. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d
+ 5dnxvALNre-6-N7Cl0kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -186,14 +236,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:38605f733a5aacde@nutcracker2026
-DTSTAMP:20260913T233650Z
-SEQUENCE:2026091323
+DTSTAMP:20260914T010516Z
+SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20261017T130000
 DTEND;TZID=America/Chicago:20261017T140000
 SUMMARY:Nutcracker: Mice/Rats Cast A
 LOCATION:S&B II – Studio 2
-DESCRIPTION:1:00–2:00 Schedule subject to change – confirm with Balle
- t Arkansas.
+DESCRIPTION:Sat. Oct. 17 · 1:00–2:00 · S&B II – Studio 2\nRegular r
+ ehearsal. BA: Regular Rehearsal - One regular rehearsal absence allowed 
+ for Mice/Cherubs/Seraphs\; Two absences allowed for all other roles.\nAl
+ l Casts are called unless a cast is named. SUBJECT TO CHANGE — the BA 
+ master schedule\, the weekly BA emails and the BA portal are the officia
+ l source. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d
+ 5dnxvALNre-6-N7Cl0kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -202,14 +257,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:57e8bbcdd3d3c3ef@nutcracker2026
-DTSTAMP:20260913T233650Z
-SEQUENCE:2026091323
+DTSTAMP:20260914T010516Z
+SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20261017T150000
 DTEND;TZID=America/Chicago:20261017T160000
 SUMMARY:Nutcracker: Rats/Lieutenants/Clara
 LOCATION:S&B II – Studio 1
-DESCRIPTION:3:00–4:00 Schedule subject to change – confirm with Balle
- t Arkansas.
+DESCRIPTION:Sat. Oct. 17 · 3:00–4:00 · S&B II – Studio 1\nRegular r
+ ehearsal. BA: Regular Rehearsal - One regular rehearsal absence allowed 
+ for Mice/Cherubs/Seraphs\; Two absences allowed for all other roles.\nAl
+ l Casts are called unless a cast is named. SUBJECT TO CHANGE — the BA 
+ master schedule\, the weekly BA emails and the BA portal are the officia
+ l source. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d
+ 5dnxvALNre-6-N7Cl0kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -218,14 +278,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c4850d67c58dfbd4@nutcracker2026
-DTSTAMP:20260913T233650Z
-SEQUENCE:2026091323
+DTSTAMP:20260914T010516Z
+SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20261031T140000
 DTEND;TZID=America/Chicago:20261031T144500
 SUMMARY:Nutcracker: Mice/Rats Cast A
 LOCATION:S&B II – Studio 2
-DESCRIPTION:2:00–2:45 Schedule subject to change – confirm with Balle
- t Arkansas.
+DESCRIPTION:Sat. Oct. 31 · 2:00–2:45 · S&B II – Studio 2\nRegular r
+ ehearsal. BA: Regular Rehearsal - One regular rehearsal absence allowed 
+ for Mice/Cherubs/Seraphs\; Two absences allowed for all other roles.\nAl
+ l Casts are called unless a cast is named. SUBJECT TO CHANGE — the BA 
+ master schedule\, the weekly BA emails and the BA portal are the officia
+ l source. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d
+ 5dnxvALNre-6-N7Cl0kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -234,14 +299,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d89324c34ed0872b@nutcracker2026
-DTSTAMP:20260913T233650Z
-SEQUENCE:2026091323
+DTSTAMP:20260914T010516Z
+SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20261031T150000
 DTEND;TZID=America/Chicago:20261031T160000
 SUMMARY:Nutcracker: Rats/Lieutenants/Clara
 LOCATION:S&B II – Studio 1
-DESCRIPTION:3:00–4:00 Schedule subject to change – confirm with Balle
- t Arkansas.
+DESCRIPTION:Sat. Oct. 31 · 3:00–4:00 · S&B II – Studio 1\nRegular r
+ ehearsal. BA: Regular Rehearsal - One regular rehearsal absence allowed 
+ for Mice/Cherubs/Seraphs\; Two absences allowed for all other roles.\nAl
+ l Casts are called unless a cast is named. SUBJECT TO CHANGE — the BA 
+ master schedule\, the weekly BA emails and the BA portal are the officia
+ l source. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d
+ 5dnxvALNre-6-N7Cl0kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -250,14 +320,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:7757539137027adf@nutcracker2026
-DTSTAMP:20260913T233650Z
-SEQUENCE:2026091323
+DTSTAMP:20260914T010516Z
+SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20261107T140000
 DTEND;TZID=America/Chicago:20261107T144500
 SUMMARY:Nutcracker: Mice/Rats Cast A
 LOCATION:S&B II – Studio 2
-DESCRIPTION:2:00–2:45 Schedule subject to change – confirm with Balle
- t Arkansas.
+DESCRIPTION:Sat. Nov. 7 · 2:00–2:45 · S&B II – Studio 2\nRegular re
+ hearsal. BA: Regular Rehearsal - One regular rehearsal absence allowed f
+ or Mice/Cherubs/Seraphs\; Two absences allowed for all other roles.\nAll
+  Casts are called unless a cast is named. SUBJECT TO CHANGE — the BA m
+ aster schedule\, the weekly BA emails and the BA portal are the official
+  source. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d5
+ dnxvALNre-6-N7Cl0kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -266,14 +341,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:62a3aa87260f4662@nutcracker2026
-DTSTAMP:20260913T233650Z
-SEQUENCE:2026091323
+DTSTAMP:20260914T010516Z
+SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20261107T150000
 DTEND;TZID=America/Chicago:20261107T160000
 SUMMARY:Nutcracker: Rats/Lieutenants/Clara
 LOCATION:S&B II – Studio 1
-DESCRIPTION:3:00–4:00 Schedule subject to change – confirm with Balle
- t Arkansas.
+DESCRIPTION:Sat. Nov. 7 · 3:00–4:00 · S&B II – Studio 1\nRegular re
+ hearsal. BA: Regular Rehearsal - One regular rehearsal absence allowed f
+ or Mice/Cherubs/Seraphs\; Two absences allowed for all other roles.\nAll
+  Casts are called unless a cast is named. SUBJECT TO CHANGE — the BA m
+ aster schedule\, the weekly BA emails and the BA portal are the official
+  source. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d5
+ dnxvALNre-6-N7Cl0kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -282,14 +362,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a6095039ec4af2c5@nutcracker2026
-DTSTAMP:20260913T233650Z
-SEQUENCE:2026091323
+DTSTAMP:20260914T010516Z
+SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20261114T130000
 DTEND;TZID=America/Chicago:20261114T143000
 SUMMARY:Nutcracker: All Battle Cast A (Soldiers/Mice/Rats) + Clara
 LOCATION:S&B II – Studio 1
-DESCRIPTION:1:00–2:30 Schedule subject to change – confirm with Balle
- t Arkansas.
+DESCRIPTION:Sat. Nov. 14 · 1:00–2:30 · S&B II – Studio 1\nRegular r
+ ehearsal. BA: Regular Rehearsal - One regular rehearsal absence allowed 
+ for Mice/Cherubs/Seraphs\; Two absences allowed for all other roles.\nAl
+ l Casts are called unless a cast is named. SUBJECT TO CHANGE — the BA 
+ master schedule\, the weekly BA emails and the BA portal are the officia
+ l source. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d
+ 5dnxvALNre-6-N7Cl0kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -298,14 +383,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:39eefdf1e4e0e01b@nutcracker2026
-DTSTAMP:20260913T233650Z
-SEQUENCE:2026091323
+DTSTAMP:20260914T010516Z
+SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20261121T130000
 DTEND;TZID=America/Chicago:20261121T143000
 SUMMARY:Nutcracker: All Battle Cast A (Soldiers/Mice/Rats) + Clara
 LOCATION:S&B II – Studio 1
-DESCRIPTION:1:00–2:30 Schedule subject to change – confirm with Balle
- t Arkansas.
+DESCRIPTION:Sat. Nov. 21 · 1:00–2:30 · S&B II – Studio 1\nRegular r
+ ehearsal. BA: Regular Rehearsal - One regular rehearsal absence allowed 
+ for Mice/Cherubs/Seraphs\; Two absences allowed for all other roles.\nAl
+ l Casts are called unless a cast is named. SUBJECT TO CHANGE — the BA 
+ master schedule\, the weekly BA emails and the BA portal are the officia
+ l source. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d
+ 5dnxvALNre-6-N7Cl0kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -314,14 +404,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:8393dad552b7e73b@nutcracker2026
-DTSTAMP:20260913T233650Z
-SEQUENCE:2026091323
+DTSTAMP:20260914T010516Z
+SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20261204T181500
 DTEND;TZID=America/Chicago:20261204T193000
 SUMMARY:Nutcracker: Battle Cast A w/Company (Mandatory – w/ Company)
-LOCATION:BA – Studio 2
-DESCRIPTION:6:15–7:30 Schedule subject to change – confirm with Balle
- t Arkansas.
+LOCATION:Ballet Arkansas – Studio 2
+DESCRIPTION:Fri. Dec. 4 · 6:15–7:30 · Ballet Arkansas – Studio 2\nM
+ ANDATORY. BA: Mandatory Rehearsals (1st Rehearsal\, Rehearsals after Tha
+ nksgiving and Production Week Rehearsals and Performances).\nAll Casts a
+ re called unless a cast is named. SUBJECT TO CHANGE — the BA master sc
+ hedule\, the weekly BA emails and the BA portal are the official source.
+  Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d5dnxvALNr
+ e-6-N7Cl0kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -330,15 +425,22 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:412730df0ce8fe32@nutcracker2026
-DTSTAMP:20260913T233650Z
-SEQUENCE:2026091323
+DTSTAMP:20260914T010516Z
+SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20261208T173000
 DTEND;TZID=America/Chicago:20261208T193000
 SUMMARY:Nutcracker: Spacing Rehearsal Both Casts – Battle Scene (Mandat
  ory – Production Week)
 LOCATION:Robinson Center
-DESCRIPTION:Call 5:30 PM · 5:45 PM–7:30 PM No Costumes\, Hair or Makeu
- p Schedule subject to change – confirm with Ballet Arkansas.
+DESCRIPTION:Tue. Dec. 8 · Call 5:30 PM · 5:45 PM–7:30 PM · Robinson 
+ Center\nMANDATORY — production week. CALL TIME 5:30 PM: dancers must b
+ e checked in and backstage by then\, so arrive by 5:15 PM. BA: Call Time
+  is the time dancers should be check-in and backstage - Arrive 15 minute
+ s before Call Time.\nNo Costumes\, Hair or Makeup.\nAll Casts are called
+  unless a cast is named. SUBJECT TO CHANGE — the BA master schedule\, 
+ the weekly BA emails and the BA portal are the official source. Master: 
+ https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d5dnxvALNre-6-N7Cl0
+ kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -347,16 +449,51 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3e0bd2f6f168e5ff@nutcracker2026
-DTSTAMP:20260913T233650Z
-SEQUENCE:2026091323
+DTSTAMP:20260914T010516Z
+SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20261209T180000
 DTEND;TZID=America/Chicago:20261209T194500
 SUMMARY:Nutcracker: Cast A Dress Rehearsal – ACT I Cast A (Mandatory 
  – Production Week)
 LOCATION:Robinson Center
-DESCRIPTION:Call 6:00 PM · 7:00 PM–7:45 PM ACT I Dress Run\; In Perfor
- mance Costumes\, Hair and Makeup Schedule subject to change – confirm 
- with Ballet Arkansas.
+DESCRIPTION:Wed. Dec. 9 · Call 6:00 PM · 7:00 PM–7:45 PM · Robinson 
+ Center\nMANDATORY — production week. CALL TIME 6:00 PM: dancers must b
+ e checked in and backstage by then\, so arrive by 5:45 PM. BA: Call Time
+  is the time dancers should be check-in and backstage - Arrive 15 minute
+ s before Call Time.\nACT I Dress Run\; In Performance Costumes\, Hair an
+ d Makeup.\nAll Casts are called unless a cast is named. SUBJECT TO CHANG
+ E — the BA master schedule\, the weekly BA emails and the BA portal ar
+ e the official source. Master: https://docs.google.com/spreadsheets/d/1x
+ WFCPfY5m0aK9d5dnxvALNre-6-N7Cl0kkw24rvm6cE/\n\nCOSTUME / HAIR / MAKEUP f
+ or Rats: Rats — Costume (you provide): Male: Black tights\, black fitt
+ ed t-shirt Female: Black Seamless Tights\, Black or Flesh tone Camisole 
+ Leotard\; Shoes: Black Ballet Shoes\; Makeup: Light Stage Makeup\; Hair:
+  Male: Hair out of the eyes Female: High Bun\, No Part\; Accessories (BA
+  provides): Gloves\nLight Stage Makeup Instruction Sheet:\n•  Powde
+ r matching skintone\n•  Light brown eye shadow applied to the creas
+ e with an eye shadow brush\n•  Dark Brown/Black eyeliner and black 
+ mascara. No fake lashes.\n•  Blush on the cheeks (be sure to apply 
+ plenty so dancer doesn’t look washed out in the stage lights)\n• 
+  Red or Dark Red lipstick\nDancers of Color may wear flesh tone tights a
+ nd flesh tone ballet shoes.\nCostume Care Guidelines:\n•  Handle co
+ stume pieces with care while changing to prevent damage to delicate fabr
+ ics\n•  Promptly notify Ballet Arkansas in the event of costume dam
+ age at the point of discovery\, no matter how significant\n•  Never
+  throw costumes or accessories on the floor\, or hang costumes by their 
+ elastic straps\n•  Refrain from sitting on the floor while in costu
+ me\n•  Do not attempt to alter\, mend\, clean\, or launder any cost
+ ume or accessory\n•  Never apply stage make-up while in costume and
+  shall take great care to refrain from smudging make-up on costume durin
+ g its removal\n•  Refrain from the use of spray perfume or cologne 
+ while in costume\n•  Never wear any garment not assigned to cast me
+ mber\n•  Do not handle or consume food or beverage while in costume
+ \, with the exception of water\n•  Do not remove costumes from thei
+ r assigned dressing rooms or from the theater\n•  Remove all bobby 
+ pins used to secure head pieces and wigs following their use\n•  Re
+ turn all headpieces to their assigned bags\n•  Comply fully with an
+ y and all updates to Ballet Arkansas’ wardrobe policies\n•  Do no
+ t pack markers\, paints\, colored drinks or anything that may damage or 
+ stain costumes.
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -365,16 +502,51 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:1111a1fd91384827@nutcracker2026
-DTSTAMP:20260913T233650Z
-SEQUENCE:2026091323
+DTSTAMP:20260914T010516Z
+SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20261210T093000
 DTEND;TZID=America/Chicago:20261210T110000
 SUMMARY:Nutcracker: Cast A School Show @ 10:30 AM – ACT I Cast A (Party
   Scene\, Battle Scene\, Snow Scene) (Mandatory – Production Week)
 LOCATION:Robinson Center
-DESCRIPTION:Call 9:30 AM · 10:30 AM–11:00 AM ACT I Student Matinee Per
- formance (to recorded sound)\; NO COFFEE\, BON BON\, ANGELS Schedule sub
- ject to change – confirm with Ballet Arkansas.
+DESCRIPTION:Thu. Dec. 10 · Call 9:30 AM · 10:30 AM–11:00 AM · Robins
+ on Center\nMANDATORY — production week. CALL TIME 9:30 AM: dancers mus
+ t be checked in and backstage by then\, so arrive by 9:15 AM. BA: Call T
+ ime is the time dancers should be check-in and backstage - Arrive 15 min
+ utes before Call Time.\nACT I Student Matinee Performance (to recorded s
+ ound)\; NO COFFEE\, BON BON\, ANGELS.\nAll Casts are called unless a cas
+ t is named. SUBJECT TO CHANGE — the BA master schedule\, the weekly BA
+  emails and the BA portal are the official source. Master: https://docs.
+ google.com/spreadsheets/d/1xWFCPfY5m0aK9d5dnxvALNre-6-N7Cl0kkw24rvm6cE/\
+ n\nCOSTUME / HAIR / MAKEUP for Rats: Rats — Costume (you provide): Mal
+ e: Black tights\, black fitted t-shirt Female: Black Seamless Tights\, B
+ lack or Flesh tone Camisole Leotard\; Shoes: Black Ballet Shoes\; Makeup
+ : Light Stage Makeup\; Hair: Male: Hair out of the eyes Female: High Bun
+ \, No Part\; Accessories (BA provides): Gloves\nLight Stage Makeup Instr
+ uction Sheet:\n•  Powder matching skintone\n•  Light brown eye
+  shadow applied to the crease with an eye shadow brush\n•  Dark Bro
+ wn/Black eyeliner and black mascara. No fake lashes.\n•  Blush on t
+ he cheeks (be sure to apply plenty so dancer doesn’t look washed out i
+ n the stage lights)\n•  Red or Dark Red lipstick\nDancers of Color 
+ may wear flesh tone tights and flesh tone ballet shoes.\nCostume Care Gu
+ idelines:\n•  Handle costume pieces with care while changing to pre
+ vent damage to delicate fabrics\n•  Promptly notify Ballet Arkansas
+  in the event of costume damage at the point of discovery\, no matter ho
+ w significant\n•  Never throw costumes or accessories on the floor\
+ , or hang costumes by their elastic straps\n•  Refrain from sitting
+  on the floor while in costume\n•  Do not attempt to alter\, mend\,
+  clean\, or launder any costume or accessory\n•  Never apply stage 
+ make-up while in costume and shall take great care to refrain from smudg
+ ing make-up on costume during its removal\n•  Refrain from the use 
+ of spray perfume or cologne while in costume\n•  Never wear any gar
+ ment not assigned to cast member\n•  Do not handle or consume food 
+ or beverage while in costume\, with the exception of water\n•  Do n
+ ot remove costumes from their assigned dressing rooms or from the theate
+ r\n•  Remove all bobby pins used to secure head pieces and wigs fol
+ lowing their use\n•  Return all headpieces to their assigned bags\n
+ •  Comply fully with any and all updates to Ballet Arkansas’ ward
+ robe policies\n•  Do not pack markers\, paints\, colored drinks or 
+ anything that may damage or stain costumes.
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -383,15 +555,50 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:95755a96abc82f60@nutcracker2026
-DTSTAMP:20260913T233650Z
-SEQUENCE:2026091323
+DTSTAMP:20260914T010516Z
+SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20261211T184500
 DTEND;TZID=America/Chicago:20261211T201500
 SUMMARY:Nutcracker: Cast A @ 7:30PM – ACT I Battle/Snow Cast A (Mandato
  ry – Production Week)
 LOCATION:Robinson Center
-DESCRIPTION:Call 6:45 PM · 7:30 PM–8:15 PM ACT I Cast A Performance Sc
- hedule subject to change – confirm with Ballet Arkansas.
+DESCRIPTION:Fri. Dec. 11 · Call 6:45 PM · 7:30 PM–8:15 PM · Robinson
+  Center\nMANDATORY — production week. CALL TIME 6:45 PM: dancers must 
+ be checked in and backstage by then\, so arrive by 6:30 PM. BA: Call Tim
+ e is the time dancers should be check-in and backstage - Arrive 15 minut
+ es before Call Time.\nACT I Cast A Performance.\nAll Casts are called un
+ less a cast is named. SUBJECT TO CHANGE — the BA master schedule\, the
+  weekly BA emails and the BA portal are the official source. Master: htt
+ ps://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d5dnxvALNre-6-N7Cl0kkw
+ 24rvm6cE/\n\nCOSTUME / HAIR / MAKEUP for Rats: Rats — Costume (you pro
+ vide): Male: Black tights\, black fitted t-shirt Female: Black Seamless 
+ Tights\, Black or Flesh tone Camisole Leotard\; Shoes: Black Ballet Shoe
+ s\; Makeup: Light Stage Makeup\; Hair: Male: Hair out of the eyes Female
+ : High Bun\, No Part\; Accessories (BA provides): Gloves\nLight Stage Ma
+ keup Instruction Sheet:\n•  Powder matching skintone\n•  Light
+  brown eye shadow applied to the crease with an eye shadow brush\n• 
+  Dark Brown/Black eyeliner and black mascara. No fake lashes.\n• 
+  Blush on the cheeks (be sure to apply plenty so dancer doesn’t loo
+ k washed out in the stage lights)\n•  Red or Dark Red lipstick\nDan
+ cers of Color may wear flesh tone tights and flesh tone ballet shoes.\nC
+ ostume Care Guidelines:\n•  Handle costume pieces with care while c
+ hanging to prevent damage to delicate fabrics\n•  Promptly notify B
+ allet Arkansas in the event of costume damage at the point of discovery\
+ , no matter how significant\n•  Never throw costumes or accessories
+  on the floor\, or hang costumes by their elastic straps\n•  Refrai
+ n from sitting on the floor while in costume\n•  Do not attempt to 
+ alter\, mend\, clean\, or launder any costume or accessory\n•  Neve
+ r apply stage make-up while in costume and shall take great care to refr
+ ain from smudging make-up on costume during its removal\n•  Refrain
+  from the use of spray perfume or cologne while in costume\n•  Neve
+ r wear any garment not assigned to cast member\n•  Do not handle or
+  consume food or beverage while in costume\, with the exception of water
+ \n•  Do not remove costumes from their assigned dressing rooms or f
+ rom the theater\n•  Remove all bobby pins used to secure head piece
+ s and wigs following their use\n•  Return all headpieces to their a
+ ssigned bags\n•  Comply fully with any and all updates to Ballet Ar
+ kansas’ wardrobe policies\n•  Do not pack markers\, paints\, colo
+ red drinks or anything that may damage or stain costumes.
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -400,15 +607,50 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:148929c359f141d4@nutcracker2026
-DTSTAMP:20260913T233650Z
-SEQUENCE:2026091323
+DTSTAMP:20260914T010516Z
+SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20261213T134500
 DTEND;TZID=America/Chicago:20261213T151500
 SUMMARY:Nutcracker: Cast A @ 2:30 PM – ACT I Battle/Snow Cast A (Mandat
  ory – Production Week)
 LOCATION:Robinson Center
-DESCRIPTION:Call 1:45 PM · 2:30 PM–3:15 PM ACT I Cast A Performance Sc
- hedule subject to change – confirm with Ballet Arkansas.
+DESCRIPTION:Sun. Dec. 13 · Call 1:45 PM · 2:30 PM–3:15 PM · Robinson
+  Center\nMANDATORY — production week. CALL TIME 1:45 PM: dancers must 
+ be checked in and backstage by then\, so arrive by 1:30 PM. BA: Call Tim
+ e is the time dancers should be check-in and backstage - Arrive 15 minut
+ es before Call Time.\nACT I Cast A Performance.\nAll Casts are called un
+ less a cast is named. SUBJECT TO CHANGE — the BA master schedule\, the
+  weekly BA emails and the BA portal are the official source. Master: htt
+ ps://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d5dnxvALNre-6-N7Cl0kkw
+ 24rvm6cE/\n\nCOSTUME / HAIR / MAKEUP for Rats: Rats — Costume (you pro
+ vide): Male: Black tights\, black fitted t-shirt Female: Black Seamless 
+ Tights\, Black or Flesh tone Camisole Leotard\; Shoes: Black Ballet Shoe
+ s\; Makeup: Light Stage Makeup\; Hair: Male: Hair out of the eyes Female
+ : High Bun\, No Part\; Accessories (BA provides): Gloves\nLight Stage Ma
+ keup Instruction Sheet:\n•  Powder matching skintone\n•  Light
+  brown eye shadow applied to the crease with an eye shadow brush\n• 
+  Dark Brown/Black eyeliner and black mascara. No fake lashes.\n• 
+  Blush on the cheeks (be sure to apply plenty so dancer doesn’t loo
+ k washed out in the stage lights)\n•  Red or Dark Red lipstick\nDan
+ cers of Color may wear flesh tone tights and flesh tone ballet shoes.\nC
+ ostume Care Guidelines:\n•  Handle costume pieces with care while c
+ hanging to prevent damage to delicate fabrics\n•  Promptly notify B
+ allet Arkansas in the event of costume damage at the point of discovery\
+ , no matter how significant\n•  Never throw costumes or accessories
+  on the floor\, or hang costumes by their elastic straps\n•  Refrai
+ n from sitting on the floor while in costume\n•  Do not attempt to 
+ alter\, mend\, clean\, or launder any costume or accessory\n•  Neve
+ r apply stage make-up while in costume and shall take great care to refr
+ ain from smudging make-up on costume during its removal\n•  Refrain
+  from the use of spray perfume or cologne while in costume\n•  Neve
+ r wear any garment not assigned to cast member\n•  Do not handle or
+  consume food or beverage while in costume\, with the exception of water
+ \n•  Do not remove costumes from their assigned dressing rooms or f
+ rom the theater\n•  Remove all bobby pins used to secure head piece
+ s and wigs following their use\n•  Return all headpieces to their a
+ ssigned bags\n•  Comply fully with any and all updates to Ballet Ar
+ kansas’ wardrobe policies\n•  Do not pack markers\, paints\, colo
+ red drinks or anything that may damage or stain costumes.
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY

@@ -7,3 +7,133 @@ Each sync that changes the schedule appends a dated entry here.
 - REMOVED: 2026-12-07 19:00–19:45 | Spacing Rehearsal Both Casts – Opening, Closing (Clara) | All | Robinson Center
 - ADDED: 2026-12-07 16:45–18:00 | Spacing Rehearsal Both Casts – Mother Ginger Bon Bon, Clara, Nutcracker Prince | All | Robinson Center
 - ADDED: 2026-12-07 19:00–19:45 | Spacing Rehearsal Both Casts – Opening, Closing (Clara, Nutcracker Prince) | All | Robinson Center
+
+## Sep 13, 2026 8:05 PM
+- REMOVED: 2026-09-12 13:00–13:45 | Cherubs/Seraphs Cast A | A | BA – Studio 2
+- REMOVED: 2026-09-12 14:00–14:30 | Hot Chocolate | All | BA – Costume Shop
+- REMOVED: 2026-09-12 14:00–15:00 | Snow | All | BA – Studio 2
+- REMOVED: 2026-09-12 14:00–15:00 | Tea | All | BA – Studio 1
+- REMOVED: 2026-09-12 15:00–15:20 | Tea | All | BA – Costume Shop
+- REMOVED: 2026-09-12 15:00–16:00 | Flowers | All | BA – Studio 2
+- REMOVED: 2026-09-12 15:00–16:00 | Hot Chocolate | All | BA – Studio 1
+- REMOVED: 2026-09-12 15:30–16:00 | Coffee | All | BA – Costume Shop
+- REMOVED: 2026-09-12 16:00–17:00 | Bon Bon | All | BA – Studio 2
+- REMOVED: 2026-09-13 13:00–13:20 | Candy Cane | All | BA – Costume Shop
+- REMOVED: 2026-09-13 13:30–13:50 | Rat | All | BA – Costume Shop
+- REMOVED: 2026-09-13 14:00–14:30 | Lieutenants | All | BA – Costume Shop
+- REMOVED: 2026-09-13 15:00–15:45 | Mice | All | BA – Studio 2
+- REMOVED: 2026-09-13 16:00–17:00 | Battle (Infantry/Commandants/Artillery/Brigade) Cast A | A | BA – Studio 2
+- REMOVED: 2026-09-19 13:00–13:45 | Cherubs/Seraphs/Trumpeter Cast B | B | BA – Studio 2
+- REMOVED: 2026-09-19 14:00–14:20 | Archangel | All | BA – Costume Shop
+- REMOVED: 2026-09-19 14:00–15:00 | Snow | All | BA – Studio 2
+- REMOVED: 2026-09-19 14:00–15:00 | Tea | All | BA – Studio 1
+- REMOVED: 2026-09-19 15:00–16:00 | Flowers | All | BA – Studio 2
+- REMOVED: 2026-09-19 15:00–16:00 | Hot Chocolate | All | BA – Studio 1
+- REMOVED: 2026-09-19 16:00–17:00 | Snow | All | BA – Studio 2
+- REMOVED: 2026-09-20 15:00–16:00 | Battle (Infantry/Commandants/Artillery/Brigade) Cast B | B | BA – Studio 2
+- REMOVED: 2026-09-26 13:00–14:00 | Party Children | All | BA – Costume Shop
+- REMOVED: 2026-09-26 14:00–14:20 | Clara/Fritz | All | BA – Costume Shop
+- REMOVED: 2026-09-26 14:00–15:00 | Snow | All | BA – Studio 2
+- REMOVED: 2026-09-26 14:00–15:00 | Tea | All | BA – Studio 1
+- REMOVED: 2026-09-26 15:00–16:00 | Flowers | All | BA – Studio 2
+- REMOVED: 2026-09-26 15:00–16:00 | Hot Chocolate | All | BA – Studio 1
+- REMOVED: 2026-09-26 16:00–17:00 | Flowers | All | BA – Studio 2
+- REMOVED: 2026-10-02 16:30–18:30 | Backup fitting date | All | BA – Costume Shop
+- REMOVED: 2026-10-03 14:00–15:00 | Snow | All | BA – Studio 2
+- REMOVED: 2026-10-03 14:00–15:00 | Tea | All | BA – Studio 1
+- REMOVED: 2026-10-03 15:00–16:00 | Flowers | All | BA – Studio 2
+- REMOVED: 2026-10-03 15:00–16:00 | Hot Chocolate | All | BA – Studio 1
+- REMOVED: 2026-10-10 14:00–15:00 | Snow | All | BA – Studio 2
+- REMOVED: 2026-10-10 14:00–15:00 | Tea | All | BA – Studio 1
+- REMOVED: 2026-10-10 15:00–16:00 | Flowers | All | BA – Studio 2
+- REMOVED: 2026-10-10 15:00–16:00 | Hot Chocolate | All | BA – Studio 1
+- REMOVED: 2026-10-17 14:00–15:00 | Snow | All | BA – Studio 2
+- REMOVED: 2026-10-17 14:00–15:00 | Tea | All | BA – Studio 1
+- REMOVED: 2026-10-17 15:00–16:00 | Flowers | All | BA – Studio 2
+- REMOVED: 2026-10-17 15:00–16:00 | Hot Chocolate | All | BA – Studio 1
+- REMOVED: 2026-10-31 14:00–15:00 | Snow | All | BA – Studio 2
+- REMOVED: 2026-10-31 14:00–15:00 | Tea | All | BA – Studio 1
+- REMOVED: 2026-10-31 15:00–16:00 | Flowers | All | BA – Studio 2
+- REMOVED: 2026-10-31 15:00–16:00 | Hot Chocolate | All | BA – Studio 1
+- REMOVED: 2026-11-07 14:00–15:00 | Snow | All | BA – Studio 2
+- REMOVED: 2026-11-07 14:00–15:00 | Tea | All | BA – Studio 1
+- REMOVED: 2026-11-07 15:00–16:00 | Flowers | All | BA – Studio 2
+- REMOVED: 2026-11-07 15:00–16:00 | Hot Chocolate | All | BA – Studio 1
+- REMOVED: 2026-11-14 14:00–15:00 | Snow | All | BA – Studio 2
+- REMOVED: 2026-11-14 14:00–15:00 | Tea | All | BA – Studio 1
+- REMOVED: 2026-11-14 15:00–16:00 | Flowers | All | BA – Studio 2
+- REMOVED: 2026-11-14 15:00–16:00 | Hot Chocolate | All | BA – Studio 1
+- REMOVED: 2026-11-21 14:00–15:00 | Snow | All | BA – Studio 2
+- REMOVED: 2026-11-21 14:00–15:00 | Tea | All | BA – Studio 1
+- REMOVED: 2026-11-21 15:00–16:00 | Flowers | All | BA – Studio 2
+- REMOVED: 2026-11-21 15:00–16:00 | Hot Chocolate | All | BA – Studio 1
+- REMOVED: 2026-12-04 17:00–18:15 | Party Cast A w/ Company | A | BA – Studio 2
+- REMOVED: 2026-12-04 18:15–19:30 | Battle Cast A w/Company | A | BA – Studio 2
+- REMOVED: 2026-12-05 13:00–14:15 | Party Cast B with Dross w/Company | B | BA – Studio 2
+- REMOVED: 2026-12-05 14:00–15:00 | Snow | All | BA – Studio 1
+- REMOVED: 2026-12-05 14:15–15:30 | Battle Cast B w/Company | B | BA – Studio 2
+- REMOVED: 2026-12-05 15:00–16:00 | Flowers | All | BA – Studio 1
+- ADDED: 2026-09-12 13:00–13:45 | Cherubs/Seraphs Cast A | A | Ballet Arkansas – Studio 2
+- ADDED: 2026-09-12 14:00–14:30 | Hot Chocolate | All | Ballet Arkansas – Costume Shop
+- ADDED: 2026-09-12 14:00–15:00 | Snow | All | Ballet Arkansas – Studio 2
+- ADDED: 2026-09-12 14:00–15:00 | Tea | All | Ballet Arkansas – Studio 1
+- ADDED: 2026-09-12 15:00–15:20 | Tea | All | Ballet Arkansas – Costume Shop
+- ADDED: 2026-09-12 15:00–16:00 | Flowers | All | Ballet Arkansas – Studio 2
+- ADDED: 2026-09-12 15:00–16:00 | Hot Chocolate | All | Ballet Arkansas – Studio 1
+- ADDED: 2026-09-12 15:30–16:00 | Coffee | All | Ballet Arkansas – Costume Shop
+- ADDED: 2026-09-12 16:00–17:00 | Bon Bon | All | Ballet Arkansas – Studio 2
+- ADDED: 2026-09-13 13:00–13:20 | Candy Cane | All | Ballet Arkansas – Costume Shop
+- ADDED: 2026-09-13 13:30–13:50 | Rat | All | Ballet Arkansas – Costume Shop
+- ADDED: 2026-09-13 14:00–14:30 | Lieutenants | All | Ballet Arkansas – Costume Shop
+- ADDED: 2026-09-13 15:00–15:45 | Mice | All | Ballet Arkansas – Studio 2
+- ADDED: 2026-09-13 16:00–17:00 | Battle (Infantry/Commandants/Artillery/Brigade) Cast A | A | Ballet Arkansas – Studio 2
+- ADDED: 2026-09-19 13:00–13:45 | Cherubs/Seraphs/Trumpeter Cast B | B | Ballet Arkansas – Studio 2
+- ADDED: 2026-09-19 14:00–14:20 | Archangel | All | Ballet Arkansas – Costume Shop
+- ADDED: 2026-09-19 14:00–15:00 | Snow | All | Ballet Arkansas – Studio 2
+- ADDED: 2026-09-19 14:00–15:00 | Tea | All | Ballet Arkansas – Studio 1
+- ADDED: 2026-09-19 15:00–16:00 | Flowers | All | Ballet Arkansas – Studio 2
+- ADDED: 2026-09-19 15:00–16:00 | Hot Chocolate | All | Ballet Arkansas – Studio 1
+- ADDED: 2026-09-19 16:00–17:00 | Snow | All | Ballet Arkansas – Studio 2
+- ADDED: 2026-09-20 15:00–16:00 | Battle (Infantry/Commandants/Artillery/Brigade) Cast B | B | Ballet Arkansas – Studio 2
+- ADDED: 2026-09-26 13:00–14:00 | Party Children | All | Ballet Arkansas – Costume Shop
+- ADDED: 2026-09-26 14:00–14:20 | Clara/Fritz | All | Ballet Arkansas – Costume Shop
+- ADDED: 2026-09-26 14:00–15:00 | Snow | All | Ballet Arkansas – Studio 2
+- ADDED: 2026-09-26 14:00–15:00 | Tea | All | Ballet Arkansas – Studio 1
+- ADDED: 2026-09-26 15:00–16:00 | Flowers | All | Ballet Arkansas – Studio 2
+- ADDED: 2026-09-26 15:00–16:00 | Hot Chocolate | All | Ballet Arkansas – Studio 1
+- ADDED: 2026-09-26 16:00–17:00 | Flowers | All | Ballet Arkansas – Studio 2
+- ADDED: 2026-10-02 16:30–18:30 | Backup fitting date | All | Ballet Arkansas – Costume Shop
+- ADDED: 2026-10-03 14:00–15:00 | Snow | All | Ballet Arkansas – Studio 2
+- ADDED: 2026-10-03 14:00–15:00 | Tea | All | Ballet Arkansas – Studio 1
+- ADDED: 2026-10-03 15:00–16:00 | Flowers | All | Ballet Arkansas – Studio 2
+- ADDED: 2026-10-03 15:00–16:00 | Hot Chocolate | All | Ballet Arkansas – Studio 1
+- ADDED: 2026-10-10 14:00–15:00 | Snow | All | Ballet Arkansas – Studio 2
+- ADDED: 2026-10-10 14:00–15:00 | Tea | All | Ballet Arkansas – Studio 1
+- ADDED: 2026-10-10 15:00–16:00 | Flowers | All | Ballet Arkansas – Studio 2
+- ADDED: 2026-10-10 15:00–16:00 | Hot Chocolate | All | Ballet Arkansas – Studio 1
+- ADDED: 2026-10-17 14:00–15:00 | Snow | All | Ballet Arkansas – Studio 2
+- ADDED: 2026-10-17 14:00–15:00 | Tea | All | Ballet Arkansas – Studio 1
+- ADDED: 2026-10-17 15:00–16:00 | Flowers | All | Ballet Arkansas – Studio 2
+- ADDED: 2026-10-17 15:00–16:00 | Hot Chocolate | All | Ballet Arkansas – Studio 1
+- ADDED: 2026-10-31 14:00–15:00 | Snow | All | Ballet Arkansas – Studio 2
+- ADDED: 2026-10-31 14:00–15:00 | Tea | All | Ballet Arkansas – Studio 1
+- ADDED: 2026-10-31 15:00–16:00 | Flowers | All | Ballet Arkansas – Studio 2
+- ADDED: 2026-10-31 15:00–16:00 | Hot Chocolate | All | Ballet Arkansas – Studio 1
+- ADDED: 2026-11-07 14:00–15:00 | Snow | All | Ballet Arkansas – Studio 2
+- ADDED: 2026-11-07 14:00–15:00 | Tea | All | Ballet Arkansas – Studio 1
+- ADDED: 2026-11-07 15:00–16:00 | Flowers | All | Ballet Arkansas – Studio 2
+- ADDED: 2026-11-07 15:00–16:00 | Hot Chocolate | All | Ballet Arkansas – Studio 1
+- ADDED: 2026-11-14 14:00–15:00 | Snow | All | Ballet Arkansas – Studio 2
+- ADDED: 2026-11-14 14:00–15:00 | Tea | All | Ballet Arkansas – Studio 1
+- ADDED: 2026-11-14 15:00–16:00 | Flowers | All | Ballet Arkansas – Studio 2
+- ADDED: 2026-11-14 15:00–16:00 | Hot Chocolate | All | Ballet Arkansas – Studio 1
+- ADDED: 2026-11-21 14:00–15:00 | Snow | All | Ballet Arkansas – Studio 2
+- ADDED: 2026-11-21 14:00–15:00 | Tea | All | Ballet Arkansas – Studio 1
+- ADDED: 2026-11-21 15:00–16:00 | Flowers | All | Ballet Arkansas – Studio 2
+- ADDED: 2026-11-21 15:00–16:00 | Hot Chocolate | All | Ballet Arkansas – Studio 1
+- ADDED: 2026-12-04 17:00–18:15 | Party Cast A w/ Company | A | Ballet Arkansas – Studio 2
+- ADDED: 2026-12-04 18:15–19:30 | Battle Cast A w/Company | A | Ballet Arkansas – Studio 2
+- ADDED: 2026-12-05 13:00–14:15 | Party Cast B with Dross w/Company | B | Ballet Arkansas – Studio 2
+- ADDED: 2026-12-05 14:00–15:00 | Snow | All | Ballet Arkansas – Studio 1
+- ADDED: 2026-12-05 14:15–15:30 | Battle Cast B w/Company | B | Ballet Arkansas – Studio 2
+- ADDED: 2026-12-05 15:00–16:00 | Flowers | All | Ballet Arkansas – Studio 1

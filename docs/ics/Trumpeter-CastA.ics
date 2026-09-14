@@ -26,15 +26,21 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:b56fe41ed17d0480@nutcracker2026
-DTSTAMP:20260913T233650Z
-SEQUENCE:2026091323
+DTSTAMP:20260914T010516Z
+SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20260913T130000
 DTEND;TZID=America/Chicago:20260913T140000
 SUMMARY:Nutcracker: Cherubs/Seraphs/Trumpeter Cast A (1st rehearsal – M
  ANDATORY)
 LOCATION:S&B II – Studio 1
-DESCRIPTION:1:00–2:00 Schedule subject to change – confirm with Balle
- t Arkansas.
+DESCRIPTION:Sun. Sep. 13 · 1:00–2:00 · S&B II – Studio 1\nMANDATORY
+  — this is the first rehearsal for Cherubs/Seraphs/Trumpeter Cast A. B
+ A: Mandatory Rehearsals (1st Rehearsal\, Rehearsals after Thanksgiving a
+ nd Production Week Rehearsals and Performances).\nAll Casts are called u
+ nless a cast is named. SUBJECT TO CHANGE — the BA master schedule\, th
+ e weekly BA emails and the BA portal are the official source. Master: ht
+ tps://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d5dnxvALNre-6-N7Cl0kk
+ w24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -43,14 +49,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9c5cb1364764c085@nutcracker2026
-DTSTAMP:20260913T233650Z
-SEQUENCE:2026091323
+DTSTAMP:20260914T010516Z
+SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20260927T130000
 DTEND;TZID=America/Chicago:20260927T140000
 SUMMARY:Nutcracker: Cherubs/Seraphs/Trumpeter Cast A
 LOCATION:S&B II – Studio 1
-DESCRIPTION:1:00–2:00 Schedule subject to change – confirm with Balle
- t Arkansas.
+DESCRIPTION:Sun. Sep. 27 · 1:00–2:00 · S&B II – Studio 1\nRegular r
+ ehearsal. BA: Regular Rehearsal - One regular rehearsal absence allowed 
+ for Mice/Cherubs/Seraphs\; Two absences allowed for all other roles.\nAl
+ l Casts are called unless a cast is named. SUBJECT TO CHANGE — the BA 
+ master schedule\, the weekly BA emails and the BA portal are the officia
+ l source. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d
+ 5dnxvALNre-6-N7Cl0kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -59,14 +70,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a86c28efe739bf9f@nutcracker2026
-DTSTAMP:20260913T233650Z
-SEQUENCE:2026091323
+DTSTAMP:20260914T010516Z
+SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20261002T163000
 DTEND;TZID=America/Chicago:20261002T183000
 SUMMARY:Nutcracker: Backup fitting date (Costume fitting – MANDATORY)
-LOCATION:BA – Costume Shop
-DESCRIPTION:4:30–6:30pm Only if you missed your fitting Schedule subjec
- t to change – confirm with Ballet Arkansas.
+LOCATION:Ballet Arkansas – Costume Shop
+DESCRIPTION:Fri. Oct. 2 · 4:30–6:30pm · Ballet Arkansas – Costume S
+ hop\nBACKUP FITTING DATE — only for dancers who missed their scheduled
+  costume fitting. Not needed if your dancer has already been fitted.\nAl
+ l Casts are called unless a cast is named. SUBJECT TO CHANGE — the BA 
+ master schedule\, the weekly BA emails and the BA portal are the officia
+ l source. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d
+ 5dnxvALNre-6-N7Cl0kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -75,14 +91,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ad4d7b0c44506f5d@nutcracker2026
-DTSTAMP:20260913T233650Z
-SEQUENCE:2026091323
+DTSTAMP:20260914T010516Z
+SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20261011T130000
 DTEND;TZID=America/Chicago:20261011T140000
 SUMMARY:Nutcracker: Cherubs/Seraphs/Trumpeter Cast A
 LOCATION:S&B II – Studio 1
-DESCRIPTION:1:00–2:00 Schedule subject to change – confirm with Balle
- t Arkansas.
+DESCRIPTION:Sun. Oct. 11 · 1:00–2:00 · S&B II – Studio 1\nRegular r
+ ehearsal. BA: Regular Rehearsal - One regular rehearsal absence allowed 
+ for Mice/Cherubs/Seraphs\; Two absences allowed for all other roles.\nAl
+ l Casts are called unless a cast is named. SUBJECT TO CHANGE — the BA 
+ master schedule\, the weekly BA emails and the BA portal are the officia
+ l source. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d
+ 5dnxvALNre-6-N7Cl0kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -91,14 +112,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:340324bcb4d04467@nutcracker2026
-DTSTAMP:20260913T233650Z
-SEQUENCE:2026091323
+DTSTAMP:20260914T010516Z
+SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20261101T130000
 DTEND;TZID=America/Chicago:20261101T140000
 SUMMARY:Nutcracker: Cherubs/Seraphs/Trumpeter Cast A & All Archangels
 LOCATION:S&B II – Studio 1
-DESCRIPTION:1:00–2:00 Schedule subject to change – confirm with Balle
- t Arkansas.
+DESCRIPTION:Sun. Nov. 1 · 1:00–2:00 · S&B II – Studio 1\nRegular re
+ hearsal. BA: Regular Rehearsal - One regular rehearsal absence allowed f
+ or Mice/Cherubs/Seraphs\; Two absences allowed for all other roles.\nAll
+  Casts are called unless a cast is named. SUBJECT TO CHANGE — the BA m
+ aster schedule\, the weekly BA emails and the BA portal are the official
+  source. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d5
+ dnxvALNre-6-N7Cl0kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -107,14 +133,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c4e2666ecbed68ff@nutcracker2026
-DTSTAMP:20260913T233650Z
-SEQUENCE:2026091323
+DTSTAMP:20260914T010516Z
+SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20261115T130000
 DTEND;TZID=America/Chicago:20261115T140000
 SUMMARY:Nutcracker: Cherubs/Seraphs/Trumpeter Cast A & All Archangels
 LOCATION:S&B II – Studio 1
-DESCRIPTION:1:00–2:00 Schedule subject to change – confirm with Balle
- t Arkansas.
+DESCRIPTION:Sun. Nov. 15 · 1:00–2:00 · S&B II – Studio 1\nRegular r
+ ehearsal. BA: Regular Rehearsal - One regular rehearsal absence allowed 
+ for Mice/Cherubs/Seraphs\; Two absences allowed for all other roles.\nAl
+ l Casts are called unless a cast is named. SUBJECT TO CHANGE — the BA 
+ master schedule\, the weekly BA emails and the BA portal are the officia
+ l source. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d
+ 5dnxvALNre-6-N7Cl0kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -123,14 +154,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2050c74f136d1c70@nutcracker2026
-DTSTAMP:20260913T233650Z
-SEQUENCE:2026091323
+DTSTAMP:20260914T010516Z
+SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20261205T130000
 DTEND;TZID=America/Chicago:20261205T140000
 SUMMARY:Nutcracker: All Angels/Trumpeter (Mandatory – w/ Company)
 LOCATION:S&B II – Studio 1
-DESCRIPTION:1:00–2:00 Schedule subject to change – confirm with Balle
- t Arkansas.
+DESCRIPTION:Sat. Dec. 5 · 1:00–2:00 · S&B II – Studio 1\nMANDATORY.
+  BA: Mandatory Rehearsals (1st Rehearsal\, Rehearsals after Thanksgiving
+  and Production Week Rehearsals and Performances).\nAll Casts are called
+  unless a cast is named. SUBJECT TO CHANGE — the BA master schedule\, 
+ the weekly BA emails and the BA portal are the official source. Master: 
+ https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d5dnxvALNre-6-N7Cl0
+ kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -139,15 +175,22 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:170d885d891c866e@nutcracker2026
-DTSTAMP:20260913T233650Z
-SEQUENCE:2026091323
+DTSTAMP:20260914T010516Z
+SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20261207T154500
 DTEND;TZID=America/Chicago:20261207T170000
 SUMMARY:Nutcracker: Spacing Rehearsal Both Casts – Angels/Trumpeter (Ma
  ndatory – Production Week)
 LOCATION:Robinson Center
-DESCRIPTION:Call 3:45 PM · 4:00 PM–5:00 PM No Costumes\, Hair or Makeu
- p Schedule subject to change – confirm with Ballet Arkansas.
+DESCRIPTION:Mon. Dec. 7 · Call 3:45 PM · 4:00 PM–5:00 PM · Robinson 
+ Center\nMANDATORY — production week. CALL TIME 3:45 PM: dancers must b
+ e checked in and backstage by then\, so arrive by 3:30 PM. BA: Call Time
+  is the time dancers should be check-in and backstage - Arrive 15 minute
+ s before Call Time.\nNo Costumes\, Hair or Makeup.\nAll Casts are called
+  unless a cast is named. SUBJECT TO CHANGE — the BA master schedule\, 
+ the weekly BA emails and the BA portal are the official source. Master: 
+ https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d5dnxvALNre-6-N7Cl0
+ kkw24rvm6cE/
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -156,16 +199,54 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:eafdc2aa857e3ccb@nutcracker2026
-DTSTAMP:20260913T233650Z
-SEQUENCE:2026091323
+DTSTAMP:20260914T010516Z
+SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20261209T193000
 DTEND;TZID=America/Chicago:20261209T205000
 SUMMARY:Nutcracker: Cast A Dress Rehearsal – ACT II Cast A (Mandatory 
  – Production Week)
 LOCATION:Robinson Center
-DESCRIPTION:Call 7:30 PM · 8:10 PM–8:50 PM ACT II Dress Run\; In Perfo
- rmance Costumes\, Hair and Makeup Schedule subject to change – confirm
-  with Ballet Arkansas.
+DESCRIPTION:Wed. Dec. 9 · Call 7:30 PM · 8:10 PM–8:50 PM · Robinson 
+ Center\nMANDATORY — production week. CALL TIME 7:30 PM: dancers must b
+ e checked in and backstage by then\, so arrive by 7:15 PM. BA: Call Time
+  is the time dancers should be check-in and backstage - Arrive 15 minute
+ s before Call Time.\nACT II Dress Run\; In Performance Costumes\, Hair a
+ nd Makeup.\nAll Casts are called unless a cast is named. SUBJECT TO CHAN
+ GE — the BA master schedule\, the weekly BA emails and the BA portal a
+ re the official source. Master: https://docs.google.com/spreadsheets/d/1
+ xWFCPfY5m0aK9d5dnxvALNre-6-N7Cl0kkw24rvm6cE/\n\nCOSTUME / HAIR / MAKEUP 
+ for Trumpeter: Angels - Trumpeter — Costume (you provide): Fitted blac
+ k shorts\, white fitted shirt\; Shoes: White ballet shoes\; Makeup: Men'
+ s Light Stage Makeup\; Hair: Neat\, out of the eyes/face\; Prop (BA prov
+ ides): Trumpet\nLight Stage Makeup Instruction Sheet:\n•  Powder ma
+ tching skintone\n•  Light brown eye shadow applied to the crease wi
+ th an eye shadow brush\n•  Dark Brown/Black eyeliner and black masc
+ ara. No fake lashes.\n•  Blush on the cheeks (be sure to apply plen
+ ty so dancer doesn’t look washed out in the stage lights)\n•  Red
+  or Dark Red lipstick\nMen's Stage Makeup:\n•  Dark Brown/Black eye
+ liner - apply from corner to corner\n•  Brown or tan under cheek bo
+ ne to create shadow and accentuate the jaw line\n•  Brown eye liner
+  around lips and nude/flesh colored lipstick\n• *Men will not look lik
+ e they are wearing makeup. It will help the face be seen from the stage.
+ \nDancers of Color may wear flesh tone tights and flesh tone ballet shoe
+ s.\nCostume Care Guidelines:\n•  Handle costume pieces with care wh
+ ile changing to prevent damage to delicate fabrics\n•  Promptly not
+ ify Ballet Arkansas in the event of costume damage at the point of disco
+ very\, no matter how significant\n•  Never throw costumes or access
+ ories on the floor\, or hang costumes by their elastic straps\n•  R
+ efrain from sitting on the floor while in costume\n•  Do not attemp
+ t to alter\, mend\, clean\, or launder any costume or accessory\n• 
+  Never apply stage make-up while in costume and shall take great care to
+  refrain from smudging make-up on costume during its removal\n•  Re
+ frain from the use of spray perfume or cologne while in costume\n• 
+  Never wear any garment not assigned to cast member\n•  Do not hand
+ le or consume food or beverage while in costume\, with the exception of 
+ water\n•  Do not remove costumes from their assigned dressing rooms
+  or from the theater\n•  Remove all bobby pins used to secure head 
+ pieces and wigs following their use\n•  Return all headpieces to th
+ eir assigned bags\n•  Comply fully with any and all updates to Ball
+ et Arkansas’ wardrobe policies\n•  Do not pack markers\, paints\,
+  colored drinks or anything that may damage or stain costumes.
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -174,15 +255,53 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d42342f798a14444@nutcracker2026
-DTSTAMP:20260913T233650Z
-SEQUENCE:2026091323
+DTSTAMP:20260914T010516Z
+SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20261209T210000
 DTEND;TZID=America/Chicago:20261209T213000
 SUMMARY:Nutcracker: Cast A Dress Rehearsal – ACT II Notes (Mandatory 
  – Production Week)
 LOCATION:Robinson Center
-DESCRIPTION:9:00 PM–9:30 PM In Performance Costumes\, Hair and Makeup S
- chedule subject to change – confirm with Ballet Arkansas.
+DESCRIPTION:Wed. Dec. 9 · 9:00 PM–9:30 PM · Robinson Center\nMANDATOR
+ Y — production week. BA: Call Time is the time dancers should be check
+ -in and backstage - Arrive 15 minutes before Call Time.\nIn Performance 
+ Costumes\, Hair and Makeup.\nAll Casts are called unless a cast is named
+ . SUBJECT TO CHANGE — the BA master schedule\, the weekly BA emails an
+ d the BA portal are the official source. Master: https://docs.google.com
+ /spreadsheets/d/1xWFCPfY5m0aK9d5dnxvALNre-6-N7Cl0kkw24rvm6cE/\n\nCOSTUME
+  / HAIR / MAKEUP for Trumpeter: Angels - Trumpeter — Costume (you prov
+ ide): Fitted black shorts\, white fitted shirt\; Shoes: White ballet sho
+ es\; Makeup: Men's Light Stage Makeup\; Hair: Neat\, out of the eyes/fac
+ e\; Prop (BA provides): Trumpet\nLight Stage Makeup Instruction Sheet:\n
+ •  Powder matching skintone\n•  Light brown eye shadow applied
+  to the crease with an eye shadow brush\n•  Dark Brown/Black eyelin
+ er and black mascara. No fake lashes.\n•  Blush on the cheeks (be s
+ ure to apply plenty so dancer doesn’t look washed out in the stage lig
+ hts)\n•  Red or Dark Red lipstick\nMen's Stage Makeup:\n•  Dar
+ k Brown/Black eyeliner - apply from corner to corner\n•  Brown or t
+ an under cheek bone to create shadow and accentuate the jaw line\n• 
+  Brown eye liner around lips and nude/flesh colored lipstick\n• *Me
+ n will not look like they are wearing makeup. It will help the face be s
+ een from the stage.\nDancers of Color may wear flesh tone tights and fle
+ sh tone ballet shoes.\nCostume Care Guidelines:\n•  Handle costume 
+ pieces with care while changing to prevent damage to delicate fabrics\n
+ •  Promptly notify Ballet Arkansas in the event of costume damage a
+ t the point of discovery\, no matter how significant\n•  Never thro
+ w costumes or accessories on the floor\, or hang costumes by their elast
+ ic straps\n•  Refrain from sitting on the floor while in costume\n
+ •  Do not attempt to alter\, mend\, clean\, or launder any costume 
+ or accessory\n•  Never apply stage make-up while in costume and sha
+ ll take great care to refrain from smudging make-up on costume during it
+ s removal\n•  Refrain from the use of spray perfume or cologne whil
+ e in costume\n•  Never wear any garment not assigned to cast member
+ \n•  Do not handle or consume food or beverage while in costume\, w
+ ith the exception of water\n•  Do not remove costumes from their as
+ signed dressing rooms or from the theater\n•  Remove all bobby pins
+  used to secure head pieces and wigs following their use\n•  Return
+  all headpieces to their assigned bags\n•  Comply fully with any an
+ d all updates to Ballet Arkansas’ wardrobe policies\n•  Do not pa
+ ck markers\, paints\, colored drinks or anything that may damage or stai
+ n costumes.
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -191,15 +310,54 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:8a22062caf325993@nutcracker2026
-DTSTAMP:20260913T233650Z
-SEQUENCE:2026091323
+DTSTAMP:20260914T010516Z
+SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20261211T194500
 DTEND;TZID=America/Chicago:20261211T212000
 SUMMARY:Nutcracker: Cast A @ 7:30PM – ACT II Cast A (Mandatory – Prod
  uction Week)
 LOCATION:Robinson Center
-DESCRIPTION:Call 7:45 PM · 8:30 PM–9:20 PM ACT II Cast A Performance S
- chedule subject to change – confirm with Ballet Arkansas.
+DESCRIPTION:Fri. Dec. 11 · Call 7:45 PM · 8:30 PM–9:20 PM · Robinson
+  Center\nMANDATORY — production week. CALL TIME 7:45 PM: dancers must 
+ be checked in and backstage by then\, so arrive by 7:30 PM. BA: Call Tim
+ e is the time dancers should be check-in and backstage - Arrive 15 minut
+ es before Call Time.\nACT II Cast A Performance.\nAll Casts are called u
+ nless a cast is named. SUBJECT TO CHANGE — the BA master schedule\, th
+ e weekly BA emails and the BA portal are the official source. Master: ht
+ tps://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d5dnxvALNre-6-N7Cl0kk
+ w24rvm6cE/\n\nCOSTUME / HAIR / MAKEUP for Trumpeter: Angels - Trumpeter 
+ — Costume (you provide): Fitted black shorts\, white fitted shirt\; Sh
+ oes: White ballet shoes\; Makeup: Men's Light Stage Makeup\; Hair: Neat\
+ , out of the eyes/face\; Prop (BA provides): Trumpet\nLight Stage Makeup
+  Instruction Sheet:\n•  Powder matching skintone\n•  Light bro
+ wn eye shadow applied to the crease with an eye shadow brush\n•  Da
+ rk Brown/Black eyeliner and black mascara. No fake lashes.\n•  Blus
+ h on the cheeks (be sure to apply plenty so dancer doesn’t look washed
+  out in the stage lights)\n•  Red or Dark Red lipstick\nMen's Stage
+  Makeup:\n•  Dark Brown/Black eyeliner - apply from corner to corne
+ r\n•  Brown or tan under cheek bone to create shadow and accentuate
+  the jaw line\n•  Brown eye liner around lips and nude/flesh colore
+ d lipstick\n• *Men will not look like they are wearing makeup. It will
+  help the face be seen from the stage.\nDancers of Color may wear flesh 
+ tone tights and flesh tone ballet shoes.\nCostume Care Guidelines:\n• 
+  Handle costume pieces with care while changing to prevent damage to 
+ delicate fabrics\n•  Promptly notify Ballet Arkansas in the event o
+ f costume damage at the point of discovery\, no matter how significant\n
+ •  Never throw costumes or accessories on the floor\, or hang costu
+ mes by their elastic straps\n•  Refrain from sitting on the floor w
+ hile in costume\n•  Do not attempt to alter\, mend\, clean\, or lau
+ nder any costume or accessory\n•  Never apply stage make-up while i
+ n costume and shall take great care to refrain from smudging make-up on 
+ costume during its removal\n•  Refrain from the use of spray perfum
+ e or cologne while in costume\n•  Never wear any garment not assign
+ ed to cast member\n•  Do not handle or consume food or beverage whi
+ le in costume\, with the exception of water\n•  Do not remove costu
+ mes from their assigned dressing rooms or from the theater\n•  Remo
+ ve all bobby pins used to secure head pieces and wigs following their us
+ e\n•  Return all headpieces to their assigned bags\n•  Comply 
+ fully with any and all updates to Ballet Arkansas’ wardrobe policies\n
+ •  Do not pack markers\, paints\, colored drinks or anything that m
+ ay damage or stain costumes.
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
@@ -208,15 +366,54 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:38160c1e46957e66@nutcracker2026
-DTSTAMP:20260913T233650Z
-SEQUENCE:2026091323
+DTSTAMP:20260914T010516Z
+SEQUENCE:2026091401
 DTSTART;TZID=America/Chicago:20261213T144500
 DTEND;TZID=America/Chicago:20261213T162000
 SUMMARY:Nutcracker: Cast A @ 2:30 PM – ACT II Cast A (Mandatory – Pro
  duction Week)
 LOCATION:Robinson Center
-DESCRIPTION:Call 2:45 PM · 3:30 PM–4:20 PM ACT II Cast A Performance S
- chedule subject to change – confirm with Ballet Arkansas.
+DESCRIPTION:Sun. Dec. 13 · Call 2:45 PM · 3:30 PM–4:20 PM · Robinson
+  Center\nMANDATORY — production week. CALL TIME 2:45 PM: dancers must 
+ be checked in and backstage by then\, so arrive by 2:30 PM. BA: Call Tim
+ e is the time dancers should be check-in and backstage - Arrive 15 minut
+ es before Call Time.\nACT II Cast A Performance.\nAll Casts are called u
+ nless a cast is named. SUBJECT TO CHANGE — the BA master schedule\, th
+ e weekly BA emails and the BA portal are the official source. Master: ht
+ tps://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d5dnxvALNre-6-N7Cl0kk
+ w24rvm6cE/\n\nCOSTUME / HAIR / MAKEUP for Trumpeter: Angels - Trumpeter 
+ — Costume (you provide): Fitted black shorts\, white fitted shirt\; Sh
+ oes: White ballet shoes\; Makeup: Men's Light Stage Makeup\; Hair: Neat\
+ , out of the eyes/face\; Prop (BA provides): Trumpet\nLight Stage Makeup
+  Instruction Sheet:\n•  Powder matching skintone\n•  Light bro
+ wn eye shadow applied to the crease with an eye shadow brush\n•  Da
+ rk Brown/Black eyeliner and black mascara. No fake lashes.\n•  Blus
+ h on the cheeks (be sure to apply plenty so dancer doesn’t look washed
+  out in the stage lights)\n•  Red or Dark Red lipstick\nMen's Stage
+  Makeup:\n•  Dark Brown/Black eyeliner - apply from corner to corne
+ r\n•  Brown or tan under cheek bone to create shadow and accentuate
+  the jaw line\n•  Brown eye liner around lips and nude/flesh colore
+ d lipstick\n• *Men will not look like they are wearing makeup. It will
+  help the face be seen from the stage.\nDancers of Color may wear flesh 
+ tone tights and flesh tone ballet shoes.\nCostume Care Guidelines:\n• 
+  Handle costume pieces with care while changing to prevent damage to 
+ delicate fabrics\n•  Promptly notify Ballet Arkansas in the event o
+ f costume damage at the point of discovery\, no matter how significant\n
+ •  Never throw costumes or accessories on the floor\, or hang costu
+ mes by their elastic straps\n•  Refrain from sitting on the floor w
+ hile in costume\n•  Do not attempt to alter\, mend\, clean\, or lau
+ nder any costume or accessory\n•  Never apply stage make-up while i
+ n costume and shall take great care to refrain from smudging make-up on 
+ costume during its removal\n•  Refrain from the use of spray perfum
+ e or cologne while in costume\n•  Never wear any garment not assign
+ ed to cast member\n•  Do not handle or consume food or beverage whi
+ le in costume\, with the exception of water\n•  Do not remove costu
+ mes from their assigned dressing rooms or from the theater\n•  Remo
+ ve all bobby pins used to secure head pieces and wigs following their us
+ e\n•  Return all headpieces to their assigned bags\n•  Comply 
+ fully with any and all updates to Ballet Arkansas’ wardrobe policies\n
+ •  Do not pack markers\, paints\, colored drinks or anything that m
+ ay damage or stain costumes.
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
