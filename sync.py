@@ -52,12 +52,19 @@ def has(word, text):
     return re.search(r"\b" + word + r"\b", text, re.I) is not None
 
 
+CATCHALL_FITTING = re.compile(r"Backup Fitting|Fittings?,?\s*(as called|by appointment|tba)", re.I)
+
+
 def tag(text):
     """Map a schedule entry's text to the community-cast roles it applies to."""
+    if CATCHALL_FITTING.search(text):
+        return list(ROLES)
+    return tag_roles(text)
+
+
+def tag_roles(text):
     t = text
     s = set()
-    if has("Backup Fitting", t):
-        return list(ROLES)
     for w in ["Infantry", "Commandants", "Artillery", "Brigade", "Lieutenants", "Mice", "Clara", "Fritz", "Snow",
               "Flowers", "Tea", "Hot Chocolate", "Coffee", "Candy Cane", "Cherubs", "Seraphs", "Trumpeter"]:
         if has(w, t):
@@ -181,15 +188,19 @@ def parse_grid(ws):
                 what = clean(what)
                 if "Fitting" in what:
                     typ, note = "Costume fitting – MANDATORY", ""
+                    what = re.sub(r"\s*Mandatory Fitting", "", what)
                     if "Backup" in what:
                         what, note = "Backup fitting date", "Only if you missed your fitting"
-                    else:
-                        what = re.sub(r"\s*Mandatory Fitting", "", what)
+                        typ = "Costume fitting – if you missed yours"
+                    elif CATCHALL_FITTING.search(what) or not tag_roles(what):
+                        # a fitting slot not tied to any role, e.g. "Fittings, As Called": BA contacts the families it needs
+                        note = "Only if Ballet Arkansas asks your dancer to come"
+                        typ = "Costume fitting – as called"
                 elif day["date"] > THANKSGIVING or re.search(r"w/\s*Company", what, re.I):
                     typ, note = "Mandatory – w/ Company", ""
                 else:
                     typ, note = "Regular rehearsal", ""
-                roles = tag(what)
+                roles = tag(what) or (list(ROLES) if typ.startswith("Costume") else [])
                 cast = cast_of(what)
                 if typ == "Regular rehearsal":
                     keys = {(ro, cs) for ro in roles for cs in (["A", "B"] if cast == "All" else [cast])}
@@ -386,12 +397,14 @@ def build_details(e, policy, backup):
         today.append(f"MANDATORY — this is the first rehearsal for {e['what']}.")
         rules.append(f"BA: {policy['mandatory']}.")
     elif t.startswith("Costume"):
-        if e["what"].startswith("Backup"):
+        if t.endswith("missed yours"):
             today.append("BACKUP FITTING DATE — only for dancers who missed their scheduled costume fitting. Not needed if your dancer has already been fitted.")
+        elif t.endswith("as called"):
+            today.append(f"FITTINGS, AS CALLED — Ballet Arkansas will contact the families it needs on this date. Not needed unless BA asks your dancer to come. (Listed on the master as \"{e['what']}\".)")
         else:
             today.append(f"MANDATORY COSTUME FITTING for {e['what']}.")
             if backup:
-                today.append(f"If this fitting is missed, the backup fitting date is {backup}.")
+                today.append(f"Additional fitting slot on the master: {backup}.")
             if len(policy["fitting"]) > 25:
                 rules.append(f"BA: {policy['fitting']}.")
     elif t.startswith("Mandatory – w/"):
@@ -562,8 +575,8 @@ def main():
         events = sorted(grid + prod, key=lambda e: (e["date"], e["start"], e["loc"]))
         policy = parse_policies(ws)
         guide = parse_guidelines(wb)
-        bk = next((e for e in events if e["what"].startswith("Backup")), None)
-        backup = f"{bk['day']}, {bk['time']}, {bk['loc']}" if bk else ""
+        bk = next((e for e in events if e["type"].startswith("Costume") and not e["type"].endswith("MANDATORY")), None)
+        backup = f"{bk['day']} {bk['time']} at {bk['loc']} ({bk['what']})" if bk else ""
         for e in events:
             e["details"] = build_details(e, policy, backup)
             e["dress"] = is_dress(e)
@@ -572,6 +585,7 @@ def main():
             raise ParseError("validation failed:\n  " + "\n  ".join(problems))
     except ParseError as e:
         print(f"SYNC ABORTED – {e}", file=sys.stderr)
+        print(f"::error title=Sync aborted::{str(e).splitlines()[0]}")
         return 1
     print(f"parsed {len(events)} events across {len({e['date'] for e in events})} dates")
     if args.check:
