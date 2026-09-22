@@ -143,3 +143,29 @@ Each sync that changes the schedule appends a dated entry here.
 - REMOVED: 2026-10-02 16:30–18:30 | Backup fitting date | All | Ballet Arkansas – Costume Shop
 - ADDED: 2026-09-26 14:00–14:20 | Clara/Fritz/Prince | All | Ballet Arkansas – Costume Shop
 - ADDED: 2026-10-02 16:30–18:30 | Fittings, As Called | All | Ballet Arkansas – Costume Shop
+
+## Sep 22, 2026 12:10 AM
+- REMOVED: 2026-09-27 13:00–14:00 | Cherubs/Seraphs/Trumpeter Cast A | A | S&B II – Studio 1
+- REMOVED: 2026-10-04 13:00–14:00 | Cherubs/Seraphs/Trumpeter Cast B | B | S&B II – Studio 1
+- REMOVED: 2026-10-11 13:00–14:00 | Cherubs/Seraphs/Trumpeter Cast A | A | S&B II – Studio 1
+- REMOVED: 2026-10-17 13:00–14:00 | Infantry/Commandants/Brigade/Artillery Cast A | A | S&B II – Studio 1
+- REMOVED: 2026-10-17 14:00–15:00 | Infantry/Commandants/Brigade/Artillery Cast B | B | S&B II – Studio 1
+- REMOVED: 2026-10-18 13:00–14:00 | Cherubs/Seraphs/Trumpeter Cast B | B | S&B II – Studio 1
+- REMOVED: 2026-11-01 13:00–14:00 | Cherubs/Seraphs/Trumpeter Cast A & All Archangels | A | S&B II – Studio 1
+- REMOVED: 2026-11-08 13:00–14:00 | Cherubs/Seraphs/Trumpeter Cast B & All Archangels | B | S&B II – Studio 1
+- REMOVED: 2026-11-15 13:00–14:00 | Cherubs/Seraphs/Trumpeter Cast A & All Archangels | A | S&B II – Studio 1
+- REMOVED: 2026-11-22 13:00–14:00 | Cherubs/Seraphs/Trumpeter Cast B & All Archangels | B | S&B II – Studio 1
+- REMOVED: 2026-12-05 13:00–14:00 | All Angels/Trumpeter | All | S&B II – Studio 1
+- REMOVED: 2026-12-07 15:45–17:00 | Spacing Rehearsal Both Casts – Angels/Trumpeter | All | Robinson Center
+- ADDED: 2026-09-27 13:00–14:00 | Cherubs/Seraphs Cast A | A | S&B II – Studio 1
+- ADDED: 2026-10-04 13:00–14:00 | Cherubs/Seraphs Cast B | B | S&B II – Studio 1
+- ADDED: 2026-10-11 13:00–14:00 | Cherubs/Seraphs Cast A | A | S&B II – Studio 1
+- ADDED: 2026-10-17 13:00–14:00 | Infantry/Commandants/ Brigade/Artillery Cast A | A | S&B II – Studio 1
+- ADDED: 2026-10-17 14:00–15:00 | Infantry/Commandants/ Brigade/Artillery Cast B | B | S&B II – Studio 1
+- ADDED: 2026-10-18 13:00–14:00 | Cherubs/Seraphs Cast B | B | S&B II – Studio 1
+- ADDED: 2026-11-01 13:00–14:00 | Cherubs/Seraphs Cast A & All Archangels | A | S&B II – Studio 1
+- ADDED: 2026-11-08 13:00–14:00 | Cherubs/Seraphs Cast B & All Archangels | B | S&B II – Studio 1
+- ADDED: 2026-11-15 13:00–14:00 | Cherubs/Seraphs Cast A & All Archangels | A | S&B II – Studio 1
+- ADDED: 2026-11-22 13:00–14:00 | Cherubs/Seraphs Cast B & All Archangels | B | S&B II – Studio 1
+- ADDED: 2026-12-05 13:00–14:00 | All Angels | All | S&B II – Studio 1
+- ADDED: 2026-12-07 15:45–17:00 | Spacing Rehearsal Both Casts – Angels | All | Robinson Center

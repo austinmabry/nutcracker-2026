@@ -26,8 +26,8 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:fa5078cdb80cc421@nutcracker2026
-DTSTAMP:20260914T220717Z
-SEQUENCE:2026091422
+DTSTAMP:20260922T051006Z
+SEQUENCE:2026092205
 DTSTART;TZID=America/Chicago:20260919T130000
 DTEND;TZID=America/Chicago:20260919T134500
 SUMMARY:Nutcracker: Cherubs/Seraphs/Trumpeter Cast B (Costume fitting –
@@ -48,8 +48,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e72e7d98f3c2a3a0@nutcracker2026
-DTSTAMP:20260914T220717Z
-SEQUENCE:2026091422
+DTSTAMP:20260922T051006Z
+SEQUENCE:2026092205
 DTSTART;TZID=America/Chicago:20260920T130000
 DTEND;TZID=America/Chicago:20260920T140000
 SUMMARY:Nutcracker: Cherubs/Seraphs/Trumpeter Cast B (1st rehearsal – M
@@ -71,8 +71,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:002e6c16de0d3eb6@nutcracker2026
-DTSTAMP:20260914T220717Z
-SEQUENCE:2026091422
+DTSTAMP:20260922T051006Z
+SEQUENCE:2026092205
 DTSTART;TZID=America/Chicago:20261002T163000
 DTEND;TZID=America/Chicago:20261002T183000
 SUMMARY:Nutcracker: Fittings\, As Called (Costume fitting – as called)
@@ -92,96 +92,12 @@ DESCRIPTION:Nutcracker in 1 hour
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:2e71b76f5bb7a72e@nutcracker2026
-DTSTAMP:20260914T220717Z
-SEQUENCE:2026091422
-DTSTART;TZID=America/Chicago:20261004T130000
-DTEND;TZID=America/Chicago:20261004T140000
-SUMMARY:Nutcracker: Cherubs/Seraphs/Trumpeter Cast B
-LOCATION:S&B II – Studio 1
-DESCRIPTION:*** THIS DAY ***\nRegular rehearsal.\n\n*** STANDING RULES **
- *\nBA: Regular Rehearsal - One regular rehearsal absence allowed for Mic
- e/Cherubs/Seraphs\; Two absences allowed for all other roles.\nAll Casts
-  are called unless a cast is named.\nSUBJECT TO CHANGE — the BA master
-  schedule\, the weekly BA emails and the BA portal are the official sour
- ce. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d5dnxvA
- LNre-6-N7Cl0kkw24rvm6cE/
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Nutcracker in 1 hour
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:0bc87017a0670658@nutcracker2026
-DTSTAMP:20260914T220717Z
-SEQUENCE:2026091422
-DTSTART;TZID=America/Chicago:20261018T130000
-DTEND;TZID=America/Chicago:20261018T140000
-SUMMARY:Nutcracker: Cherubs/Seraphs/Trumpeter Cast B
-LOCATION:S&B II – Studio 1
-DESCRIPTION:*** THIS DAY ***\nRegular rehearsal.\n\n*** STANDING RULES **
- *\nBA: Regular Rehearsal - One regular rehearsal absence allowed for Mic
- e/Cherubs/Seraphs\; Two absences allowed for all other roles.\nAll Casts
-  are called unless a cast is named.\nSUBJECT TO CHANGE — the BA master
-  schedule\, the weekly BA emails and the BA portal are the official sour
- ce. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d5dnxvA
- LNre-6-N7Cl0kkw24rvm6cE/
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Nutcracker in 1 hour
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:41adf9506e6a80b9@nutcracker2026
-DTSTAMP:20260914T220717Z
-SEQUENCE:2026091422
-DTSTART;TZID=America/Chicago:20261108T130000
-DTEND;TZID=America/Chicago:20261108T140000
-SUMMARY:Nutcracker: Cherubs/Seraphs/Trumpeter Cast B & All Archangels
-LOCATION:S&B II – Studio 1
-DESCRIPTION:*** THIS DAY ***\nRegular rehearsal.\n\n*** STANDING RULES **
- *\nBA: Regular Rehearsal - One regular rehearsal absence allowed for Mic
- e/Cherubs/Seraphs\; Two absences allowed for all other roles.\nAll Casts
-  are called unless a cast is named.\nSUBJECT TO CHANGE — the BA master
-  schedule\, the weekly BA emails and the BA portal are the official sour
- ce. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d5dnxvA
- LNre-6-N7Cl0kkw24rvm6cE/
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Nutcracker in 1 hour
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:118726b40b2445af@nutcracker2026
-DTSTAMP:20260914T220717Z
-SEQUENCE:2026091422
-DTSTART;TZID=America/Chicago:20261122T130000
-DTEND;TZID=America/Chicago:20261122T140000
-SUMMARY:Nutcracker: Cherubs/Seraphs/Trumpeter Cast B & All Archangels
-LOCATION:S&B II – Studio 1
-DESCRIPTION:*** THIS DAY ***\nRegular rehearsal.\n\n*** STANDING RULES **
- *\nBA: Regular Rehearsal - One regular rehearsal absence allowed for Mic
- e/Cherubs/Seraphs\; Two absences allowed for all other roles.\nAll Casts
-  are called unless a cast is named.\nSUBJECT TO CHANGE — the BA master
-  schedule\, the weekly BA emails and the BA portal are the official sour
- ce. Master: https://docs.google.com/spreadsheets/d/1xWFCPfY5m0aK9d5dnxvA
- LNre-6-N7Cl0kkw24rvm6cE/
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Nutcracker in 1 hour
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:837ee897798b94a3@nutcracker2026
-DTSTAMP:20260914T220717Z
-SEQUENCE:2026091422
+UID:2878958abb0618f2@nutcracker2026
+DTSTAMP:20260922T051006Z
+SEQUENCE:2026092205
 DTSTART;TZID=America/Chicago:20261205T130000
 DTEND;TZID=America/Chicago:20261205T140000
-SUMMARY:Nutcracker: All Angels/Trumpeter (Mandatory – w/ Company)
+SUMMARY:Nutcracker: All Angels (Mandatory – w/ Company)
 LOCATION:S&B II – Studio 1
 DESCRIPTION:*** THIS DAY ***\nMANDATORY rehearsal with the Company.\n\n**
  * STANDING RULES ***\nBA: Mandatory Rehearsals (1st Rehearsal\, Rehearsa
@@ -197,13 +113,13 @@ DESCRIPTION:Nutcracker in 1 hour
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:8bcf6e5e3a3363b1@nutcracker2026
-DTSTAMP:20260914T220717Z
-SEQUENCE:2026091422
+UID:be245440dd83372a@nutcracker2026
+DTSTAMP:20260922T051006Z
+SEQUENCE:2026092205
 DTSTART;TZID=America/Chicago:20261207T154500
 DTEND;TZID=America/Chicago:20261207T170000
-SUMMARY:Nutcracker: Spacing Rehearsal Both Casts – Angels/Trumpeter (Ma
- ndatory – Production Week)
+SUMMARY:Nutcracker: Spacing Rehearsal Both Casts – Angels (Mandatory 
+ – Production Week)
 LOCATION:Robinson Center
 DESCRIPTION:*** THIS DAY ***\nCALL TIME 3:45 PM — be checked in and bac
  kstage by then. ARRIVE BY 3:30 PM.\nOn stage: 4:00 PM–5:00 PM.\nNo Cos
@@ -223,8 +139,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:643f85d88f8c4955@nutcracker2026
-DTSTAMP:20260914T220717Z
-SEQUENCE:2026091422
+DTSTAMP:20260922T051006Z
+SEQUENCE:2026092205
 DTSTART;TZID=America/Chicago:20261210T193000
 DTEND;TZID=America/Chicago:20261210T205000
 SUMMARY:Nutcracker: Cast B Dress Rehearsal – ACT II Cast B (Mandatory 
@@ -280,8 +196,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:09bdb12034fae085@nutcracker2026
-DTSTAMP:20260914T220717Z
-SEQUENCE:2026091422
+DTSTAMP:20260922T051006Z
+SEQUENCE:2026092205
 DTSTART;TZID=America/Chicago:20261210T210000
 DTEND;TZID=America/Chicago:20261210T213000
 SUMMARY:Nutcracker: Cast B Dress Rehearsal – ACT II Notes (Mandatory 
@@ -335,8 +251,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:8e710b87dcc7278c@nutcracker2026
-DTSTAMP:20260914T220717Z
-SEQUENCE:2026091422
+DTSTAMP:20260922T051006Z
+SEQUENCE:2026092205
 DTSTART;TZID=America/Chicago:20261212T144500
 DTEND;TZID=America/Chicago:20261212T162000
 SUMMARY:Nutcracker: Cast B @ 2:30 PM – ACT II Cast B (Mandatory – Pro
@@ -391,8 +307,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:4b56a2a20847e8d8@nutcracker2026
-DTSTAMP:20260914T220717Z
-SEQUENCE:2026091422
+DTSTAMP:20260922T051006Z
+SEQUENCE:2026092205
 DTSTART;TZID=America/Chicago:20261212T194500
 DTEND;TZID=America/Chicago:20261212T212000
 SUMMARY:Nutcracker: Cast B @ 7:30PM – ACT II Cast B (Mandatory – Prod
