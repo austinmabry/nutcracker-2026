@@ -169,3 +169,11 @@ Each sync that changes the schedule appends a dated entry here.
 - ADDED: 2026-11-22 13:00–14:00 | Cherubs/Seraphs Cast B & All Archangels | B | S&B II – Studio 1
 - ADDED: 2026-12-05 13:00–14:00 | All Angels | All | S&B II – Studio 1
 - ADDED: 2026-12-07 15:45–17:00 | Spacing Rehearsal Both Casts – Angels | All | Robinson Center
+
+## Oct 8, 2026 6:27 PM
+- ADDED: 2026-10-11 13:00–15:00 | Party Adults | All | S&B II – Studio 3
+- ADDED: 2026-10-18 13:00–15:00 | Party Adults | All | S&B II – Studio 3
+- ADDED: 2026-11-01 13:00–16:00 | Party Adults | All | S&B II – Studio 5
+- ADDED: 2026-11-08 13:00–16:00 | Party Adults | All | S&B II – Studio 5
+- ADDED: 2026-11-15 13:00–16:00 | Party Adults | All | S&B II – Studio 5
+- ADDED: 2026-11-22 13:00–16:00 | Party Adults | All | S&B II – Studio 5
