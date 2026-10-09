@@ -177,3 +177,6 @@ Each sync that changes the schedule appends a dated entry here.
 - ADDED: 2026-11-08 13:00–16:00 | Party Adults | All | S&B II – Studio 5
 - ADDED: 2026-11-15 13:00–16:00 | Party Adults | All | S&B II – Studio 5
 - ADDED: 2026-11-22 13:00–16:00 | Party Adults | All | S&B II – Studio 5
+
+## Oct 9, 2026 5:45 PM
+- ADDED: 2026-10-30 17:00–18:00 | Party Adults | All | Ballet Arkansas – Costume Shop
