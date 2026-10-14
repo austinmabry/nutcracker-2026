@@ -180,3 +180,6 @@ Each sync that changes the schedule appends a dated entry here.
 
 ## Oct 9, 2026 5:45 PM
 - ADDED: 2026-10-30 17:00–18:00 | Party Adults | All | Ballet Arkansas – Costume Shop
+
+## Oct 14, 2026 12:21 PM
+- ADDED: 2026-11-07 16:00–17:00 | Lieutenants | All | S&B II – Studio 1
