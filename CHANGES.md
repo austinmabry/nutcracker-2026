@@ -183,3 +183,11 @@ Each sync that changes the schedule appends a dated entry here.
 
 ## Oct 14, 2026 12:21 PM
 - ADDED: 2026-11-07 16:00–17:00 | Lieutenants | All | S&B II – Studio 1
+
+## Nov 14, 2026 4:36 PM
+- REMOVED: 2026-11-15 13:00–14:30 | Party Cast A | A | S&B II – Studio 2
+- REMOVED: 2026-11-15 13:00–16:00 | Party Adults | All | S&B II – Studio 5
+- REMOVED: 2026-11-15 14:30–16:00 | Party Cast B | B | S&B II – Studio 2
+- ADDED: 2026-11-15 13:00–14:30 | Party Cast A + Party Adults | A | S&B II – Studio 2
+- ADDED: 2026-11-15 13:00–16:00 | Party Adults (Join Studio 2) | All | S&B II – Studio 5
+- ADDED: 2026-11-15 14:30–16:00 | Party Cast B + Party Adults | B | S&B II – Studio 2
