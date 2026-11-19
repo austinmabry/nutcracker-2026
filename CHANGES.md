@@ -197,3 +197,7 @@ Each sync that changes the schedule appends a dated entry here.
 - REMOVED: 2026-11-22 14:30–16:00 | Party Cast B | B | S&B II – Studio 2
 - ADDED: 2026-11-22 13:00–14:30 | Party Cast A w/Party Adults | A | S&B II – Studio 2
 - ADDED: 2026-11-22 14:30–16:00 | Party Cast B w/Party Adults | B | S&B II – Studio 2
+
+## Nov 19, 2026 1:39 AM
+- REMOVED: 2026-12-09 15:30–17:00 | Student Matinee Tech Rehearsal – Snow, Flowers, Clara, Nutcracker Prince, All Understudies | All | Robinson Center
+- ADDED: 2026-12-09 15:30–17:00 | Student Matinee Tech Rehearsal – Snow, Flowers, Clara, Nutcracker Prince, Tea, All Understudies | All | Robinson Center
