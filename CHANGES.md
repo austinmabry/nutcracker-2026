@@ -201,3 +201,15 @@ Each sync that changes the schedule appends a dated entry here.
 ## Nov 19, 2026 1:39 AM
 - REMOVED: 2026-12-09 15:30–17:00 | Student Matinee Tech Rehearsal – Snow, Flowers, Clara, Nutcracker Prince, All Understudies | All | Robinson Center
 - ADDED: 2026-12-09 15:30–17:00 | Student Matinee Tech Rehearsal – Snow, Flowers, Clara, Nutcracker Prince, Tea, All Understudies | All | Robinson Center
+
+## Nov 24, 2026 4:07 AM
+- REMOVED: 2026-12-04 17:00–18:15 | Party Cast A w/ Company | A | Ballet Arkansas – Studio 2
+- REMOVED: 2026-12-04 18:15–19:30 | Battle Cast A w/Company | A | Ballet Arkansas – Studio 2
+- REMOVED: 2026-12-05 13:00–14:15 | Party Cast B with Dross w/Company | B | Ballet Arkansas – Studio 2
+- REMOVED: 2026-12-05 14:00–15:00 | Tea/Hot Chocolate | All | S&B II – Studio 2
+- REMOVED: 2026-12-05 14:15–15:30 | Battle Cast B w/Company | B | Ballet Arkansas – Studio 2
+- ADDED: 2026-12-04 17:00–18:15 | Party Cast A w/ Company AT BALLET ARKANSAS | A | Ballet Arkansas – Studio 2
+- ADDED: 2026-12-04 18:15–19:30 | Battle Cast A w/Company AT BALLET ARKANSAS | A | Ballet Arkansas – Studio 2
+- ADDED: 2026-12-05 13:00–14:15 | Party Cast B w/Company AT BALLET ARKANSAS | B | Ballet Arkansas – Studio 2
+- ADDED: 2026-12-05 14:00–15:00 | Tea/Hot Chocolate AT SHUFFLES | All | S&B II – Studio 2
+- ADDED: 2026-12-05 14:15–15:30 | Battle Cast B w/Company AT BALLET ARKANSAS | B | Ballet Arkansas – Studio 2
